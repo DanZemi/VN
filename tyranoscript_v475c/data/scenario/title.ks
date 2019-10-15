@@ -5,7 +5,7 @@
 @bg storage ="title.jpg" time=100
 @wait time = 200
 
-*start 
+*start
 
 [button x=100 y=250 graphic="title/button_start.png" target="gamestart"]
 [button x=100 y=320 graphic="title/button_load.png"  role="load" ]
@@ -17,7 +17,4 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="scene1.ks"
-
-
-
+@jump storage="common1.ks"
