@@ -1,4 +1,8 @@
 # The 18 route Visual Novel Game
 
-This is a Visual Novel Game which has 18 branched scenario.
-Created by DanZemi(12th).
+This is a Visual Novel Game which has 18 branched scenario.  
+Created by DanZemi(12th).  
+
+- [tyrano script](https://tyrano.jp/)
+- [tag reference](https://tyrano.jp/tag/)
+- [debugger](https://tyrano.jp/dl/rider)
