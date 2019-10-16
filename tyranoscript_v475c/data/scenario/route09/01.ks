@@ -7,4 +7,4 @@
 #
 なんだ夢か。[p]
 
-@jump storage="common1.ks"
+@jump storage="common/01.ks"
