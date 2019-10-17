@@ -46,4 +46,4 @@ Image file's directory are placed in `VN/tyranoscript_v475c/data/bgimage`, `VN/t
 - Otherwise(_UI Parts_ such as _Button_ and _Message Window_ should be placed here), you should place them into  `image`.
 
 BGM file's directories are placed in `VN/tyranoscript_v475c/data/bgm`.
-You _MUST_ `OGG file type` audio file. All the other file types _ARE NOT_ allowed.
+You __MUST__ `OGG file type` audio file. All the other file types __ARE NOT__ allowed.
