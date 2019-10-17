@@ -37,13 +37,13 @@ Scenario file's directories are placed in `VN/tyranoscript_v475c/data/scenario`.
 
 Common-route scenarios are in `VN/tyranoscript_v475c/data/scenario/common`, and first one is `01.ks`.
 
-Your own scenarios are placed in `VN/tyranoscript_v475c/data/scenario/routeXX`(`XX` is your unique route number), and first one is `01.ks`.
+Your own scenarios are placed in `VN/tyranoscript_v475c/data/scenario/routeXX`(`XX` is your unique route number), and the first one is `01.ks`.
 
-Image file's directory are placed in `VN/tyranoscript_v475c/data/bgimage`, `VN/tyranoscript_v475c/data/fgimage` or `VN/tyranoscript_v475c/data/image`.
+Image files should be placed in `VN/tyranoscript_v475c/data/bgimage`, `VN/tyranoscript_v475c/data/fgimage` or `VN/tyranoscript_v475c/data/image`.
 
 - If you want to place images as _Background Image_, you should place them into  `bgimage`.
 - If you want to place images as _Foreground Image_(such as _Character Images_), you should place them into  `fgimage`.
 - Otherwise(_UI Parts_ such as _Button_ and _Message Window_ should be placed here), you should place them into  `image`.
 
-BGM file's directories are placed in `VN/tyranoscript_v475c/data/bgm`.
-You __MUST__ `OGG file type` audio file. All the other file types __ARE NOT__ allowed.
+BGM files should be placed in `VN/tyranoscript_v475c/data/bgm`.
+You __MUST__ use `OGG file type` audio file. All the other file types __ARE NOT__ allowed.
