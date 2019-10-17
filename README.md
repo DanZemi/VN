@@ -8,7 +8,7 @@ Created by DanZemi(12th).
 - [tag reference](https://tyrano.jp/tag/)
 - [debugger](https://tyrano.jp/dl/rider)
 
-Writers
+## Writers
 
 - Route 01: [kuririn-chan](https://github.com/kuririn-chan)
 - Route 02: [Mo42moributen](https://github.com/Mo42moributen)
@@ -28,3 +28,22 @@ Writers
 - Route 16: [KawamotoHiroki](https://github.com/KawamotoHiroki)
 - Route 17: [miyata1227](https://github.com/miyata1227)
 - Route 18: [Mitsuki-D](https://github.com/Mitsuki-D)
+
+## For writers
+
+All of the data directories are placed in `VN/tyranoscript_v475c/data`.
+
+Scenario file's directories are placed in `VN/tyranoscript_v475c/data/scenario`.
+
+Common-route scenarios are in `VN/tyranoscript_v475c/data/scenario/common`, and first one is `01.ks`.
+
+Your own scenarios are placed in `VN/tyranoscript_v475c/data/scenario/routeXX`(`XX` is your unique route number), and first one is `01.ks`.
+
+Image file's directory are placed in `VN/tyranoscript_v475c/data/bgimage`, `VN/tyranoscript_v475c/data/fgimage` or `VN/tyranoscript_v475c/data/image`.
+
+- If you want to place images as _Background Image_, you should place them into  `bgimage`.
+- If you want to place images as _Foreground Image_(such as _Character Images_), you should place them into  `fgimage`.
+- Otherwise(_UI Parts_ such as _Button_ and _Message Window_ should be placed here), you should place them into  `image`.
+
+BGM file's directories are placed in `VN/tyranoscript_v475c/data/bgm`.
+You _MUST_ `OGG file type` audio file. All the other file types _ARE NOT_ allowed.
