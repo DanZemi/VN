@@ -15,7 +15,7 @@ Created by DanZemi(12th).
 - Route 03: [ohisama0115](https://github.com/ohisama0115)
 - Route 04: [tsucchieee](https://github.com/tsucchieee)
 - Route 05: [nishimorishunpei](https://github.com/nishimorishunpei)
-- Route 06: [miyoshi](https://github.com/miyoshi5424)
+- Route 06: [miyoshi5424](https://github.com/miyoshi5424)
 - Route 07: [Manami-Ya](https://github.com/Manami-Ya)
 - Route 08: [daikiyamane](https://github.com/daikiyamane)
 - Route 09: [ikonosuke1027](https://github.com/ikonosuke1027)
