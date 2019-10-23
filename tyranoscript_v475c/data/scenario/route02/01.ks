@@ -5,6 +5,6 @@
 @layopt layer=message0 visible=true
 
 #
-ここはどこ。[p]
+ここはどこ、私は誰。[p]
 
 @jump storage="common/01.ks"
