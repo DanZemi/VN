@@ -5,6 +5,6 @@
 @layopt layer=message0 visible=true
 
 #
-あぁ。疲れたわー。[p]
+あぁ。疲れたわー。....[p]
 
 @jump storage="common/01.ks"
