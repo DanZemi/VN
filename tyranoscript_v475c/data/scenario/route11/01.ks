@@ -6,5 +6,6 @@
 
 #
 無限の可能性。[p]
+あああ[p]
 
 @jump storage="common/01.ks"
