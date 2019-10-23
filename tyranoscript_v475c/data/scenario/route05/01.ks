@@ -5,6 +5,6 @@
 @layopt layer=message0 visible=true
 
 #
-山根参上[p]
+山根参上![p]
 
 @jump storage="common/01.ks"
