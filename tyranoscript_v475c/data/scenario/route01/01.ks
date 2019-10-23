@@ -5,6 +5,6 @@
 @layopt layer=message0 visible=true
 
 #
-バイト紹介して。[p]
+バイト紹介してください。[p]
 
 @jump storage="common/01.ks"
