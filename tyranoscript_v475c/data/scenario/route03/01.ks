@@ -5,6 +5,6 @@
 @layopt layer=message0 visible=true
 
 #
-カエル。[p]
+かっちゅうがか？。[p]
 
 @jump storage="common/01.ks"
