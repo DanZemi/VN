@@ -5,7 +5,8 @@
 @layopt layer=message0 visible=true
 
 #
-無限の可能性。[p]
-あああ[p]
+いたたた...[p]
+ついてないなあ[p]
+
 
 @jump storage="common/01.ks"
