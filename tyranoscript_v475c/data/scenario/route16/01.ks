@@ -6,5 +6,6 @@
 
 #
 あ、寝てた。[p]
+学校行かないと[p]
 
 @jump storage="common/01.ks"
