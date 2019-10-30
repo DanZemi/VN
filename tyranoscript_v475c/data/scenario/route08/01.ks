@@ -4,7 +4,7 @@
 
 @layopt layer=message0 visible=true
 
-#
+#a
 なんだ夢。[p]
 
 @jump storage="common/01.ks"
