@@ -6,5 +6,5 @@
 
 #
 山根参上![p]
-
+いいよこいよ[p]
 @jump storage="common/01.ks"
