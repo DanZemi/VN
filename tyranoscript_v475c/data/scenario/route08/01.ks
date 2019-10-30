@@ -6,7 +6,7 @@
 
 #西森
 なんだ夢か。[p]
-[bg strong=room.jpg time=3000]
+[bg storang=room.jpg time=3000]
 #西森
 学校に一番のりだ[p]
 
