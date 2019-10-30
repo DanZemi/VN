@@ -5,6 +5,6 @@
 @layopt layer=message0 visible=true
 
 #
-なんだ。[p]
+なんだ。単位取れてたわ。[p]
 
 @jump storage="common/01.ks"
