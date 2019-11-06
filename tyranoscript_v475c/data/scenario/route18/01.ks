@@ -29,7 +29,7 @@
 #???
 ゼミ？あっ...そういえばそうだったな。[p]
 
-[playbgm storage="castlemorning.ogg"]
+[playbgm storage="music.ogg"]
 
 #???
 今日から大学が始まるんだったな。[r]
@@ -58,6 +58,8 @@
 #光明
 春から再び俺たちの大学生活が始まる。[r]
 ひとまず、外に出ようか。[p]
+
+[stopbgm ]
 
 
 @jump storage="common/01.ks"
