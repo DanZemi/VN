@@ -6,5 +6,4 @@
 
 #
 山根参上![p]
-
 @jump storage="common/01.ks"
