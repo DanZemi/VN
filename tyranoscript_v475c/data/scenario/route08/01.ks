@@ -4,7 +4,10 @@
 
 @layopt layer=message0 visible=true
 
-#
-なんだ夢。[p]
+#西森
+なんだ夢か。[p]
+[bg storage=room.jpg time=3000]
+#西森
+学校に一番のりだ[p]
 
 @jump storage="common/01.ks"
