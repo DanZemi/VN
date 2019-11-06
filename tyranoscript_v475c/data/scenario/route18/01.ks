@@ -28,9 +28,7 @@
 
 #???
 ゼミ？あっ...そういえばそうだったな。[p]
-
-[playbgm storage="music.ogg"]
-
+[playbgm storage="castlemorning.ogg"]
 #???
 今日から大学が始まるんだったな。[r]
 俺は春休み何かいい思い出作ったっけな？[p]
