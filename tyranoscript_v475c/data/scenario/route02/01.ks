@@ -5,6 +5,8 @@
 @layopt layer=message0 visible=true
 
 #
-知らない天井だ。[p]
+ここ最近私たちの周りではTRPGというゲームが流行っている。[p]
+#
+TRPGは「テーブルトークロールプレイングゲーム」の略であり、ダイスとルールブックさえあれば遊べる。[p]
 
 @jump storage="common/01.ks"
