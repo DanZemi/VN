@@ -57,7 +57,7 @@
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="330"  width="210"  y="500"  text="平山"  target="*start"  ]
 
 
-[glink  color="blue"  storage="route13/01.ks"  size="20"  x="630"  width="210"  y="100"  text="宮崎"  target="*start"  ]
+[glink  color="blue"  storage="route13/01.ks"  size="20"  x="630"  width="210"  y="100"  text="轢かれかける"  target="*start"  ]
 [glink  color="blue"  storage="route14/01.ks"  size="20"  x="630"  width="210"  y="180"  text="カバディカバディ"  target="*start"  ]
 [glink  color="blue"  storage="route15/01.ks"  size="20"  x="630"  width="210"  y="260"  text="森川"  target="*start"  ]
 [glink  color="blue"  storage="route16/01.ks"  size="20"  x="630"  width="210"  y="340"  text="川本"  target="*start"  ]
