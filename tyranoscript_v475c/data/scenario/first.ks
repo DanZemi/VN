@@ -1,9 +1,10 @@
 ;一番最初に呼び出されるファイル
 
-[title name="ティラノスクリプト解説"]
+[title name="18ルートノベルゲーム"]
 
 [stop_keyconfig]
 
+[plugin name=tempura_ruby show=each time=0]
 
 ;ティラノスクリプトが標準で用意している便利なライブラリ群
 ;コンフィグ、CG、回想モードを使う場合は必須
@@ -21,5 +22,3 @@
 @jump storage="title.ks"
 
 [s]
-
-
