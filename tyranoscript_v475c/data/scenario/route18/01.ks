@@ -61,6 +61,8 @@
 
 [stopbgm ]
 
+[playbgm storage="Ordinalday_1.1.ogg"]
+
 #香菜
 「おはよう！光明！」[p]
 
@@ -108,6 +110,8 @@
 
 #
 俺は2人に置いて行かれないよう早足で歩いた。[p]
+
+[stopbgm ]
 
 #
 ...[p]
