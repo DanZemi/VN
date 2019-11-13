@@ -4,8 +4,8 @@
 
 @layopt layer=message0 visible=true
 
-#こうすけ
-危なすっくっ！？[p]
+#たかし
+危なかったぞ！？[p]
 
 #
 プシュー・・・[p]
