@@ -44,7 +44,7 @@
 
 [glink  color="blue"  storage="route01/01.ks"  size="20"  x="30"  width="210"  y="100"  text="くりりん"  target="*start"  ]
 [glink  color="blue"  storage="route02/01.ks"  size="20"  x="30"  width="210"  y="180"  text="森田"  target="*start"  ]
-[glink  color="blue"  storage="route03/01.ks"  size="20"  x="30"  width="210"  y="260"  text="丹下"  target="*start"  ]
+[glink  color="blue"  storage="route03/01.ks"  size="20"  x="30"  width="210"  y="260"  text="見知らぬ女の子とぶつかる"  target="*start"  ]
 [glink  color="blue"  storage="route04/01.ks"  size="20"  x="30"  width="210"  y="340"  text="泥まみれのイケメンとぶつかる"  target="*start"  ]
 [glink  color="blue"  storage="route05/01.ks"  size="20"  x="30"  width="210"  y="420"  text="西森"  target="*start"  ]
 [glink  color="blue"  storage="route06/01.ks"  size="20"  x="30"  width="210"  y="500"  text="三好"  target="*start"  ]
@@ -53,13 +53,13 @@
 [glink  color="blue"  storage="route08/01.ks"  size="20"  x="330"  width="210"  y="180"  text="山根"  target="*start"  ]
 [glink  color="blue"  storage="route09/01.ks"  size="20"  x="330"  width="210"  y="260"  text="石橋"  target="*start"  ]
 [glink  color="blue"  storage="route10/01.ks"  size="20"  x="330"  width="210"  y="340"  text="三木"  target="*start"  ]
-[glink  color="blue"  storage="route11/01.ks"  size="20"  x="330"  width="210"  y="420"  text="藤田"  target="*start"  ]
+[glink  color="blue"  storage="route11/01.ks"  size="20"  x="330"  width="210"  y="420"  text="褐色の少年とぶつかる"  target="*start"  ]
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="330"  width="210"  y="500"  text="平山"  target="*start"  ]
 
 
 [glink  color="blue"  storage="route13/01.ks"  size="20"  x="630"  width="210"  y="100"  text="轢かれかける"  target="*start"  ]
 [glink  color="blue"  storage="route14/01.ks"  size="20"  x="630"  width="210"  y="180"  text="カバディカバディ"  target="*start"  ]
-[glink  color="blue"  storage="route15/01.ks"  size="20"  x="630"  width="210"  y="260"  text="森川"  target="*start"  ]
+[glink  color="blue"  storage="route15/01.ks"  size="20"  x="630"  width="210"  y="260"  text="目の前で事故が起きる"  target="*start"  ]
 [glink  color="blue"  storage="route16/01.ks"  size="20"  x="630"  width="210"  y="340"  text="川本"  target="*start"  ]
 [glink  color="blue"  storage="route17/01.ks"  size="20"  x="630"  width="210"  y="420"  text="宮田"  target="*start"  ]
 [glink  color="blue"  storage="route18/01.ks"  size="20"  x="630"  width="210"  y="500"  text="石田"  target="*start"  ]
