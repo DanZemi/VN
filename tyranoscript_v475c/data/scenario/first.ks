@@ -4,6 +4,7 @@
 
 [stop_keyconfig]
 
+;ルビ拡張プラグイン
 [plugin name=tempura_ruby show=each time=0]
 
 ;ティラノスクリプトが標準で用意している便利なライブラリ群
