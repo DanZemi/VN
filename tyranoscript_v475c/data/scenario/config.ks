@@ -8,11 +8,11 @@
 	[layopt layer=message0 visible=false]
 ;	fixボタン消し
 	[clearfix]
-	
+
 ;ゲーム中に効果が設定されている場合は無効
 [free_layermode time=0 ]
 [reset_camera time=0]
-	
+
 ;　イメージ消去
 
 [iscript]
@@ -26,15 +26,15 @@ $(".layer_camera").empty();
 
 	tf.current_bgm_vol=parseInt(TG.config.defaultBgmVolume);
 	tf.current_se_vol=parseInt(TG.config.defaultSeVolume);
-	
+
 	tf.current_ch_speed=parseInt(TG.config.chSpeed);
 	tf.current_auto_speed=parseInt(TG.config.autoSpeed);
-	
+
 	tf.text_skip ="ON";
-	
+
 	if(TG.config.unReadTextSkip != "true"){
 		tf.text_skip ="OFF";
-	} 
+	}
 
 [endscript]
 
@@ -274,4 +274,3 @@ tf.flag_back=$(".message1_fore").css("display");
 [endscript]
 [config_record_label skip=true]
 [return]
-
