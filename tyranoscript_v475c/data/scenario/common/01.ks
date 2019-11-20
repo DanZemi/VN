@@ -50,7 +50,7 @@
 [glink  color="blue"  storage="route06/01.ks"  size="20"  x="30"  width="210"  y="500"  text="三好"  target="*start"  ]
 
 [glink  color="blue"  storage="route07/01.ks"  size="20"  x="330"  width="210"  y="100"  text="ピヨピヨピヨ"  target="*start"  ]
-[glink  color="blue"  storage="route08/01.ks"  size="20"  x="330"  width="210"  y="180"  text="辛辣！選択肢☆"  target="*start"  ]
+[glink  color="blue"  storage="route08/01.ks"  size="20"  x="330"  width="210"  y="180"  text="車にひかれる"  target="*start"  ]
 [glink  color="blue"  storage="route09/01.ks"  size="20"  x="330"  width="210"  y="260"  text="石橋"  target="*start"  ]
 [glink  color="blue"  storage="route10/01.ks"  size="20"  x="330"  width="210"  y="340"  text="三木"  target="*start"  ]
 [glink  color="blue"  storage="route11/01.ks"  size="20"  x="330"  width="210"  y="420"  text="褐色の少年とぶつかる"  target="*start"  ]

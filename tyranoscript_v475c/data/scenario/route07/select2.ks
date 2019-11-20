@@ -4,4 +4,5 @@
 
 @layopt layer=message0 visible=true
 
-#僕
+#主人公
+私の名前はめぐちゃんだった
