@@ -1,6 +1,6 @@
 *start
 
-[bg storage="road.jpg" time="1000"]
+[bg storage="tsugakuro_hiru.jpg" time="1000"]
 [bg storage="car3.jpg" time="1000"]
 @layopt layer=message0 visible=true
 
@@ -18,6 +18,22 @@
 病院か...[l][cm]
 #看護婦
 先生！..さんが目を覚ましました！[l][cm]
+[chara_new name="a" storage="chara/bou/01.png" jname="a"]
+[chara_new name="b" storage="chara/bou/02.png" jname="b"]
+[chara_new name="c" storage="chara/bou/03.png" jname="c"]
+[chara_new name="d" storage="chara/bou/04.png" jname="d"]
+[chara_new name="e" storage="chara/bou/05.png" jname="e"]
+[chara_new name="f" storage="chara/bou/06.png" jname="f"]
+[chara_new name="g" storage="chara/bou/07.png" jname="g"]
+[chara_new name="h" storage="chara/bou/08.png" jname="h"]
+[chara_show name="a"]
+[chara_show name="b"]
+[chara_show name="c"]
+[chara_show name="d"]
+[chara_show name="e"]
+[chara_show name="f"]
+[chara_show name="g"]
+[chara_show name="h"]
 #医者
 ..さん分かりますか？[l][cm]
 #???
@@ -44,6 +60,14 @@
 はい！すぐ伺います！！[l][r]
 たかはた ゆうき君、また何かの拍子に記憶が戻るかもしれない。[l][r]
 ささいなことでもいいから何か思い出したらいってくれ！[l][cm]
+[chara_hide name="a"]
+[chara_hide name="b"]
+[chara_hide name="c"]
+[chara_hide name="d"]
+[chara_hide name="e"]
+[chara_hide name="f"]
+[chara_hide name="g"]
+[chara_hide name="h"]
 #向かいのベットの女性
 先生はやく！！！[l][cm]
 #医者
