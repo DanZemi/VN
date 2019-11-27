@@ -2,7 +2,7 @@
 
 *start
 
-[cm  ]
+[cm]
 [clearfix]
 [start_keyconfig]
 
@@ -64,4 +64,4 @@
 [glink  color="blue"  storage="route17/01.ks"  size="20"  x="630"  width="210"  y="420"  text="宮田"  target="*start"  ]
 [glink  color="blue"  storage="route18/01.ks"  size="20"  x="630"  width="210"  y="500"  text="石田"  target="*start"  ]
 
-[s  ]
+[s]
