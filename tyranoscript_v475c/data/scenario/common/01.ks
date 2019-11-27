@@ -37,7 +37,7 @@
 遅刻ー！[p]
 
 [quake wait=false count=1 time=200 hmax=20]
-[font  size="100"   ]
+[font  size="100"]
 ドンッ！[p]
 
 @layopt layer=message0 visible=false
