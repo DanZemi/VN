@@ -7,7 +7,7 @@
 [start_keyconfig]
 
 
-[bg storage="jitaku.jpg" time="100"]
+[bg storage="shujinko_heya_new_hiru.jpg" time="100"]
 
 ;メニューボタンの表示
 @showmenubutton
@@ -31,7 +31,7 @@
 #
 寝坊した！[p]
 
-[bg storage="road.jpg" time="1000"]
+[bg storage="tsugakuro_hiru.jpg" time="1000"]
 
 #
 遅刻ー！[p]
