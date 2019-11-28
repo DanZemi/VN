@@ -5,6 +5,16 @@
 [chara_new name="mobuko" storage="chara/bou/woman.png" jname="mobuko"]
 [chara_show name="mobuko"]
 
+[eval exp="sf.yourname1 ='太郎'"]
+[edit left=130 width=150 top=300 name="sf.yourname1" initial=&sf.yourname1]
+[locate x=100 y=200]
+;editとlinkは干渉してクリックできなくなるので、buttonがオススメです
+[button graphic="kettei.gif" target=*ck_name x=215 y=350]
+[s]
+
+*ck_name
+
+
 #モブ子
 「いった～い！」[p]
 #
@@ -121,6 +131,7 @@
 →ぶっぶー！私の名前は未々実（みみみ）。未々実って呼んでね。
 はじめまして、
 これからよろしくね！[p]
+
 
 #未々実
 「ところで○○くん。」[p]
@@ -519,8 +530,8 @@
 「きっと私たちは夏休みを終える前に世界が先になくなっちゃうんだと思う…。」[p]
 
 #
-（だから、[l][r]
-　秋祭りに行こうって約束してくれなかったんだ）[p]
+（だから、[l]
+秋祭りに行こうって約束してくれなかったんだ）[p]
 
 #未々実
 「昔からよく変な夢を見てきたの。そしてそれは必ず現実に起きる。」[p]
