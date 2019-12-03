@@ -13,7 +13,7 @@
 「Aa...」[p]
 #
 ふと上から声がして、私は声のするほうへ視線を上げる。[p]
-[chara_new name="amiru" storage="chara/bou/01.png" jname="アミル"]
+[chara_new name="amiru" storage="chara/11amiru/amiru.PNG" jname="アミル"]
 [chara_show name="amiru"]
 思わず二度見した。[p]
 明らかに日本人じゃない。[p]
