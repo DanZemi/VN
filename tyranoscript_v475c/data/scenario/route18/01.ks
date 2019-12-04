@@ -182,7 +182,7 @@
 #
 その時だった。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 一瞬目の前が暗くなって、次に目を見開くと…[p]
 
@@ -447,7 +447,7 @@
 #
 裕樹…香菜…ごめんな…。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 そして俺たちは意識を失った。[p]
 
@@ -487,7 +487,7 @@
 #
 あぁ…やらかした…。俺は悪魔か…。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 俺たちは意識を失った。[p]
 
@@ -665,7 +665,7 @@
 #警察官
 「ったく、イタズラもほどほどにしてくださいよ？」[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 俺たちは完全に意識を失った。[p]
 
@@ -700,7 +700,7 @@
 #
 ああっ！うっ…！[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 俺たちは意識を失った。[p]
 
@@ -937,7 +937,7 @@
 #御嬢キャロリーヌ
 「あーあ。せっかくの宿屋が汚れてしまいましたわ。」[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 俺たちは意識を失った。[p]
 
@@ -963,7 +963,7 @@
 #
 俺たちは町のすみっこで一晩過ごした。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 …。[p]
 
@@ -974,7 +974,7 @@
 #
 …。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 俺たちは目覚めなかった。[p]
 
@@ -1041,7 +1041,7 @@
 #
 翌朝[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 …。[p]
 
@@ -1067,7 +1067,7 @@
 #
 見てろよ、御月先生。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 第２章　拠点を求めて[p]
 
@@ -1216,7 +1216,7 @@
 #
 突然俺たちはめまいに襲われた。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 く…苦しい…。何だいきなり…。[p]
 
@@ -1506,7 +1506,7 @@
 #
 ち、チクショーーーーー！[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 その後なんやかんやで死刑判決が出て、執行された。[p]
 
@@ -1529,7 +1529,7 @@
 #警察
 「わかった。君たちを保護しよう。」[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 …。[p]
 
@@ -1646,7 +1646,7 @@
 #
 絶対にやってやる。見てろよ、御月先生。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 第３章　ソウルメイト[p]
 
@@ -2090,7 +2090,7 @@
 #
 待っていろよ、御月先生。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 第４章　パラドクス[p]
 [bg storage="kusa2.jpg" time="1000"]
@@ -2188,7 +2188,7 @@
 #
 俺の体は地面に強くたたきつけられた。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 そして、俺は意識を失った。[p]
 
@@ -2235,7 +2235,7 @@
 #
 よし、掘るぞ！[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 数時間後[p]
 
@@ -2487,7 +2487,7 @@
 #
 バタッ！[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 俺は床に倒れこんだ。[p]
 
@@ -2775,7 +2775,7 @@
 #
 絶対に勝ってみせるんだ！[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 第５章　黒幕
 
@@ -3229,7 +3229,7 @@
 #
 グチャッ！[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 俺たちは意識を失った。[p]
 
@@ -3317,7 +3317,7 @@
 #御月先生
 「さようなら～。」[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 次の瞬間、俺たちは意識を失った。[p]
 
@@ -3838,7 +3838,7 @@
 #英語の先生
 「オーケーオーケー！テレポートするよー！」[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 次の瞬間、目の前が真っ暗になった。[p]
 
@@ -3934,7 +3934,7 @@
 #
 少し休ませてくれないか？[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 …[p]
 
