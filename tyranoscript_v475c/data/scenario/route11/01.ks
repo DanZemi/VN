@@ -64,7 +64,7 @@
 わけがわからない。[p]
 この子は何を望んでいるの？[p]
 もしかして、目的地の場所がわからないのかな。[p]
-[chara_new name="hasimu" storage="chara/bou/02.png" jname="ハシム"]
+[chara_new name="hasimu" storage="chara/13SP/SP.png" jname="ハシム"]
 [chara_show name="hasimu"]
 #???
 الأميل مثل!
@@ -483,7 +483,7 @@ SPみたいな人連れてたし、ポケモントレーナーにも見えない
 早く家帰って寝よう。[p]
 [bg storage="shujinko_heya_new_yoru.jpg" time="3000"]
 おやすみ。[p]
-
+[bg storage="black.jpg" time="3000"]
 #???
 「繝√きさん」[p]
 #
@@ -509,6 +509,7 @@ SPみたいな人連れてたし、ポケモントレーナーにも見えない
 ...[p]
 ..[p]
 .[p]
+[chara_hide name="amiru"]
 
 @jump storage="common/01.ks"
 
