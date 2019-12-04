@@ -17,7 +17,7 @@
 #
 でもこの子を放って行くのは罪悪感が…。[p]
 #
-俺は…[l][r]
+俺は…
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="放って行く"  target="*select1"]
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="付き添う"  target="*select2"]
 [s]
@@ -112,34 +112,54 @@
 血液型を教えてね？
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="A"  target="*select3"]
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="B"  target="*select4"]
-[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="O"  target="*select5"]
-[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="AB"  target="*select6"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="280"  text="O"  target="*select5"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="280"  text="AB"  target="*select6"]
 [s]
 
 *select3
-#美々実
-「そうだと思った！」
+#未々実
+「そうだと思った！」[p]
+
+[jump storage="route12/01.ks" target=*c2]
 
 *select4
-#美々実
-「みえないなあ…。」
+#未々実
+「みえないなあ…。」[p]
+
+[jump storage="route12/01.ks" target=*c2]
 
 *select5
 
 [chara_mod name="mimimi" face="smile"]
 
-#美々実
-「私と一緒！」
+#未々実
+「私と一緒！」[p]
+
+[jump storage="route12/01.ks" target=*c2]
 
 *select6
-#美々実
-「へえ～！珍しいね！」
+#未々実
+「へえ～！珍しいね！」[p]
 
-犬派？猫派？
-[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="放って行く"  target="*select7"]
-[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="付き添う"  target="*select8"]
+*c2
+
+いぬ派？ねこ派？
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="いぬ"  target="*select7"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="ねこ"  target="*select8"]
 [s]
 
+*select7
+#未々実
+「私もいぬの方が好き！」[p]
+
+[jump storage="route12/01.ks" target=*c3]
+
+*select8
+#未々実
+「ねこもかわいいよね～！」[p]
+
+*c3
+#未々実
 あなたの下の名前を教えてね？
 →○○くんか～！よろしくね！
 この子の下の名前は？
@@ -240,9 +260,24 @@
 #未々実
 「ううん、あんまり使わないかな～。」
 
-#
+#未々実
 本は好き？
-→
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="好き"  target="*select9"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="嫌い"  target="*select10"]
+[s]
+
+*select9
+#未々実
+「私も好き！だけどそんなに読まないかな。」[p]
+
+[jump storage="route12/01.ks" target=*c4]
+
+*select10
+#未々実
+「ふむ、運動するほうが好きなのかな？」[p]
+
+*c4
+#未々実
 インドア？アウトドア？
 →
 今度デートしてくれる？
