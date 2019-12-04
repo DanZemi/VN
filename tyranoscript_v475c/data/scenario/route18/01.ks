@@ -34,7 +34,7 @@
 #???
 ゼミ？あっ...そういえばそうだったな。[p]
 
-[playbgm storage="castlemorning.ogg"]
+[playbgm storage="D_morning.ogg"]
 
 #???
 今日から大学が始まるんだったな。[r]
@@ -67,7 +67,7 @@
 
 [stopbgm ]
 
-[playbgm storage="Ordinalday_1.1.ogg"]
+[playbgm storage="D_day.ogg"]
 
 [bg storage="tsugakuro_hiru.jpg" time="1000"]
 
@@ -157,6 +157,7 @@
 俺たちの目の前に現れたのは、[r]
 髪で目が隠れ、十字架のネックレスを着け、白衣を着ただった。[p]
 
+[playbgm storage="D_PR.ogg"]
 #髪で目が隠れ十字架のネックレスを着け白衣を着た男
 「君たちが俺のゼミに入った学生たちだな。俺は「御月凛音(みつきりんね)」だ。」[p]
 
@@ -186,6 +187,7 @@
 #
 一瞬目の前が暗くなって、次に目を見開くと…[p]
 
+[stopbgm]
 #
 ...[p]
 
@@ -199,6 +201,7 @@
 #
 ここは…どこだ？[p]
 
+[playbgm storage="D_PR.ogg"]
 #御月先生
 「ようこそ、私の世界へ。」[p]
 
@@ -242,6 +245,7 @@
 #御月先生
 「ああ。」[p]
 
+[stopbgm]
 #御月先生
 「『死ぬ』可能性があるって話だ。」[p]
 
@@ -251,6 +255,7 @@
 #
 死ぬ？この訳のわからない世界で？こいつ、正気か？[p]
 
+[playbgm storage="D_sudden.ogg"]
 #御月先生
 「これは私の研究の一環である。[r]
 ゼミ生の君たちが協力するのは当然ではないのか？」[p]
@@ -309,6 +314,7 @@
 #
 この後、何が待ち受けているのかを知らないままに…。[p]
 
+[stopbgm]
 [bg storage="black.jpg" time="1000"]
 #
 第１章　悲劇[p]
@@ -320,6 +326,7 @@
 #
 俺たちは、目標としていた町についた。[p]
 
+[playbgm storage="D_enjoytown.ogg"]
 #裕樹
 「店といい、外観といい、意外とちゃんとしてるじゃねーか。」[p]
 
@@ -375,6 +382,7 @@
 #
 その時だった[p]
 
+[stopbgm]
 #
 ガシャーーーンッ！！[p]
 
@@ -387,6 +395,7 @@
 #???
 「この町にいる奴！一歩でも動いたら命はないと思え！」[p]
 
+[playbgm storage="D_danger.ogg"]
 #
 うわぁ…最悪だ。殺される…。[p]
 
@@ -404,7 +413,9 @@
 
 #
 状況次第では難を逃れられるぞ！[p]
+[stopbgm]
 
+[playbgm storage="D_trouble.ogg"]
 #さあ、どうする？
 [link target=*select1]【１】東の店に向かう。[endlink][r]
 [link target=*select2]【２】路地裏に身を隠す。[endlink][r]
@@ -448,10 +459,13 @@
 #
 裕樹…香菜…ごめんな…。[p]
 
+[stopbgm]
+[playbgm storage="D_gameover.ogg"]
 [bg storage="black.jpg" time="1000"]
 #
 そして俺たちは意識を失った。[p]
 
+[stopbgm]
 @jump storage="common/01.ks"
 
 *select2
@@ -487,11 +501,13 @@
 
 #
 あぁ…やらかした…。俺は悪魔か…。[p]
-
+[stopbgm]
 [bg storage="black.jpg" time="1000"]
+[playbgm storage="D_gameover.ogg"]
 #
 俺たちは意識を失った。[p]
 
+[stopbgm]
 @jump storage="common/01.ks"
 
 *Stage1clear
@@ -530,6 +546,7 @@
 #
 裕樹…香菜…ごめんな…。[p]
 
+[stopbgm]
 #
 そして俺たちは意識を失っ[p]
 
@@ -542,6 +559,7 @@
 #
 見たところ子供とその母親らしき女性が泣いている。かわいそうに…。[p]
 
+[playbgm storage="D_pop.ogg"]
 #裕樹
 「運よく逃げることができたな。」[p]
 
@@ -553,7 +571,9 @@
 
 #光明
 「あぁ、それなんだが…。」[p]
+[stopbgm]
 
+[playbgm storage="D_trouble.ogg"]
 #さて、どうしよう？
 [link target=*select4]【１】警察を呼ぶ。[endlink][r]
 [link target=*select5]【２】入った反対の道に出て助けを呼ぶ。[endlink][r]
@@ -641,6 +661,7 @@
 
 #
 その時だった[p]
+[stopbgm]
 
 #暴動の主犯格
 「お前ら何裏でごちゃごちゃ騒いでんだよ？」[p]
@@ -667,9 +688,11 @@
 「ったく、イタズラもほどほどにしてくださいよ？」[p]
 
 [bg storage="black.jpg" time="1000"]
+[playbgm storage="D_gameover.ogg"]
 #
 俺たちは完全に意識を失った。[p]
 
+[stopbgm]
 @jump storage="common/01.ks"
 
 *select5
@@ -700,11 +723,14 @@
 
 #
 ああっ！うっ…！[p]
+[stopbgm]
 
 [bg storage="black.jpg" time="1000"]
+[playbgm storage="D_gameover.ogg"]
 #
 俺たちは意識を失った。[p]
 
+[stopbgm]
 @jump storage="common/01.ks"
 *select6
 [cm]
@@ -742,6 +768,9 @@
 
 #
 町の人も安堵の表情を浮かべている。[p]
+
+[stopbgm]
+[playbgm storage="D_pop.ogg"]
 
 #香菜
 「はぁー。助かったんだ。私たち。」[p]
@@ -821,6 +850,7 @@
 
 #
 何だ！何なんだ！奴の目的は！[p]
+[stopbgm]
 
 #
 ...[p]
@@ -832,6 +862,7 @@
 #
 気づくと俺たちは公園らしき場所のベンチに座っていた。[p]
 
+[playbgm storage="D_night.ogg"]
 #光明
 「なあ、今夜どうするよ。」[p]
 
@@ -878,8 +909,10 @@
 
 #
 俺たちは宿屋に入った。[p]
+[stopbgm]
 
 [bg storage="washitsu_yoru.jpg" time="1000"]
+[playbgm storage="D_badhotel.ogg"]
 #光明
 「すみません。宿泊したいのですが。」[p]
 
@@ -937,11 +970,13 @@
 
 #御嬢キャロリーヌ
 「あーあ。せっかくの宿屋が汚れてしまいましたわ。」[p]
-
+[stopbgm]
 [bg storage="black.jpg" time="1000"]
+[playbgm storage="D_gameover.ogg"]
 #
 俺たちは意識を失った。[p]
 
+[stopbgm]
 @jump storage="common/01.ks"
 
 *select9
@@ -963,7 +998,7 @@
 
 #
 俺たちは町のすみっこで一晩過ごした。[p]
-
+[stopbgm]
 [bg storage="black.jpg" time="1000"]
 #
 …。[p]
@@ -985,11 +1020,13 @@
 #
 そりゃあ、[p]
 
+[playbgm storage="D_gameover.ogg"]
 #
 夜に誰かに殺されたからだよ。[p]
 
 #
 ったく、治安の悪い世界だぜ…。[p]
+[stopbgm]
 
 @jump storage="common/01.ks"
 
@@ -1021,8 +1058,10 @@
 
 #
 俺たちは宿屋に入った。[p]
+[stopbgm]
 
 [bg storage="washitsu_yoru.jpg" time="1000"]
+[playbgm storage="D_goodhotel.ogg"]
 #光明
 「すみません。宿泊したいのですが。」[p]
 
@@ -1034,7 +1073,7 @@
 
 #
 俺たちは宿屋で一晩過ごした。[p]
-
+[stopbgm]
 [bg storage="black.jpg" time="1000"]
 #
 …。[p]
@@ -1053,6 +1092,7 @@
 俺たちは宿屋をあとにした。[p]
 
 [bg storage="kawaL_hiru.jpg" time="1000"]
+[playbgm storage="D_morning.ogg"]
 #裕樹
 「5,000円でもサービスはよかったよな。」[p]
 
@@ -1067,6 +1107,7 @@
 
 #
 見てろよ、御月先生。[p]
+[stopbgm]
 
 [bg storage="black.jpg" time="1000"]
 #
@@ -1106,6 +1147,7 @@
 #
 話しているうちに、商店街らしき場所についた。[p]
 
+[playbgm storage="D_enjoytown.ogg"]
 [bg storage="hankagai_hiru.jpg" time="1000"]
 #裕樹
 「さすが商店街だ。いろいろあるな。」[p]
@@ -1151,7 +1193,7 @@
 
 #
 その時だった。[p]
-
+[stopbgm]
 #???
 「あなたたち…やっぱり…。」[p]
 
@@ -1161,6 +1203,7 @@
 #
 誰だ、この女性は。[p]
 
+[playbgm storage="D_trouble.ogg"]
 #
 あなたたち…やっぱり？[p]
 
@@ -1213,11 +1256,12 @@
 
 #
 その時だった。[p]
-
+[stopbgm]
 #
 突然俺たちはめまいに襲われた。[p]
 
 [bg storage="black.jpg" time="1000"]
+[playbgm storage="D_danger.ogg"]
 #
 く…苦しい…。何だいきなり…。[p]
 
@@ -1242,10 +1286,12 @@
 
 #
 わかんねぇよ…。[p]
-
+[stopbgm
+[playbgm storage="D_gameover.ogg"]]
 #
 俺たちは意識を失った。[p]
 
+[stopbgm]
 @jump storage="common/01.ks"
 
 *select10
@@ -1272,6 +1318,7 @@
 #
 そう言ううちに、俺たちは小さな家に案内された。[p]
 
+[stopbgm]
 #???
 「入って。」[p]
 
