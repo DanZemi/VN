@@ -4,7 +4,4 @@
 
 @layopt layer=message0 visible=true
 
-#
-寝すぎた！！[p]
-
-@jump storage="common/01.ks"
+#僕
