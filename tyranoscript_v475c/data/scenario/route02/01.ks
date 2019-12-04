@@ -1,6 +1,6 @@
 *start
 
-[bg storage="black.jpg" time="1000"]
+[bg storage="white.jpg" time="1000"]
 
 @layopt layer=message0 visible=true
 
