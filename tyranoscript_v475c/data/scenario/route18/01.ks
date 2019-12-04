@@ -11,7 +11,7 @@
 #
 この物語はフィクションであり、登場する人物や名称などは実際のものとは関係ありません。[p]
 
-[bg storage=".jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 序章　ゼミに行こう！[p]
 
@@ -195,7 +195,7 @@
 #
 ...?[p]
 
-[bg storage="kusa.1.jpg" time="1000"]
+[bg storage="kusa1.jpg" time="1000"]
 #
 ここは…どこだ？[p]
 
@@ -309,6 +309,7 @@
 #
 この後、何が待ち受けているのかを知らないままに…。[p]
 
+[bg storage="black.jpg" time="1000"]
 #
 第１章　悲劇[p]
 
@@ -1034,14 +1035,14 @@
 #
 俺たちは宿屋で一晩過ごした。[p]
 
-[bg storage="sora1.jpg" time="1000"]
+[bg storage="black.jpg" time="1000"]
 #
 …。[p]
 
 #
 翌朝[p]
 
-[bg storage="black.jpg" time="1000"]
+[bg storage="sora1.jpg" time="1000"]
 #
 …。[p]
 
