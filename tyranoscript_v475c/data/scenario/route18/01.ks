@@ -3407,7 +3407,7 @@
 
 [s]
 
-*select29
+*select31
 [cm]
 @jump target=*stage17clear
 
