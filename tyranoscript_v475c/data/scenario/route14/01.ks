@@ -1,6 +1,8 @@
 *start
 
-[bg storage="jitaku.jpg" time="1000"]
+[playbgm storage="Canon.ogg" loop=true]
+
+[bg storage="tsugakuro_hiru.jpg" time="1000"]
 
 @layopt layer=message0 visible=true
 
