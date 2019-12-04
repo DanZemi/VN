@@ -119,7 +119,7 @@
 @layopt layer=message0 visible=true
 #佐々木
 この部屋が自分さんの泊まる部屋です。[p]
-もう少ししたら学校に案内するので、それまで荷物を整理していてくださいね！[p]
+もう少ししたら学校に案内するので、[r]それまで荷物を整理していてくださいね！[p]
 #自分
 分かりました！[p]
 #自分
@@ -166,7 +166,7 @@
 
 あ、だる[l][r]
 荷物の片付けは明日にしよ[p]
- @jump target=*commonf
+ @jump target=*commonff
 
 *select2
  [cm]
@@ -199,8 +199,8 @@
 
 明日は何しようかな[p]
 
-[link target=*select1]【１】買い物[endlink][r]
-[link target=*select2]【２】一日中家にいる[endlink][r]
+[link target=*select3]【１】買い物[endlink][r]
+[link target=*select4]【２】一日中家にいる[endlink][r]
 [s]
 
 *select3
@@ -226,7 +226,7 @@
  [cm]
 「一日中家にいる」がクリックされました[p]
 今日はYouTubeでも見てすごそー[p]
-@jump target=*common2
+@jump target=*commonff
 
 
 *common2
@@ -241,7 +241,7 @@
 
 
 
-@jump storage="common/01.ks"
+@jump target=*commonff
 
 *commonff
 [bg storage=20190917_124510.jpg time="1000"]
@@ -251,3 +251,55 @@
 短かったなぁ[p]
 
 日本に帰っても韓国語の勉強頑張ろう[p]
+
+
+[bg storage=20190917_124510.jpg time="1000"]
+@layopt layer=message0 visible=true
+#??
+..... [l][r]
+おい…おい…[p]
+
+
+[bg storage=kyoshitsu_door_hiru.jpg time="1000"]
+@layopt layer=message0 visible=true
+#自分
+ん？、ここは？[l][r]
+教室？？？[p]
+
+あ、夢…[l][r]
+だったんだ[p]
+#
+おい、次当てられるぞ！[p]
+
+え、まじ？[l][r]
+ちょ、答え教えて[p]
+
+
+[bg storage=mon_yu.jpg time="1000"]
+@layopt layer=message0 visible=true
+ふう、危なかった[l][r]
+さっきはありがとう笑[p]
+
+遅刻しかけた挙句、授業中居眠りとか笑[p]
+
+いや、あの授業はしかたないって笑[p]
+
+この後どっかいく？？[p]
+
+金ないけん、今日は帰るよ[p]
+
+じゃあ、今日はおとなしく帰るか笑[p]
+
+オッケー[p]
+
+じゃあね！[p]
+
+
+[bg storage=shujinko_heya_new_yoru.jpg time="1000"]
+@layopt layer=message0 visible=true
+あー疲れた[l][r]
+いやーまさか夢だったとは、[p]
+
+なんか、今日は疲れたし早く寝よ[p]
+
+@jump storage="common/01.ks"
