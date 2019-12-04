@@ -18,12 +18,15 @@
 でもこの子を放って行くのは罪悪感が…。[p]
 #
 俺は…[l][r]
-[link target=*select1]放って行く[endlink][r]
-[link target=*select2]付き添う[endlink][r]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="放って行く"  target="*select1"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="付き添う"  target="*select2"]
 [s]
+
 *select1
 #
 ご、ごめん！それじゃあ！[p]
+
+[jump storage="route12/01.ks" target=*c1]
 
 *select2
 #
@@ -37,9 +40,7 @@
 
 [chara_hide name="mobuko" ]
 
-#ここからとりあえず全編かいておく
-ぶつかったくだりから
-・分岐はとりあえず省いて最終的なルートを決める。もし分岐があったとしても正規ルートの方をかく。[p]
+*c1
 
 [bg storage=kyoshitsu_door_hiru.jpg time=3000]
 
