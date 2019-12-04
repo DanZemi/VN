@@ -1,6 +1,6 @@
 *start
 
-[bg storage=road.jpg time=1000]
+[bg storage=tsugakuro_hiru.jpg time=1000]
 @layopt layer=message0 visible=true
 #自分
 なんてこと起きないか…[l][r]
@@ -14,7 +14,7 @@
 あやうく一限目遅れるところだった。[p]
 
 
-[bg storage=room.jpg time=1000]
+[bg storage=kyoshitsu_door_hiru.jpg time=1000]
 @layopt layer=message0 visible=true
 #吉岡
 今日遅刻しかけたな笑[r]
@@ -61,7 +61,7 @@
 #吉岡
 じゃあ、みんなで行こうや[p]
 
-
+#
 [bg storage=sky1.JPG time="1000"]
 @layopt layer=message0 visible=true
 5年後....[p]
@@ -70,11 +70,11 @@
 [bg storage=20190821_101045.jpg time="1000"]
 @layopt layer=message0 visible=true
 #自分
-やっと仁川国際着いた...[l][r]
+やっと仁川空港着いた...[l][r]
 スーツケース重すぎ...[p]
 
 これからバス乗り場探して新村までいかないけんのか[r]
-疲れた..[p]
+疲れるな..[p]
 
 [bg storage=20190918_110720.jpg time="1000"]
 @layopt layer=message0 visible=true
@@ -112,29 +112,30 @@
 ここがコシテルです！[l][r]
 さっそく中に入りましょう。[p]
 #自分
-はい
+はい[p]
+
 
 [bg storage=20190918_102933.jpg time="1000"]
 @layopt layer=message0 visible=true
 #佐々木
-この部屋が自分さんの泊まる部屋です。[l][r]
-もう少ししたら学校に案内するので、それまで荷物を整理していてください[p]
+この部屋が自分さんの泊まる部屋です。[p]
+もう少ししたら学校に案内するので、それまで荷物を整理していてくださいね！[p]
 #自分
 分かりました！[p]
 #自分
 それにしても、きれいな部屋やな[l][r]
 狭いけど…[p]
-#自分
+#
 荷物整理中・・・[p]
 #佐々木
-そろそろ学校行きますよ[p]
+そろそろ学校行くので、一階に降りてきてください！[p]
 #自分
 はーい[p]
 
 [bg storage=20190823_113212.jpg time="1000"]
 @layopt layer=message0 visible=true
 #佐々木
-ここが延世大学の語学堂です
+ここが延世大学の語学堂です[p]
 #自分
 かなり大きいですね[l][r]
 （それより坂道きつ…）[p]
@@ -148,28 +149,34 @@
 どこかいこうかな。[p]
 
 [link target=*select1]【１】部屋でおとなしくする[endlink][r]
-[link target=*select2]【２】ダイソーにいく[endlink][r]
+[link target=*select2]【２】買い物にいく[endlink][r]
 [s]
 
 *select1
  [cm]
-「部屋でおとなしくする」がクリックされました[l]
+「部屋でおとなしくする」がクリックされました[p]
 
-荷物の整理しないと・・・
+
+[bg storage=20190918_102933.jpg time="1000"]
+@layopt layer=message0 visible=true
+荷物の整理しないと・・・[p]
 
 荷物多すぎやろ[r]
 何考えてこんなに服多く持ってきたん！[p]
- @jump target=*common
 
- *select2
+あ、だる[l][r]
+荷物の片付けは明日にしよ[p]
+ @jump target=*commonf
+
+*select2
  [cm]
-「ダイソーに行く」がクリックされました[l]
+「買い物に行く」がクリックされました[p]
 
-ここが韓国のダイソーか[r]
+ここが韓国のかスーパーか！[r]
 日本となんか違うんかな[p]
 
 え、めっちゃおしゃれなやつ売ってるやん！[r]
-松山にもこのダイソーほしい！！[p]
+松山にもこの店ほしい！！[p]
 
 とりあえず、スリッパとトレーと....[p]
 
@@ -178,12 +185,54 @@
  @jump target=*common
 
 *common
+[bg storage=20190918_102933.jpg time="1000"]
+@layopt layer=message0 visible=true
 [cm]
+ふう、疲れた…[l][r]
+テレビ見よ[p]
+
+なにがあるかな[p]
+
+あ、しんちゃんが放送されてる！[p]
+
 しんちゃんって日本語のやつより声に違和感がない笑[p]
 
+明日は何しようかな[p]
+
+[link target=*select1]【１】買い物[endlink][r]
+[link target=*select2]【２】一日中家にいる[endlink][r]
+[s]
+
+*select3
+ [cm]
+「買い物」がクリックされました[ｐ]
+#自分
+明日はソウル駅の近くで買い物でもしよう！[p]
+
+[bg storage=20190822_133635.jpg time="1000"]
+@layopt layer=message0 visible=true
+ソウル駅[p]
+
+よし、お菓子とかめっちゃ買うぞ！[p]
+
+@jump target=*common2
 
 
-#
+
+
+
+
+*select4
+ [cm]
+「一日中家にいる」がクリックされました[p]
+今日はYouTubeでも見てすごそー[p]
+@jump target=*common2
+
+
+*common2
+[bg storage=20190918_102933.jpg time="1000"]
+@layopt layer=message0 visible=true
+[cm]自分
 あ、寝てた。[p]
 今何時だろう[p]
 ！？！？！[p]
@@ -193,3 +242,12 @@
 
 
 @jump storage="common/01.ks"
+
+*commonff
+[bg storage=20190917_124510.jpg time="1000"]
+@layopt layer=message0 visible=true
+[cm]自分
+ついに修了式か[l][r]
+短かったなぁ[p]
+
+日本に帰っても韓国語の勉強頑張ろう[p]
