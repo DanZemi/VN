@@ -56,7 +56,7 @@
 #
 この状況にはさっぱり場違いな声が響いた。[p]
 
-[chara_new name="mimimi" storage="chara/m/m.png" jname="未々実"]
+[chara_new name="mimimi" storage="chara/12m/m.png" jname="未々実"]
 [chara_show name="mimimi"]
 
 #先生
@@ -72,7 +72,7 @@
 「全く…転校生を席に案内しろ。」[p]
 「それと、遅刻した罰として放課後二人で教室掃除だ。いいな。」[p]
 
-[chara_face name="mimimi" face="smile" storage="chara/m/m_smile.png"]
+[chara_face name="mimimi" face="smile" storage="chara/12m/m_smile.png"]
 [chara_mod name="mimimi" face="smile"]
 
 #女の子
@@ -110,9 +110,36 @@
 
 #
 血液型を教えてね？
-→私とは違うね
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="A"  target="*select3"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="B"  target="*select4"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="O"  target="*select5"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="AB"  target="*select6"]
+[s]
+
+*select3
+#美々実
+「そうだと思った！」
+
+*select4
+#美々実
+「みえないなあ…。」
+
+*select5
+
+[chara_mod name="mimimi" face="smile"]
+
+#美々実
+「私と一緒！」
+
+*select6
+#美々実
+「へえ～！珍しいね！」
+
 犬派？猫派？
-→私も！
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="放って行く"  target="*select7"]
+[glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="付き添う"  target="*select8"]
+[s]
+
 あなたの下の名前を教えてね？
 →○○くんか～！よろしくね！
 この子の下の名前は？
@@ -128,7 +155,7 @@
 #
 「え？あ、それも質問？」[p]
 
-[chara_face name="mimimi" face="sad" storage="chara/m/m_sad.png"]
+[chara_face name="mimimi" face="sad" storage="chara/12m/m_sad.png"]
 [chara_mod name="mimimi" face="sad"]
 
 
