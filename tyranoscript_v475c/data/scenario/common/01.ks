@@ -28,6 +28,22 @@
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
 
+;initialise characters
+
+[chara_new name="amiru" storage="chara/11amiru/amiru.PNG" jname="アミル"]
+[chara_new name="hasimu" storage="chara/13SP/SP.png" jname="ハシム"]
+[chara_new name="bou_1" storage="chara/bou/01.png" jname="棒1"]
+[chara_new name="bou_2" storage="chara/bou/02.png" jname="棒2"]
+[chara_new name="bou_3" storage="chara/bou/03.png" jname="棒3"]
+[chara_new name="bou_4" storage="chara/bou/04.png" jname="棒4"]
+[chara_new name="bou_5" storage="chara/bou/05.png" jname="棒5"]
+[chara_new name="bou_6" storage="chara/bou/06.png" jname="棒6"]
+[chara_new name="bou_7" storage="chara/bou/07.png" jname="棒7"]
+[chara_new name="bou_8" storage="chara/bou/08.png" jname="棒8"]
+[chara_new name="bou_m" storage="chara/bou/man.png" jname="棒男"]
+[chara_new name="bou_w" storage="chara/bou/woman.png" jname="棒女"]
+
+
 #
 寝坊した！[p]
 
