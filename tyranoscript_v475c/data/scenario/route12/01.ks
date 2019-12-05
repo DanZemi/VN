@@ -56,8 +56,7 @@
 #
 この状況にはさっぱり場違いな声が響いた。[p]
 
-[chara_new name="mimimi" storage="chara/12m/m.png" jname="未々実"]
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #先生
 「お前また遅刻したのか！」[p]
@@ -72,8 +71,7 @@
 「全く…転校生を席に案内しろ。」[p]
 「それと、遅刻した罰として放課後二人で教室掃除だ。いいな。」[p]
 
-[chara_face name="mimimi" face="smile" storage="chara/12m/m_smile.png"]
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #女の子
 「は～い！」[p]
@@ -81,12 +79,12 @@
 #
 先生もあきれたようにそう言って、朝会を再開した。[p]
 
-[chara_mod name="mimimi" face="default"]
+[chara_mod name="12m" face="default"]
 
 #女の子
 「転校生くん、よろしくね。」[p]
 
-[chara_hide name="mimimi"]
+[chara_hide name="12m"]
 
 #
 彼女は、そう言っていたずらっぽく笑った。[p]
@@ -97,7 +95,7 @@
 #
 放課後[p]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #女の子
 「ねえねえ。はじめましてだろうし自己紹介しない？」[p]
@@ -130,7 +128,7 @@
 
 *select5
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「私と一緒！」[p]
@@ -175,14 +173,13 @@
 #
 「え？あ、それも質問？」[p]
 
-[chara_face name="mimimi" face="sad" storage="chara/12m/m_sad.png"]
-[chara_mod name="mimimi" face="sad"]
+[chara_mod name="12m" face="sad"]
 
 
 #未々実
 「えっと…、なんでもないよ！掃除終わらせちゃおっか！」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 
 [bg storage=rouka_hiru.jpg time=3000]
@@ -194,7 +191,7 @@
 そういえば、この学校の教室とかまだ知らないところが多いな。[l][r]
 誰か案内してくれるかお願いしたいけど…。[p]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #未々実
 「おっはよ～！○○くん！今日は遅刻しなかったんだね！」[p]
@@ -213,12 +210,12 @@
 #
 「転校したばかりでまだこの学校のことよくわかってないんだ。よかったら学校案内をお願いしたいんだけど…。」[p]
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「なあんだ、そんなことか！全然いいよ！」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 #
 じゃあ放課後また声かけるね、といって自分の席へと戻っていった。[p]
@@ -226,7 +223,7 @@
 
 [bg storage=kyoshitsu_window_yu.jpg time=3000]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #未々実
 「○○くん！準備はいい？」[p]
@@ -234,12 +231,12 @@
 #
 「すごい張り切ってるね…。」[p]
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「あたりまえだよ！早く行こう！」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 #
 「あ、ちょっと待ってよ。」[p]
@@ -249,7 +246,7 @@
 [bg storage=hoken_aki_yu.jpg time=3000]
 [bg storage=tosho_yu.jpg time=3000]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #未々実
 「最後に、ここが図書室だよ。」[p]
@@ -284,7 +281,7 @@
 →どっちにしろえっと…って何だこの質問っていう答えになる[p]
 
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「なんちゃって、今日の質問はこれでおしまい！」[p]
@@ -292,7 +289,7 @@
 #
 「未々実はなんで色々と質問してくるんだ？」[p]
 
-[chara_mod name="mimimi" face="default"]
+[chara_mod name="12m" face="default"]
 
 #未々実
 「実は新聞部にはいってるんだ。[l][r]
@@ -307,7 +304,7 @@
 #
 「そんなわけないよ！」[p]
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「冗談に決まってるでしょ～ふふふ～。」[p]
@@ -315,7 +312,7 @@
 #
 未々実の笑みが怪しい。[p]
 
-[chara_mod name="mimimi" face="default"]
+[chara_mod name="12m" face="default"]
 
 #未々実
 「ねえ○○くん。」[p]
@@ -325,7 +322,7 @@
 #
 「な、に言ってるんだよ…。」[p]
 
-[chara_mod name="mimimi" face="sad"]
+[chara_mod name="12m" face="sad"]
 
 #未々実
 「この質問にはね誰にも答えてくれないんだ。[l][r]
@@ -334,13 +331,13 @@
 #
 「……。」[p]
 
-[chara_mod name="mimimi" face="default"]
+[chara_mod name="12m" face="default"]
 
 #未々実
 「帰ろっか。」[p]
 「……もうこの話はしないね。」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 
 [bg storage=mon_hiru.jpg time=3000]
@@ -376,7 +373,7 @@
 月日も流れもう夏休みも目前になってきた。[p]
 クラスも心なしか浮足立っている。[p]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #未々実
 「○○くん、今度の日曜日って空いてる？」[p]
@@ -392,7 +389,7 @@
 #
 「うん、一緒に行こう。」[p]
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「やったー！じゃあここで待ち合わせね！」[p]
@@ -400,7 +397,7 @@
 #
 そういってスマートフォンの画面を見せてきた。[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 
 [bg storage=kyoshitsu_window_hiru.jpg time=3000]
@@ -412,7 +409,7 @@
 道行く人たちが楽しそうに話しながら歩いている。[l][r]
 近所のお祭りって聞いてたからもう少し小規模なお祭りを想像していたが、浴衣を着ている人がほとんどな立派なお祭りが開催されていた。[p]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #
 「おまたせ、ってあれ」[p]
@@ -424,7 +421,7 @@
 「ああ、いやその…[l][r]
 　みんな浴衣着てるから、未々実もてっきり浴衣着てるのかなって思ってたから…」[p]
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「期待してたの～？？そっか、じゃあ悪いことしちゃったかな」[p]
@@ -432,17 +429,17 @@
 #
 「あ～、うるさいうるさい」[p]
 
-[chara_mod name="mimimi" face="default"]
+[chara_mod name="12m" face="default"]
 
 #未々実
 「じゃあいこっか！私わたあめ食べたい！○○くん、買って！買って！」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 #
 「あ、ちょっと！わかったから、はぐれるなよ！」[p]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #
 わたあめは好き？
@@ -452,12 +449,12 @@
 お祭りは好き？嫌い？
 →[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 
 [bg storage=kyoshitsu_window_hiru.jpg time=3000]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #未々実
 「○○くん、今日はありがとう！すっごく楽しかった！」[p]
@@ -479,7 +476,7 @@
 　あとこれはよかったらなんだけど、次は浴衣着てほしいな。」[p]
 「えっと…まあこれは俺が見てみたいだけなんだけど…。」[p]
 
-[chara_mod name="mimimi" face="smile"]
+[chara_mod name="12m" face="smile"]
 
 #未々実
 「あ、○○くん浴衣フェチ？」[p]
@@ -496,7 +493,7 @@
 #
 今日はあの馬鹿げた話はしなかった。[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 
 [bg storage=kyoshitsu_window_hiru.jpg time=3000]
@@ -504,7 +501,7 @@
 #
 今日は夏休み前の最後の登校日だった。[p]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #未々実
 「○○くん！よかったら今日一緒に帰らない？」[p]
@@ -515,7 +512,7 @@
 #未々実
 「よかった…！」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 #
 どうしたんだろう、一緒に帰ろうだなんて誘われたこと一度だってなかったのに。[p]
@@ -528,7 +525,7 @@
 #
 その日の放課後、少し教室で待っててほしいといわれ、俺は未々実を待っていた。[p]
 
-[chara_show name="mimimi"]
+[chara_show name="12m"]
 
 #未々実
 「ごめんね、お待たせ。」[p]
@@ -536,18 +533,18 @@
 #
 「ううん、全然いいよ」[p]
 
-[chara_mod name="mimimi" face="sad"]
+[chara_mod name="12m" face="sad"]
 
 #未々実
 「じゃあ帰ろう」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 
 [bg storage=tsugakuro_yu.jpg time=3000]
 
-[chara_show name="mimimi"]
-[chara_mod name="mimimi" face="sad"]
+[chara_show name="12m"]
+[chara_mod name="12m" face="sad"]
 
 #
 一緒に歩く未々実はいつもはハイテンションで俺の前を歩くのに、今日は何かに後ろ脚を引かれているように足取りが重かった。[p]
@@ -569,7 +566,7 @@
 #未々実
 「ありがとう」[p]
 
-[chara_mod name="mimimi" face="default"]
+[chara_mod name="12m" face="default"]
 
 #未々実
 「今日はきっと最後だから、最初から話すね」[p]
@@ -653,7 +650,7 @@
 #未々実
 「もし世界が終わってもまた会えるよね。きっと会いに来てくれるよね。」[p]
 
-[chara_hide name="mimimi" ]
+[chara_hide name="12m" ]
 
 #私
 最後らへんはまたちゃんとかき加えます。[p]
