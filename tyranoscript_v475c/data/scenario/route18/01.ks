@@ -11,6 +11,7 @@
 #
 この物語はフィクションであり、登場する人物や名称などは実際のものとは関係ありません。[p]
 
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 序章　ゼミに行こう！[p]
@@ -70,7 +71,8 @@
 [playbgm storage="D_day.ogg"]
 
 [bg storage="tsugakuro_hiru.jpg" time="1000"]
-
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #香菜
 「おはよう！光明！」[p]
 
@@ -118,7 +120,7 @@
 
 #
 俺は2人に置いて行かれないよう早足で歩いた。[p]
-
+[chara_hide_all time=1000 wait=true]
 [stopbgm ]
 
 [bg storage="kyoshitsu_window_hiru.jpg" time="1000"]
@@ -135,6 +137,8 @@
 #
 まさかメンバーが俺たち三人だけだなんてな…[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #香菜
 「新鮮味ないじゃーん！」[p]
 
@@ -147,23 +151,29 @@
 #
 また香菜がちょっかい出しやがった。[p]
 
+[chara_hide_all time=1000 wait=true]
 #
 ガラガラ… [p]
 
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「あれが、俺たちの先生か…」[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 俺たちの目の前に現れたのは、[r]
 髪で目が隠れ、十字架のネックレスを着け、白衣を着ただった。[p]
 
 [playbgm storage="D_PR.ogg"]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #髪で目が隠れ十字架のネックレスを着け白衣を着た男
 「君たちが俺のゼミに入った学生たちだな。俺は「御月凛音(みつきりんね)」だ。」[p]
 
 #
 俺たちは先生に自分の名前を言って自己紹介をした。[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="04teacher" width="500" height="700" top="60"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #御月先生
 「自己紹介が終わったところで、俺のゼミの説明をしよう。[r]
 俺のゼミでは、最終試験なんてものはない、レポートもない。」[p]
@@ -182,7 +192,7 @@
 
 #
 その時だった。[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 一瞬目の前が暗くなって、次に目を見開くと…[p]
@@ -202,6 +212,7 @@
 ここは…どこだ？[p]
 
 [playbgm storage="D_PR.ogg"]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「ようこそ、私の世界へ。」[p]
 
@@ -210,7 +221,10 @@
 
 #
 すげぇなおい。[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="04teacher" width="500" height="700" top="60"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #御月先生
 「君たちの成績はここでのフィールドワークがカギになるのだ。」[p]
 
@@ -278,9 +292,12 @@
 #御月先生
 「それでは、ご健闘をお祈りいたします。」[p]
 
+[chara_hide_all time=1000 wait=true]
 #
 次の瞬間、先生の姿・声は消えてしまった。[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #香菜
 「ね、ねぇ…これからどうすんのよ…。」[p]
 
@@ -313,9 +330,11 @@
 
 #
 この後、何が待ち受けているのかを知らないままに…。[p]
+[chara_hide_all time=1000 wait=true]
 
 [stopbgm]
 [bg storage="black.jpg" time="1000"]
+*alive1
 #
 第１章　悲劇[p]
 
@@ -325,8 +344,10 @@
 [bg storage="hankagai_hiru.jpg" time="1000"]
 #
 俺たちは、目標としていた町についた。[p]
-
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 [playbgm storage="D_enjoytown.ogg"]
+
 #裕樹
 「店といい、外観といい、意外とちゃんとしてるじゃねーか。」[p]
 
@@ -441,6 +462,8 @@
 #
 その時だった[p]
 
+[chara_hide_all time=1000 wait=true]
+[chara_show name="05dqn" width="500" height="700" top="80"]
 #暴動の主犯格
 「おい…俺の警告を破ったな？」[p]
 
@@ -460,13 +483,14 @@
 裕樹…香菜…ごめんな…。[p]
 
 [stopbgm]
+[chara_hide_all time=1000 wait=true]
 [playbgm storage="D_gameover.ogg"]
 [bg storage="black.jpg" time="1000"]
 #
 そして俺たちは意識を失った。[p]
 
 [stopbgm]
-@jump storage="common/01.ks"
+@jump target=*alive1
 
 *select2
 [cm]
@@ -496,19 +520,22 @@
 #
 二人の警告を無視して俺たちは西の店に向かった。[p]
 
+[chara_hide_all time=1000 wait=true]
+[chara_show name="05dqn" width="500" height="700" top="80"]
 #暴動の主犯格
 「んぁ？ここに自ら突っ込んでくるとはバカか！」[p]
 
 #
 あぁ…やらかした…。俺は悪魔か…。[p]
 [stopbgm]
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 [playbgm storage="D_gameover.ogg"]
 #
 俺たちは意識を失った。[p]
 
 [stopbgm]
-@jump storage="common/01.ks"
+@jump target=*alive1
 
 *Stage1clear
 [cm]
