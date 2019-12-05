@@ -25,11 +25,9 @@
 [chara_new name="09bk" storage="chara/09bk/bk.PNG" jname="BK"]
 [chara_new name="10eg" storage="chara/10eg/eg.PNG" jname="EG"]
 [chara_new name="11amiru" storage="chara/11amiru/amiru.PNG" jname="アミル"]
-
 [chara_new name="12m" storage="chara/12m/m.png" jname="未々実"]
-[chara_face name="12m" face="smile" storage="chara/12m/m_smile.png"]
-[chara_face name="12m" face="sad" storage="chara/12m/m_sad.png"]
-
+  [chara_face name="12m" face="smile" storage="chara/12m/m_smile.png"]
+  [chara_face name="12m" face="sad" storage="chara/12m/m_sad.png"]
 [chara_new name="13SP" storage="chara/13SP/SP.png" jname="ハシム"]
 [chara_new name="14hocho" storage="chara/14hocho/hocho.PNG" jname="包丁を持った男"]
 [chara_new name="15doc" storage="chara/15doc/doc.png" jname="カリスマ医者"]
