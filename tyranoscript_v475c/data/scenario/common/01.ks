@@ -29,9 +29,26 @@
 [chara_config ptext="chara_name_area"]
 
 ;initialise characters
+[chara_new name="01mobuko" storage="chara/01mobuko/mobuko.png" jname="モブ子"]
+[chara_new name="02yuuki" storage="chara/02yuuki/yuuki.PNG" jname="ユウキ"]
+[chara_new name="03kana" storage="chara/03kana/kana.PNG" jname="カナ"]
+[chara_new name="04teacher" storage="chara/04teacher/teacher.PNG" jname="先生"]
+[chara_new name="05dqn" storage="chara/05dqn/dqn.PNG" jname="DQN"]
+[chara_new name="06ojo" storage="chara/06ojo" jname="お嬢"]
+[chara_new name="07senpai" storage="chara/07senpai/senpai.PNG" jname="先輩"]
+[chara_new name="08dog" storage="chara/08dog/dog.PNG" jname="犬"]
+[chara_new name="09bk" storage="chara/09bk/bk.PNG" jname="BK"]
+[chara_new name="10eg" storage="chara/10eg/eg.PNG" jname="EG"]
+[chara_new name="11amiru" storage="chara/11amiru/amiru.PNG" jname="アミル"]
 
-[chara_new name="amiru" storage="chara/11amiru/amiru.PNG" jname="アミル"]
-[chara_new name="hasimu" storage="chara/13SP/SP.png" jname="ハシム"]
+[chara_new name="12m" storage="chara/12m/m.png" jname="未々実"]
+[chara_face name="12m" face="smile" storage="chara/12m/m_smile.png"]
+[chara_face name="12m" face="sad" storage="chara/12m/m_sad.png"]
+
+[chara_new name="13SP" storage="chara/13SP/SP.png" jname="ハシム"]
+[chara_new name="14hocho" storage="chara/14hocho/hocho.PNG" jname="包丁を持った男"]
+[chara_new name="15doc" storage="chara/15doc/doc.png" jname="カリスマ医者"]
+[chara_new name="16shibu" storage="chara/16shibu/shibu.png" jname="渋いおじさん"]
 [chara_new name="bou_1" storage="chara/bou/01.png" jname="棒1"]
 [chara_new name="bou_2" storage="chara/bou/02.png" jname="棒2"]
 [chara_new name="bou_3" storage="chara/bou/03.png" jname="棒3"]
