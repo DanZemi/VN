@@ -61,7 +61,7 @@
 [glink  color="blue"  storage="route14/01.ks"  size="20"  x="630"  width="210"  y="180"  text="カバディカバディ"  target="*start"]
 [glink  color="blue"  storage="route15/01.ks"  size="20"  x="630"  width="210"  y="260"  text="目の前で事故が起きる"  target="*start"]
 [glink  color="blue"  storage="route16/01.ks"  size="20"  x="630"  width="210"  y="340"  text="推しとぶつかる"  target="*start"]
-[glink  color="blue"  storage="route17/01.ks"  size="20"  x="630"  width="210"  y="420"  text="宮田"  target="*start"]
+[glink  color="blue"  storage="route17/01.ks"  size="20"  x="630"  width="210"  y="420"  text="あなたは？？？"  target="*start"]
 [glink  color="blue"  storage="route18/01.ks"  size="20"  x="630"  width="210"  y="500"  text="ドンッ！から紡ぐ友情の物語"  target="*start"]
 
 [s]
