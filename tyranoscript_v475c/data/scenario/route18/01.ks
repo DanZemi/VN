@@ -720,7 +720,7 @@
 俺たちは完全に意識を失った。[p]
 
 [stopbgm]
-@jump storage="common/01.ks"
+@jump target=*alive1
 
 *select5
 [cm]
@@ -758,7 +758,7 @@
 俺たちは意識を失った。[p]
 
 [stopbgm]
-@jump storage="common/01.ks"
+@jump target=*alive1
 *select6
 [cm]
 @jump target=*Stage2clear
@@ -1004,7 +1004,7 @@
 俺たちは意識を失った。[p]
 
 [stopbgm]
-@jump storage="common/01.ks"
+@jump target=*alive1
 
 *select9
 [cm]
@@ -1055,7 +1055,7 @@
 ったく、治安の悪い世界だぜ…。[p]
 [stopbgm]
 
-@jump storage="common/01.ks"
+@jump target=*alive1
 
 *select7
 [cm]
@@ -1313,8 +1313,8 @@
 
 #
 わかんねぇよ…。[p]
-[stopbgm
-[playbgm storage="D_gameover.ogg"]]
+[stopbgm]
+[playbgm storage="D_gameover.ogg"]
 #
 俺たちは意識を失った。[p]
 
@@ -1362,6 +1362,7 @@
 #
 すると謎の女性は話し始めた。[p]
 
+[playbgm storage="D_PR.ogg"]
 #???
 「いきなりごめんなさい。」[p]
 
@@ -1377,6 +1378,7 @@
 #???
 「同じ大学、同じ御月ゼミの先輩として。」[p]
 
+[stopbgm]
 #
 …！[p]
 
@@ -1386,6 +1388,7 @@
 #先輩
 「私も御月先生のゼミに入ったの。」[p]
 
+[playbgm storage="D_sudden.ogg"]
 #先輩
 「そしたらこの世界に監禁されて、[r]
 今じゃあ意味もなく生きているのと同然。」[p]
@@ -1421,12 +1424,14 @@
 「このゲームに参加させられて1年がたった。[r]
 しかし終わらない。」[p]
 
+[stopbgm]
 #先輩
 「つまり、このまま永遠に監禁され、いずれ理不尽に殺される。」[p]
 
 #光明
 「ですよね。」[p]
 
+[playbgm storage="D_sudden.ogg"]
 #香菜
 「えっ…。嘘でしょ…。」[p]
 
@@ -1488,9 +1493,11 @@
 #香菜
 「その気持ち大事ですよ！」[p]
 
+[stopbgm]
 #光明
 「そういえば、なぜ僕たちのことが分かったのですか？」[p]
 
+[playbgm storage="D_ando.ogg"]
 #先輩
 「私ね、学生アドバイザーだったの。」[p]
 
@@ -1514,7 +1521,7 @@
 
 #光明
 「なるほど。」[p]
-
+[stopbgm]
 #
 その時だった。[p]
 
@@ -1551,6 +1558,7 @@
 #
 ま、まじか。[p]
 
+[playbgm storage="D_trouble.ogg"]
 #警察
 「多屋さんは独り暮らしのはず。」[p]
 
@@ -1569,6 +1577,8 @@
 
 *select12
 [cm]
+[stopbgm]
+[playbgm storage="D_danger.ogg"]
 #光明
 「俺の名前が、出てこない…。」[p]
 
@@ -1584,6 +1594,9 @@
 [bg storage="black.jpg" time="1000"]
 #
 その後なんやかんやで死刑判決が出て、執行された。[p]
+
+[stopbgm]
+[playbgm storage="D_gameover.ogg"]
 
 #
 俺たちは意識を失った。[p]
