@@ -128,6 +128,7 @@
 #
 ...[p]
 
+[playse storage="school_Bell.ogg"]
 #
 キーンコーンカーンコーン！[p]
 
