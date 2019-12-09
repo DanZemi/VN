@@ -218,10 +218,6 @@
 @jump target=*common2
 
 
-
-
-
-
 *select4
  [cm]
 「一日中家にいる」がクリックされました[p]
@@ -232,11 +228,65 @@
 *common2
 [bg storage=20190918_102933.jpg time="1000"]
 @layopt layer=message0 visible=true
-[cm]自分
-あ、寝てた。[p]
-今何時だろう[p]
-！？！？！[p]
-学校行かないと[p]
+[cm]
+ちょっと買いすぎたかな…[p]
+
+まあ、食べたっかったお菓子も買えたし[r]
+良しとするか笑[p]
+
+じゃあ今日は짜장면でも食べて寝よ[p]
+
+
+[bg storage=20190917_124510.jpg time="1000"]
+@layopt layer=message0 visible=true
+#
+試験日　試験語
+#自分
+あー、やっとテスト終わった！
+
+[link target=*selectg]【１】testは簡単だった[endlink][r]
+[link target=*selectb]【２】testは難しかった[endlink][r]
+[s]
+
+*selectg
+ [cm]
+「testは簡単だった」がクリックされました[p]
+#自分
+よし！めっちゃできた気がする！[l][r]
+これは上位クラスかな[p]
+
+月曜日からが楽しみ！[p]
+@jump target=*commonff
+
+
+*selectb
+ [cm]
+「testは難しかった」がクリックされました[p]
+
+はぁ、、、[l][r]
+全然話せれなかったし、机と宿題を言い間違えた、、、[p]
+
+月曜からの授業が心配や[l][r]
+下の方のクラスになったらクラス変えてもらおう[p]
+
+学校探検してから帰ろう
+
+
+[bg storage=20190917_124510.jpg time="1000"]
+@layopt layer=message0 visible=true
+
+授業初日
+
+まだ教室にはだれも来てないなぁ
+早く着きすぎたか
+
+
+
+
+
+
+
+
 
 
 
@@ -246,7 +296,7 @@
 *commonff
 [bg storage=20190917_124510.jpg time="1000"]
 @layopt layer=message0 visible=true
-[cm]自分
+[cm]
 ついに修了式か[l][r]
 短かったなぁ[p]
 
@@ -301,5 +351,21 @@
 いやーまさか夢だったとは、[p]
 
 なんか、今日は疲れたし早く寝よ[p]
+
+
+[bg storage=20190917_124510.jpg time="1000"]
+@layopt layer=message0 visible=true
+
+
+
+
+
+
+
+
+
+
+
+
 
 @jump storage="common/01.ks"
