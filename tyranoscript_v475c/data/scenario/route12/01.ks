@@ -36,16 +36,18 @@
 #モブ子
 「ありがとう。[r]
 　その制服…おんなじ高校だよね？」[p]
-「じゃあ学校まで一緒に行こう！」[p]
+「じゃあ学校まで一緒に行こう！」[l][cm]
 
 [chara_hide name="mobuko" ]
 
 *c1
 
 [bg storage=kyoshitsu_door_hiru.jpg time=3000]
+[playse storage="School_Bell.ogg"]
+[wait time=6000]
 
 #あなた
-「すみません！」[p]
+「すみません！」[l][cm]
 
 #
 だめだやっぱり遅刻してしまった！[p]
@@ -117,13 +119,13 @@
 [s]
 
 *select3
-#未々実
+#女の子
 「そうだと思った！」[p]
 
 [jump storage="route12/01.ks" target=*c2]
 
 *select4
-#未々実
+#女の子
 「みえないなあ…。」[p]
 
 [jump storage="route12/01.ks" target=*c2]
@@ -132,13 +134,13 @@
 
 [chara_mod name="12m" face="smile"]
 
-#未々実
+#女の子
 「私と一緒！」[p]
 
 [jump storage="route12/01.ks" target=*c2]
 
 *select6
-#未々実
+#女の子
 「へえ～！珍しいね！」[p]
 
 *c2
@@ -510,12 +512,12 @@
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="630"  width="210"  y="200"  text="たこやき"  target="*select16"]
 [s]
 
-*select13
+*select15
 #未々実
 「私もやきそば大好き！」[p]
 
 [jump storage="route12/01.ks" target=*c7]
-*select14
+*select16
 #未々実
 「たこやきってなんであんなにおいしいんだろうね。」[p]
 
@@ -829,6 +831,7 @@
 「もしもの話なんだけどさ、[l][r]
 　明日地球がなくなっちゃうって知ってるなら、何がしたい？」[p]
 
+[chara_hide name="12m" ]
 [bg storage=black.jpg time=3000]
 
 #

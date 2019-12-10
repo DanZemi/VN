@@ -556,6 +556,8 @@
 #
 その時だった[p]
 
+[chara_hide_all time=1000 wait=true]
+[chara_show name="05dqn" width="500" height="700" top="80"]
 #暴動の主犯格
 「おい…俺の警告を破ったな？」[p]
 
@@ -578,6 +580,7 @@
 #
 そして俺たちは意識を失っ[p]
 
+[chara_hide_all time=1000 wait=true]
 #
 てないぞ！なんやねんっ！あぶねーあぶねーww[p]
 
@@ -588,6 +591,8 @@
 見たところ子供とその母親らしき女性が泣いている。かわいそうに…。[p]
 
 [playbgm storage="D_pop.ogg"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「運よく逃げることができたな。」[p]
 
@@ -624,6 +629,7 @@
 #香菜
 「お願いっ…！来ないで！」[p]
 
+[chara_hide_all time=1000 wait=true]
 #
 …！[p]
 
@@ -642,12 +648,14 @@
 #光明
 「裕樹、ここどこだっけ？」[p]
 
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「俺のリサーチによれば『集いの町』っていうらしいぜ。」[p]
 
 #光明
 「おぉ、さんきゅ！」[p]
 
+[chara_hide_all time=1000 wait=true]
 #光明
 「すみません。集いの町です！」[p]
 
@@ -657,6 +665,7 @@
 #警察官
 「えっと…その…君…。」[p]
 
+[stopbgm]
 #警察官
 「『集いの町』は、どこにあるのかな？」[p]
 
@@ -681,6 +690,7 @@
 #
 だとしたらこのまま大学に警察を呼ぼう！[p]
 
+[playbgm storage="D_trouble.ogg"]
 #光明
 「あぁ、ごめんなさい！言い方を変えます。」[p]
 
@@ -689,8 +699,7 @@
 
 #
 その時だった[p]
-[stopbgm]
-
+[chara_show name="05dqn" width="500" height="700" top="80"]
 #暴動の主犯格
 「お前ら何裏でごちゃごちゃ騒いでんだよ？」[p]
 
@@ -714,7 +723,8 @@
 
 #警察官
 「ったく、イタズラもほどほどにしてくださいよ？」[p]
-
+[stopbgm]
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 [playbgm storage="D_gameover.ogg"]
 #
@@ -740,6 +750,8 @@
 #光明
 「すみません！誰かいませんか！助けてください！」[p]
 
+[chara_hide_all time=1000 wait=true]
+[chara_show name="05dqn" width="500" height="700" top="80"]
 #暴動の主犯格
 「呼んだ？」[p]
 
@@ -751,8 +763,8 @@
 
 #
 ああっ！うっ…！[p]
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
-
 [bg storage="black.jpg" time="1000"]
 [playbgm storage="D_gameover.ogg"]
 #
@@ -782,15 +794,17 @@
 #香菜
 「わ、わかった。信じるよ！」[p]
 
+[chara_hide_all time=1000 wait=true]
 #
 その時だった[p]
 
+[chara_show name="05dqn" width="500" height="700" top="80"]
 #暴動の主犯格
 「なにぃ！？警察！？」[p]
 
 #暴動の主犯格
 「チッ…クソが！」[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 どうやら警察が騒ぎに気付いて駆けつけてみたいだ。[p]
 
@@ -799,7 +813,8 @@
 
 [stopbgm]
 [playbgm storage="D_pop.ogg"]
-
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #香菜
 「はぁー。助かったんだ。私たち。」[p]
 
@@ -878,6 +893,7 @@
 
 #
 何だ！何なんだ！奴の目的は！[p]
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
 
 #
@@ -891,6 +907,8 @@
 気づくと俺たちは公園らしき場所のベンチに座っていた。[p]
 
 [playbgm storage="D_night.ogg"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #光明
 「なあ、今夜どうするよ。」[p]
 
@@ -937,6 +955,7 @@
 
 #
 俺たちは宿屋に入った。[p]
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
 
 [bg storage="washitsu_yoru.jpg" time="1000"]
@@ -952,6 +971,7 @@
 
 #???
 「あらあら、何事ですの？」[p]
+[chara_show name="06ojo" width="500" height="700" top="60"]
 
 #光明
 「ど、どちら様で…。」[p]
@@ -998,6 +1018,7 @@
 
 #御嬢キャロリーヌ
 「あーあ。せっかくの宿屋が汚れてしまいましたわ。」[p]
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
 [bg storage="black.jpg" time="1000"]
 [playbgm storage="D_gameover.ogg"]
@@ -1026,6 +1047,7 @@
 
 #
 俺たちは町のすみっこで一晩過ごした。[p]
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
 [bg storage="black.jpg" time="1000"]
 #
@@ -1086,6 +1108,7 @@
 
 #
 俺たちは宿屋に入った。[p]
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
 
 [bg storage="washitsu_yoru.jpg" time="1000"]
@@ -1121,6 +1144,8 @@
 
 [bg storage="kawaL_hiru.jpg" time="1000"]
 [playbgm storage="D_morning.ogg"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「5,000円でもサービスはよかったよな。」[p]
 
@@ -1135,9 +1160,11 @@
 
 #
 見てろよ、御月先生。[p]
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
 
 [bg storage="black.jpg" time="1000"]
+*alive2
 #
 第２章　拠点を求めて[p]
 
@@ -1147,7 +1174,9 @@
 
 #
 いろいろあったが俺たちは生きています。[p]
-
+[playbgm storage="D_day.ogg"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #光明
 「今日は生活物資と拠点を確保しよう。」[p]
 
@@ -1174,9 +1203,12 @@
 
 #
 話しているうちに、商店街らしき場所についた。[p]
-
+[stopbgm]
+[chara_hide_all time=1000 wait=true]
 [playbgm storage="D_enjoytown.ogg"]
 [bg storage="hankagai_hiru.jpg" time="1000"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「さすが商店街だ。いろいろあるな。」[p]
 
@@ -1228,6 +1260,7 @@
 #
 …！[p]
 
+[chara_show name="07senpai" width="500" height="600" top="40"]
 #
 誰だ、この女性は。[p]
 
@@ -1244,6 +1277,9 @@
 #
 なぜ「拠点」というワードが…。この女は何者なんだ。[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「おい、光明。いきなりで怪しすぎないか？」[p]
 
@@ -1267,12 +1303,15 @@
 #???
 「あっそ…。」[p]
 
+[chara_hide_all time=1000 wait=true]
 #
 すると謎の女性はどこかに去ってしまった。[p]
 
 #
 いったい何だったのだろう…。[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「あの女、絶対何か企んでる。」[p]
 
@@ -1285,6 +1324,7 @@
 #
 その時だった。[p]
 [stopbgm]
+[chara_hide_all time=1000 wait=true]
 #
 突然俺たちはめまいに襲われた。[p]
 
@@ -1320,7 +1360,7 @@
 俺たちは意識を失った。[p]
 
 [stopbgm]
-@jump storage="common/01.ks"
+@jump target=*alive2
 
 *select10
 [cm]
@@ -1345,17 +1385,19 @@
 
 #
 そう言ううちに、俺たちは小さな家に案内された。[p]
-
+[chara_hide_all time=1000 wait=true]
 [stopbgm]
+[chara_show name="07senpai" width="500" height="600" top="40"]
 #???
 「入って。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
 #香菜
 「町から離れちゃったけれど大丈夫なの？」[p]
 
 #
 そして俺たちは言われるがまま家に入った。[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="living_yu.jpg" time="1000"]
 #光明
 「お邪魔します。」[p]
@@ -1364,6 +1406,7 @@
 すると謎の女性は話し始めた。[p]
 
 [playbgm storage="D_PR.ogg"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
 #???
 「いきなりごめんなさい。」[p]
 
@@ -1389,7 +1432,11 @@
 #先輩
 「私も御月先生のゼミに入ったの。」[p]
 
+[chara_hide_all time=1000 wait=true]
 [playbgm storage="D_sudden.ogg"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #先輩
 「そしたらこの世界に監禁されて、[r]
 今じゃあ意味もなく生きているのと同然。」[p]
@@ -1534,7 +1581,8 @@
 
 #先輩
 「ちょっと待っててね。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="07senpai" width="500" height="600" top="40"]
 #警察
 「こんばんは。警察です。」[p]
 
@@ -1547,6 +1595,8 @@
 #多屋先輩
 「はい、そうです。」[p]
 
+[chara_hide_all time=1000 wait=true]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「多屋先輩。そういえばそんな名前だったな。」[p]
 
@@ -1558,7 +1608,7 @@
 
 #
 ま、まじか。[p]
-
+[chara_hide_all time=1000 wait=true]
 [playbgm storage="D_trouble.ogg"]
 #警察
 「多屋さんは独り暮らしのはず。」[p]
@@ -1602,7 +1652,7 @@
 #
 俺たちは意識を失った。[p]
 
-@jump storage="common/01.ks"
+@jump target=*alive2
 
 *select13
 [cm]
@@ -1634,7 +1684,7 @@
 #
 俺たちは意識を失った。[p]
 
-@jump storage="common/01.ks"
+@jump target=*alive2
 
 *select14
 [cm]
@@ -1656,13 +1706,18 @@
 
 #
 そういうと警察は帰っていった。[p]
-
+[stopbgm]
+[chara_show name="07senpai" width="500" height="600" top="40"]
 #多屋先輩
 「大丈夫よ。もうかなり遠くに行ったわ。」[p]
 
 #
 た、助かった。[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
+[playbgm storage="D_ando.ogg"]
 #裕樹
 「光明、また乗り越えたな。」[p]
 
@@ -1734,7 +1789,8 @@
 
 #
 絶対にやってやる。見てろよ、御月先生。[p]
-
+[stopbgm]
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 第３章　ソウルメイト[p]
@@ -1756,6 +1812,7 @@
 ちょっと外の空気でも吸ってくるか。[p]
 
 [bg storage="living_yoru.jpg" time="1000"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
 #多屋先輩
 「あら、光明くん。眠れないの？」[p]
 
@@ -1797,7 +1854,7 @@
 
 #光明
 「わかりました。ありがとうございます。」[p]
-
+[chara_hide_all time=1000 wait=true]
 #誰と話そう？
 [link target=*select15]【１】裕樹と話す。[endlink][r]
 [link target=*select16]【２】香菜と話す。[endlink][r]
@@ -1807,9 +1864,11 @@
 *select15
 [cm]
 [bg storage="shujinko_heya_yoru.jpg" time="1000"]
+[playbgm storage="D_fork.ogg"]
 #光明
 「邪魔するぜ、裕樹。」[p]
 
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「おっ、光明、いきなりどうしたんだ？」[p]
 
@@ -1955,15 +2014,18 @@
 
 #光明
 「こちらこそありがとう。おやすみ！」[p]
-
+[stopbgm]
+[chara_hide_all time=1000 wait=true]
 @jump target=*Stage6clear
 
 *select16
 [cm]
 [bg storage="yozora3.jpg" time="1000"]
+[playbgm storage="D_midnight.ogg"]
 #光明
 「邪魔するぜ。香菜。」[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
 #香菜
 「うおっ！びっくりした！」[p]
 
@@ -2140,7 +2202,8 @@
 
 #光明
 「おやすみ！」[p]
-
+[stopbgm]
+[chara_hide_all time=1000 wait=true]
 @jump target=*stage6clear
 
 *stage6clear
@@ -2151,7 +2214,9 @@
 [bg storage="living_hiru.jpg" time="1000"]
 #
 俺はシステムらしきものを探す趣旨を残りのメンバーに伝えた。[p]
-
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「気をつけろよ！」[p]
 
@@ -2167,6 +2232,7 @@
 #
 そう言い俺は多屋先輩の家を後にした。[p]
 
+[chara_hide_all time=1000 wait=true]
 #
 絶対に世界を管理しているシステムセンターがある！[p]
 
@@ -2180,6 +2246,7 @@
 待っていろよ、御月先生。[p]
 
 [bg storage="black.jpg" time="1000"]
+*alive4
 #
 第４章　パラドクス[p]
 [bg storage="kusa2.jpg" time="1000"]
@@ -2195,6 +2262,7 @@
 #
 …[p]
 
+[bg storage="hankagai_hiru.jpg" time="1000"]
 #
 さて、町についたわけだが。[p]
 
@@ -2281,7 +2349,7 @@
 #
 そして、俺は意識を失った。[p]
 
-@jump storage="common/01.ks"
+@jump target=*alive4
 
 *select19
 [cm]
@@ -2300,6 +2368,7 @@
 #光明
 「おい！犬！こっち来い！」[p]
 
+[chara_show name="08dog" width="300" height="400" top="150"]
 #犬
 「ワンワン！」[p]
 
@@ -2311,7 +2380,9 @@
 
 #
 俺は犬についていった。[p]
-
+[chara_hide_all time=1000 wait=true]
+[bg storage="iwa.jpg" time="1000"]
+[chara_show name="08dog" width="300" height="400" top="150"]
 #犬
 「ワンワン！」[p]
 
@@ -2323,7 +2394,7 @@
 
 #
 よし、掘るぞ！[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 数時間後[p]
@@ -2340,7 +2411,7 @@
 #
 みんな…ごめんな…。[p]
 
-@jump storage="common/01.ks"
+@jump target=*alive4
 
 *select18
 [cm]
@@ -2357,15 +2428,8 @@
 #
 よし、その路線で行くか。[p]
 
-[bg storage="hankagai_hiru.jpg" time="1000"]
 #
-…[p]
-
-#
-次は施設検索だ。[p]
-
-#
-どこで情報を集めようか。[p]
+とは言ったものの、どこで情報を集めようか。[p]
 
 #
 住民に話を聞くか、掲示板を見るかだよな。[p]
@@ -2434,6 +2498,8 @@
 そのころ多屋先輩の家では。[p]
 
 [bg storage="living_hiru.jpg" time="1000"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #香菜
 「光明大丈夫なのかな？」[p]
 
@@ -2451,10 +2517,11 @@
 
 #香菜
 「う、うん。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="07senpai" width="500" height="600" top="40"]
 #多屋先輩
 「あなたたちの友情は素敵ね。」[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 …。[p]
 
@@ -2539,6 +2606,9 @@
 #光明
 「ただいま。」[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #香菜
 「お帰り光明っ！」[p]
 
@@ -2575,7 +2645,7 @@
 
 #
 バタッ！[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 俺は床に倒れこんだ。[p]
@@ -2589,7 +2659,7 @@
 #
 そのまま俺は目を覚ますことはなかった。[p]
 
-@jump storage="common/01.ks"
+@jump target=*alive4
 
 *select20
 [cm]
@@ -2863,8 +2933,9 @@
 
 #
 絶対に勝ってみせるんだ！[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
+*alive5
 #
 第５章　黒幕
 
@@ -2888,6 +2959,9 @@
 #
 …[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="07senpai" width="500" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #光明
 「みんな、いよいよだな。」[p]
 
@@ -2950,7 +3024,7 @@
 
 #
 そう言い、俺たちは町から北の塔に向かった。[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 …[p]
 
@@ -2958,6 +3032,8 @@
 #
 俺たちは今、塔の入り口の前に立っている。[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #光明
 「よし、乗り込むぞ。」[p]
 
@@ -3005,7 +3081,7 @@
 
 #
 そう言い俺たちは塔に入った。[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 …[p]
 
@@ -3016,12 +3092,14 @@
 #
 何かないかな？[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「周り見てみようぜ。」[p]
 
 #香菜
 「私が最初に見つけてやるんだから！」[p]
-
+[chara_hide_all time=1000 wait=true]
 #どっちに行こう？
 [link target=*select24]【１】左。[endlink][r]
 [link target=*select25]【２】右。[endlink][r]
@@ -3063,6 +3141,8 @@
 #
 これは何の名前なんだ？[p]
 
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「どうした？何か見つかったか？」[p]
 
@@ -3161,11 +3241,13 @@
 
 #
 俺たちは議論の間に向かった。[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 …[p]
 
 [bg storage="shichokaku1.jpg" time="1000"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「着いたな。」[p]
 
@@ -3187,6 +3269,7 @@
 #光明
 「御月先生！」[p]
 
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「君たちは素晴らしいぞ！」[p]
 
@@ -3195,13 +3278,16 @@
 
 #御月先生
 「君たちが初めてだ。おめでとう。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「あ、あぁ。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
 #香菜
 「ありがとう…ございます。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「そんな君たちにチャンスを与えてやろう。」[p]
 
@@ -3258,7 +3344,9 @@
 
 #御月先生
 「俺の質問、やるか？」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「光明…。」[p]
 
@@ -3296,7 +3384,8 @@
 
 #裕樹
 「しっかりしろ！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「ほう、挑戦権を放棄したか。」[p]
 
@@ -3305,7 +3394,8 @@
 
 #
 次の瞬間床が開き俺たちは落下した。[p]
-
+[chara_hide_all time=1000 wait=true]
+[bg storage="black.jpg" time="1000"]
 #
 あぁ…力が抜けてゆく…。[p]
 
@@ -3318,11 +3408,10 @@
 #
 グチャッ！[p]
 
-[bg storage="black.jpg" time="1000"]
 #
 俺たちは意識を失った。[p]
 
-@jump storage="common/01.ks"
+@jump target=*alive5
 
 *select26
 [cm]
@@ -3338,7 +3427,8 @@
 
 #香菜
 「大好きな親友と一緒なら、何でもできる！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「熱い友情だな。」[p]
 
@@ -3353,25 +3443,29 @@
 
 #御月先生
 「大丈夫か？」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #３人
 「その覚悟だ！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「わかった、行くぞ！」[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 俺たちは円陣を組んだ。[p]
-
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #光明
 「行くぞー！」[p]
 
 #
 おぉぉぉぉぉーーーーー！[p]
-
+[chara_hide_all time=1000 wait=true]
 #Mission
 対決の時　正しい選択肢を選べ！[p]
-
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「質問は全部で５つだ。」[p]
 
@@ -3405,12 +3499,12 @@
 
 #御月先生
 「さようなら～。」[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 次の瞬間、俺たちは意識を失った。[p]
 
-@jump storage="common/01.ks"
+@jump target=*alive5
 
 *select28
 [cm]
@@ -3423,13 +3517,16 @@
 
 #御月先生
 「よろしい、まずは順調だ。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「多屋先輩には世話になったんだ！」[p]
 
 #香菜
 「忘れるわけないでしょ！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #
 残り４問。[p]
 
@@ -3451,13 +3548,16 @@
 
 #御月先生
 「よろしい、あの時も頑張っていたな。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「お前の仕業だと思うと…。」[p]
 
 #香菜
 「裕樹、今は落ち着いて！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #
 残り３問。[p]
 
@@ -3479,13 +3579,16 @@
 
 #御月先生
 「よろしい、引っかからなかったな。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「俺たちは集中しているんだ。」[p]
 
 #香菜
 「そうよ！命がかかっているのよ！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #
 残り２問。[p]
 
@@ -3507,13 +3610,16 @@
 
 #御月先生
 「よろしい、よく覚えていたな。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「香菜？顔が苦笑いだけど？」[p]
 
 #香菜
 「私、自信なかったわ…。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #
 残り１問。[p]
 
@@ -3535,16 +3641,20 @@
 
 #御月先生
 「よろしい、よろしい、よろしい！」[p]
-
+[chara_hide_all time=1000 wait=true]
 #
 おめでとうございます！クリアです！[p]
-
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「やったな、光明！」[p]
 
 #香菜
 「私たち勝ったわよ！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="04teacher" width="500" height="700" top="60"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #御月先生
 「おめでとう。君たち。」[p]
 
@@ -3637,7 +3747,8 @@
 
 #御月先生
 「この際だから言ってやるよ。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「あれは俺が小学校６年生の時だった。」[p]
 
@@ -3710,12 +3821,17 @@
 #御月先生
 「救助が間に合わず、焼け死んだんだ。」[p]
 
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #香菜
 「うっ…。うっ…。」[p]
 
 #裕樹
 「香菜…大丈夫だ…。」[p]
 
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「つまらない理由で、つまらない喧嘩で。」[p]
 
@@ -3778,13 +3894,16 @@
 
 #光明
 「そのターゲットとして大学生を片っ端から殺害。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「先生にそんな過去があったなんてな。」[p]
 
 #香菜
 「私、何も知らなかった…。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #光明
 「先生の気持ちはよくわかりました。」[p]
 
@@ -3851,7 +3970,9 @@
 
 #御月先生
 「ぎゃあぁあぁあぁあぁーーーーーーーっ！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「お、おい、光明…。どうすんだよ…。」[p]
 
@@ -3869,7 +3990,9 @@
 
 #
 あ、あれは…！[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="10eg" width="450" height="600" top="40"]
+[chara_show name="09bk" width="450" height="600" top="55"]
 #???
 「簿記の先生！英語の先生！助けてください！」[p]
 
@@ -3878,10 +4001,13 @@
 
 #英語の先生
 「私他の先生を呼んできます！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「放せっ！お前らはどこまで俺を苦しめるんだよ！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「うわぁ…。これが修羅場ってやつか…。」[p]
 
@@ -3890,7 +4016,8 @@
 
 #光明
 「一応そうみたいだな。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="09bk" width="450" height="600" top="55"]
 #簿記の先生
 「君たちは何なんじゃ？」[p]
 
@@ -3899,10 +4026,14 @@
 
 #簿記の先生
 「わかった！じゃがわしには何もできぬ…。」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="10eg" width="450" height="600" top="40"]
 #英語の先生
 「私に任せて！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="10eg" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「英語の先生！」[p]
 
@@ -3923,10 +4054,11 @@
 
 #英語の先生
 「あった。これね！」[p]
-
+[chara_hide_all time=1000 wait=true]
+[chara_show name="10eg" width="450" height="600" top="40"]
 #英語の先生
 「オーケーオーケー！テレポートするよー！」[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 次の瞬間、目の前が真っ暗になった。[p]
@@ -4068,6 +4200,8 @@
 ひとまず、外に出ようか。[p]
 
 [bg storage="tsugakuro_hiru.jpg" time="1000"]
+[chara_show name="03kana" width="450" height="600" top="40"]
+[chara_show name="02yuuki" width="450" height="600" top="40"]
 #裕樹
 「よっ！」[p]
 
@@ -4097,7 +4231,7 @@
 
 #光明
 「お、おいおい！置いていくなってー！」[p]
-
+[chara_hide_all time=1000 wait=true]
 [bg storage="sora2.jpg" time="1000"]
 #
 俺たちはしばらく簿記の先生のゼミにお邪魔することになった。[p]
