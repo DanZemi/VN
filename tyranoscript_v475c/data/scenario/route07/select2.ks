@@ -10,8 +10,8 @@
 #ピヨのすけ
 学校なんてさぼっちゃいなよ。[p]
 
-[glink color="blue" storage="route07/select2.ks" size="20" x="360" width="150" y="180" text="まあさぼっても大丈夫な授業だし、さぼろうかな！！" target="*sele1" ]
-[glink color="blue" storage="route07/select2.ks" size="20" x="360" width="150" y="120" text="ごめんなさい、単位やばいので！" target="*sele2" ]
+[glink color="blue" storage="route07/select2.ks" size="20" x="360" width="200" y="180" text="まあさぼっても大丈夫な授業だし、さぼろうかな！！" target="*sele1" ]
+[glink color="blue" storage="route07/select2.ks" size="20" x="360" width="200" y="100" text="ごめんなさい、単位やばいので！" target="*sele2" ]
 [s]
 
 *sele1
@@ -26,7 +26,8 @@
 ありがとう[p]
 君なら大学生活楽しく過ごしていけるだろうよ。[p]
 俺はひよこだったから大学いけなかったんだ。[p]
-だから俺の分まで楽しんでくれよな。[p]
+だから俺の分まで楽しんでくれよな。
+
 
 *sele2
 [cm]
@@ -36,3 +37,4 @@
 #ピヨのすけ
 そうかい、行ってきな[p]
 (真面目かよ、、、エンジョイしてねえな)
+@jump storage="common/01.ks"
