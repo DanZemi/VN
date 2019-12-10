@@ -1,6 +1,6 @@
 *start
 
-[bg storage="shujinko_heya_new_hiru.jpg" time="1000"]
+[bg storage="shujinko_heya_kara_yu.jpg" time="1000"]
 
 @layopt layer=message0 visible=true
 
@@ -1259,7 +1259,7 @@
 
 #
 …！[p]
-
+[chara_hide_all time="1000" wait=true]
 [chara_show name="07senpai" width="500" height="600" top="40"]
 #
 誰だ、この女性は。[p]
@@ -1276,7 +1276,7 @@
 
 #
 なぜ「拠点」というワードが…。この女は何者なんだ。[p]
-
+[chara_hide_all time="1000" wait=true]
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="07senpai" width="500" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
@@ -1801,7 +1801,7 @@
 
 #
 多屋彩華先輩の家を拠点とし、ゲーム内で生活をしている。[p]
-
+[playbgm storage="D_night.ogg"]
 #
 夜になっていざ寝床についてもなかなか寝付けない。[p]
 
@@ -1863,6 +1863,7 @@
 
 *select15
 [cm]
+[stopbgm]
 [bg storage="shujinko_heya_yoru.jpg" time="1000"]
 [playbgm storage="D_fork.ogg"]
 #光明
@@ -2020,6 +2021,7 @@
 
 *select16
 [cm]
+[stopbgm]
 [bg storage="yozora3.jpg" time="1000"]
 [playbgm storage="D_midnight.ogg"]
 #光明
@@ -2214,6 +2216,7 @@
 [bg storage="living_hiru.jpg" time="1000"]
 #
 俺はシステムらしきものを探す趣旨を残りのメンバーに伝えた。[p]
+[playbgm storage="D_ando.ogg"]
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="07senpai" width="500" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
@@ -2231,8 +2234,9 @@
 
 #
 そう言い俺は多屋先輩の家を後にした。[p]
-
+[stopbgm]
 [chara_hide_all time=1000 wait=true]
+[playbgm storage="D_courage.ogg"]
 #
 絶対に世界を管理しているシステムセンターがある！[p]
 
@@ -2244,11 +2248,12 @@
 
 #
 待っていろよ、御月先生。[p]
-
+[stopbgm]
 [bg storage="black.jpg" time="1000"]
 *alive4
 #
 第４章　パラドクス[p]
+[playbgm storage="D_courage.ogg"]
 [bg storage="kusa2.jpg" time="1000"]
 #
 俺は今町に向かっている。[p]
@@ -2301,10 +2306,10 @@
 
 #
 これに乗って、出発だ！[p]
-
+[stopbgm]
 #
 数分後[p]
-
+[playbgm storage="D_courage.ogg"]
 [bg storage="sora2.jpg" time="1000"]
 #
 今ビルの10階くらいの高さまで上がったな。[p]
@@ -2317,10 +2322,11 @@
 
 #
 その時だった。[p]
-
+[stopbgm]
 #
 パアァァーンッ！[p]
 
+[playbgm storage="D_sudden.ogg"]
 #
 え？何の音だ？[p]
 
@@ -2344,11 +2350,12 @@
 
 #
 俺の体は地面に強くたたきつけられた。[p]
-
+[stopbgm]
 [bg storage="black.jpg" time="1000"]
+[playbgm storage="D_gameover.ogg"]
 #
 そして、俺は意識を失った。[p]
-
+[stopbgm]
 @jump target=*alive4
 
 *select19
@@ -2364,7 +2371,8 @@
 
 #
 あっ。[p]
-
+[stopbgm]
+[playbgm storage="D_think.ogg"]
 #光明
 「おい！犬！こっち来い！」[p]
 
@@ -2396,6 +2404,7 @@
 よし、掘るぞ！[p]
 [chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
+[stopbgm]
 #
 数時間後[p]
 
@@ -2408,9 +2417,10 @@
 #
 あぁ、俺は何てことしてしまったのだろう。[p]
 
+[playbgm storage="D_gameover.ogg"]
 #
 みんな…ごめんな…。[p]
-
+[stopbgm]
 @jump target=*alive4
 
 *select18
@@ -2454,7 +2464,8 @@
 
 #
 見たところ塔のような建物だな。[p]
-
+[stopbgm]
+[playbgm storage="D_trouble.ogg"]
 #
 んっ？何か注意書きがあるぞ。[p]
 
@@ -2490,13 +2501,13 @@
 
 #
 そして俺は北の塔に向かって走り始めた。[p]
-
+[stopbgm]
 #
 …[p]
 
 #
 そのころ多屋先輩の家では。[p]
-
+[playbgm storage="D_ando.ogg"]
 [bg storage="living_hiru.jpg" time="1000"]
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
@@ -2521,10 +2532,11 @@
 [chara_show name="07senpai" width="500" height="600" top="40"]
 #多屋先輩
 「あなたたちの友情は素敵ね。」[p]
+[stopbgm]
 [chara_hide_all time=1000 wait=true]
 #
 …。[p]
-
+[playbgm storage="D_trouble.ogg"]
 [bg storage="morinomichi_hiru.jpg" time="1000"]
 #
 塔はここか。[p]
@@ -2550,13 +2562,14 @@
 
 #
 残り周るか。[p]
+[stopbgm]
 
 #
 …！[p]
 
 #
 こ、これは！[p]
-
+[playbgm storage="D_sudden.ogg"]
 #
 塔の壁に『Project.M』という文字が刻まれている…。[p]
 
@@ -2568,7 +2581,7 @@
 
 #
 何か、他にないのか！[p]
-
+[stopbgm]
 #
 …！[p]
 
@@ -2577,7 +2590,7 @@
 
 #
 りんね…。凛音…。あぁ、確定だ。[p]
-
+[playbgm storage="D_final.ogg"]
 #
 ここがシステムの中枢、奴の監視塔だ。[p]
 
@@ -2598,11 +2611,12 @@
 
 #
 そして、俺は多屋先輩の家に戻った。[p]
-
+[stopbgm]
 #
 …。[p]
 
 [bg storage="living_yu.jpg" time="1000"]
+[playbgm storage="D_fork.ogg"]
 #光明
 「ただいま。」[p]
 
@@ -2617,13 +2631,13 @@
 
 #多屋先輩
 「それでどうだった？手がかり掴めた？」[p]
-
+[stopbgm]
 #光明
 「あぁ、今から教えてやるよ。」[p]
 
 #香菜
 「本当に！？聞く聞く！」[p]
-
+[playbgm storage="D_trouble2.ogg"]
 #光明
 「まず、俺はここに行ったんだ。」[p]
 
@@ -2637,6 +2651,8 @@
 
 *selectbad
 [cm]
+[stopbgm]
+[playbgm storage="D_danger.ogg"]
 #
 あれ？急にめまいが…。[p]
 
@@ -2655,7 +2671,8 @@
 
 #香菜
 「いやぁぁぁーっ！」[p]
-
+[stopbgm]
+[playbgm storage="D_gameover.ogg"]
 #
 そのまま俺は目を覚ますことはなかった。[p]
 
@@ -2799,13 +2816,13 @@
 
 #光明
 「じゃあ…。」[p]
-
+[stopbgm]
 #光明
 「『避難した人は二度と町に帰れないのか』って話よ。」[p]
 
 #裕樹
 「…！」[p]
-
+[playbgm storage="D_trouble2.ogg"]
 #裕樹
 「俺はわかったぞ、光明。」[p]
 
@@ -2882,10 +2899,10 @@
 
 #光明
 「あぁ！」[p]
-
+[stopbgm]
 #光明
 「俺たちを監禁した『御月凛音先生』だよな！」[p]
-
+[playbgm storage="D_trouble2.ogg"]
 #多屋先輩
 「光明くんっ！あなたって本当に天才ね！」[p]
 
@@ -2933,6 +2950,7 @@
 
 #
 絶対に勝ってみせるんだ！[p]
+[stopbgm]
 [chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 *alive5
@@ -2942,7 +2960,7 @@
 [bg storage="living_hiru.jpg" time="1000"]
 #
 朝を迎えた。[p]
-
+[playbgm storage="D_courage.ogg"]
 #
 いよいよ最終決戦の時が来た。[p]
 
@@ -3025,13 +3043,14 @@
 #
 そう言い、俺たちは町から北の塔に向かった。[p]
 [chara_hide_all time=1000 wait=true]
+[stopbgm]
 #
 …[p]
 
 [bg storage="jimusho_aki_hiru.jpg" time="1000"]
 #
 俺たちは今、塔の入り口の前に立っている。[p]
-
+[playbgm storage="D_final.ogg"]
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
 #光明
@@ -3048,13 +3067,13 @@
 
 #光明
 「…。」[p]
-
+[stopbgm]
 #光明
 「知らんww」[p]
 
 #裕樹＆香菜
 「は？」[p]
-
+[playbgm storage="D_morning.ogg"]
 #香菜
 「み、光明さんノープランですか？」[p]
 
@@ -3081,10 +3100,11 @@
 
 #
 そう言い俺たちは塔に入った。[p]
+[stopbgm]
 [chara_hide_all time=1000 wait=true]
 #
 …[p]
-
+[playbgm storage="D_night.ogg"]
 [bg storage="type2_rouka_hiru.jpg" time="1000"]
 #
 エントランスだ。[p]
@@ -3128,7 +3148,7 @@
 [cm]
 #
 俺は右の方に行った。[p]
-
+[stopbgm]
 #
 …！[p]
 
@@ -3143,6 +3163,7 @@
 
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
+[playbgm storage="D_badhotel.ogg"]
 #裕樹
 「どうした？何か見つかったか？」[p]
 
@@ -3241,10 +3262,10 @@
 
 #
 俺たちは議論の間に向かった。[p]
+[stopbgm]
 [chara_hide_all time=1000 wait=true]
 #
 …[p]
-
 [bg storage="shichokaku1.jpg" time="1000"]
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
@@ -3256,7 +3277,8 @@
 
 #
 その時だった。[p]
-
+[playbgm storage="D_final.ogg"]
+[chara_hide_all time=1000 wait=true]
 #???
 「ようこそ、私の世界の中心へ。」[p]
 
@@ -3370,6 +3392,8 @@
 
 *select27
 [cm]
+[stopbgm]
+[playbgm storage="D_badhotel.ogg"]
 #光明
 「やっぱいいや。」[p]
 
@@ -3407,10 +3431,11 @@
 
 #
 グチャッ！[p]
-
+[stopbgm]
+[playbgm storage="D_gameover.ogg"]
 #
 俺たちは意識を失った。[p]
-
+[stopbgm]
 @jump target=*alive5
 
 *select26
@@ -3463,8 +3488,10 @@
 #
 おぉぉぉぉぉーーーーー！[p]
 [chara_hide_all time=1000 wait=true]
+[stopbgm]
 #Mission
 対決の時　正しい選択肢を選べ！[p]
+[playbgm storage="D_trouble2.ogg"]
 [chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「質問は全部で５つだ。」[p]
@@ -3477,7 +3504,8 @@
 
 #御月先生
 「行くぞ。」[p]
-
+[stopbgm]
+[playbgm storage="D_boss.ogg"]
 [bg storage="shichokaku2.jpg" time="1000"]
 #
 残り５問。
@@ -3491,6 +3519,8 @@
 
 *selectdeath
 [cm]
+[stopbgm]
+[playbgm storage="D_sudden.ogg"]
 #
 …！
 
@@ -3499,11 +3529,13 @@
 
 #御月先生
 「さようなら～。」[p]
+[stopbgm]
+[playbgm storage="D_gameover.ogg"]
 [chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 次の瞬間、俺たちは意識を失った。[p]
-
+[stopbgm]
 @jump target=*alive5
 
 *select28
@@ -3646,6 +3678,8 @@
 おめでとうございます！クリアです！[p]
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
+[stopbgm]
+[playbgm storage="D_trouble2.ogg"]
 #裕樹
 「やったな、光明！」[p]
 
@@ -3684,7 +3718,7 @@
 
 #御月先生
 「何かね？聞くだけ聞こう。」[p]
-
+[stopbgm]
 #光明
 「ゲームの世界にいる他のゼミ生も助けていただけませんか？」[p]
 
@@ -3752,6 +3786,7 @@
 #御月先生
 「あれは俺が小学校６年生の時だった。」[p]
 
+[playbgm storage="D_sad.ogg"]
 #御月先生
 「俺は両親とよく町に出かけていたんだ。」[p]
 
@@ -4060,6 +4095,7 @@
 「オーケーオーケー！テレポートするよー！」[p]
 [chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
+[stopbgm]
 #
 次の瞬間、目の前が真っ暗になった。[p]
 
@@ -4106,6 +4142,8 @@
 #光明
 「あ、あぁ。」[p]
 
+[playbgm storage="D_sad.ogg"]
+[bg storage="black.jpg" time="1000"]
 #
 俺、裕樹、香菜は御月の支配する世界から生還した。[p]
 
@@ -4155,7 +4193,6 @@
 #
 少し休ませてくれないか？[p]
 
-[bg storage="black.jpg" time="1000"]
 #
 …[p]
 
@@ -4164,7 +4201,7 @@
 
 #
 …[p]
-
+[stopbgm]
 #
 翌朝[p]
 
@@ -4183,7 +4220,7 @@
 
 #
 ゼミ？あっ...そういえばそうだったな。[p]
-
+[playbgm storage="D_ando.ogg"]
 #
 休養期間が終わって今日から大学だったな。[p]
 
@@ -4198,10 +4235,11 @@
 #
 再び俺たちの大学生活が始まる。[r]
 ひとまず、外に出ようか。[p]
-
+[stopbgm]
 [bg storage="tsugakuro_hiru.jpg" time="1000"]
 [chara_show name="03kana" width="450" height="600" top="40"]
 [chara_show name="02yuuki" width="450" height="600" top="40"]
+[playbgm storage="D_enjoytown.ogg"]
 #裕樹
 「よっ！」[p]
 
@@ -4210,7 +4248,8 @@
 
 #光明
 「裕樹、香菜！」[p]
-
+[stopbgm]
+[playbgm storage="D_friendbond.ogg"]
 #裕樹
 「今日から心機一転頑張ろうな！」[p]
 
@@ -4272,6 +4311,6 @@
 
 #
 Thank you for playing![p]
-
+[stopbgm]
 
 @jump storage="common/01.ks"
