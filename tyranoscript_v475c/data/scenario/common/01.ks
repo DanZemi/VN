@@ -42,7 +42,7 @@
 
 @layopt layer=message0 visible=false
 
-[glink  color="blue"  storage="route01/01.ks"  size="20"  x="30"  width="210"  y="100"  text="くりりん"  target="*start"]
+[glink  color="blue"  storage="route01/01.ks"  size="20"  x="30"  width="210"  y="100"  text="危険なバイト"  target="*start"]
 [glink  color="blue"  storage="route02/01.ks"  size="20"  x="30"  width="210"  y="180"  text="夢の中でダイスの女神と"  target="*start"]
 [glink  color="blue"  storage="route03/01.ks"  size="20"  x="30"  width="210"  y="260"  text="見知らぬ女の子とぶつかる"  target="*start"]
 [glink  color="blue"  storage="route04/01.ks"  size="20"  x="30"  width="210"  y="340"  text="泥まみれのイケメンとぶつかる"  target="*start"]
