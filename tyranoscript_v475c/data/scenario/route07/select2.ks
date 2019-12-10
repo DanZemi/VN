@@ -1,7 +1,5 @@
 *start2
 
-[bg storage="jitaku.jpg" time="1000"]
-
 @layopt layer=message0 visible=true
 
 #自分
@@ -13,6 +11,7 @@
 
 [glink color="blue" storage="route07/select2.ks" size="20" x="360" width="150" y="180" text="まあさぼっても大丈夫な授業だし、さぼろうかな！！" target="*sele1" ]
 [glink color="blue" storage="route07/select2.ks" size="20" x="360" width="150" y="180" text="ごめんなさい、単位やばいので！" target="*sele2" ]
+[s]
 
 *sele1
 #自分
@@ -23,7 +22,9 @@
 それじゃあ聴いてくれ、BATTLE[p]
 ♪～[p]
 ありがとう[p]
-@jump storage="route07/last"
+君なら大学生活楽しく過ごしていけるだろうよ。[p]
+俺はひよこだったから大学いけなかったんだ。[p]
+だから俺の分まで楽しんでくれよな。[p]
 
 *sele2
 #自分

@@ -1,8 +1,14 @@
-*start
-
-[bg storage="jitaku.jpg" time="1000"]
+*start1
 
 @layopt layer=message0 visible=true
 
-#主人公
-私の名前はなみちゃんだった
+#ピヨのすけ
+次の曲は、、、[p]
+♪～[p]
+
+#ピヨのすけ
+ありがとう、[p]
+また逢う日まで。[p]
+
+あいつはロックしてなかったな...[p]
+@jump storage="common/01.ks"
