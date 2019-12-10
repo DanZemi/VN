@@ -1,6 +1,6 @@
 *start
 
-[bg storage="tsugakuro2_hiru.jpg" time="1000"]
+[bg storage="tsugakuro_hiru.jpg" time="1000"]
 
 @layopt layer=message0 visible=true
 
@@ -92,7 +92,9 @@
 
 #
 [p]
+*start
 
+[bg storage="tsugakuro2_hiru.jpg" time="2000"]
 #
 テクテク[p]
 
