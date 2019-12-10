@@ -18,23 +18,9 @@
 病院か...[l][cm]
 #看護婦
 先生！..さんが目を覚ましました！[l][cm]
-[chara_new name="a" storage="chara/bou/01.png" jname="a"]
-[chara_new name="b" storage="chara/bou/02.png" jname="b"]
-[chara_new name="c" storage="chara/bou/03.png" jname="c"]
-[chara_new name="d" storage="chara/bou/04.png" jname="d"]
-[chara_new name="e" storage="chara/bou/05.png" jname="e"]
-[chara_new name="f" storage="chara/bou/06.png" jname="f"]
-[chara_new name="g" storage="chara/bou/07.png" jname="g"]
-[chara_new name="h" storage="chara/bou/08.png" jname="h"]
-[chara_show name="a"]
-[chara_show name="b"]
-[chara_show name="c"]
-[chara_show name="d"]
-[chara_show name="e"]
-[chara_show name="f"]
-[chara_show name="g"]
-[chara_show name="h"]
 #医者
+
+[chara_show name="15doc" width="500px" height="600px"]
 ..さん分かりますか？[l][cm]
 #???
 (...俺の事を言っているのか？)[l][cm]
@@ -53,21 +39,14 @@
 そうなんですか？[l][r]
 (確かに自分のことを思い出そうとすると何も思い出せない...)[l][cm]
 #向かいのベットの女性
-[font size="100"]
+[font size="90"]
 ゆうき！！！[l][cm]
 先生！！ゆうきが、ゆうきが目を覚ましました！！！[l][cm]
 #医者
 はい！すぐ伺います！！[l][r]
 たかはた ゆうき君、また何かの拍子に記憶が戻るかもしれない。[l][r]
 ささいなことでもいいから何か思い出したらいってくれ！[l][cm]
-[chara_hide name="a"]
-[chara_hide name="b"]
-[chara_hide name="c"]
-[chara_hide name="d"]
-[chara_hide name="e"]
-[chara_hide name="f"]
-[chara_hide name="g"]
-[chara_hide name="h"]
+[chara_hide name="15doc" ]
 #向かいのベットの女性
 先生はやく！！！[l][cm]
 #医者
@@ -110,6 +89,7 @@
 #
 ベットからでて向かいの母親とすれ違った時に急に立ち眩みがした。[l][cm]
 #母親
+[chara_show name="03kana" width="450px" height="450px"]
 大丈夫ですか？[l][cm]
 #
 倒れそうになるところを間一髪支えてもらった。[l][cm]
@@ -125,10 +105,13 @@
 #
 俺が困惑していると母親は手鏡を持ってきてくれた。[l][r]
 鏡に映し出された俺は母親の息子そのものだった。[l][cm]
+[chara_hide name="03kana"]
 #自分
+[chara_show name="17kanja"]
 俺は思わず息子の方を見てしまった。[l][r]
 息子も俺を見ていた。俺に微笑んでいた。[l]だが、なにか態度が異様だった。[l][r]
 ほくそ笑むといった方がいいのかもしれない。[l][cm]
+[chara_hide name="17kanja"]
 #自分
 なにか嫌な気がしたが、そのまま部屋をででいった。[l][r]
 ジュースを買ってベンチで飲んでいると誰かが話しかけてきた。[l][cm]
@@ -139,7 +122,7 @@
 [cm]
 「選択肢２」が選択されました[l][cm]
 #自分
-いや、行動しろバーカ[l][cm]
+いや、行動しろバーカ(´・∀・｀)[l][cm]
 @jump target="return01"
 
 ;共通ルート
@@ -162,6 +145,7 @@
 *select3
 [cm]
 「選択肢１」の身長１８０㎝のスラっとしたダンディが選択されました[l][cm]
+[chara_show name="16shibu"]
 #自分
 顔をあげるとそこには身長１８０㎝くらいのスラっとしたダンディな男が立っていた。[l][r]
 俺はゆうきですが、なにか用ですか？[l][cm]
@@ -196,13 +180,14 @@
 ゆみこさんならたぶん上の病室にいると思います....[l][cm]
 #吾郎
 そうか、なら一緒に行こう！俺も伝えたいことがあるしな...[l][r]
+[chara_hide name="16shibu"]
 @jump target="common02"
 ;選択肢２
 *select4
 [cm]
 「選択肢２」の体重１８０㎏のデブっとしたデブが選ばれました[l][cm]
 #自分
-デブ専？[l][cm]
+デブ専？┐(´∀｀)┌[l][cm]
 @jump target="return02"
 
 *common02
@@ -211,8 +196,10 @@
 .............[l][r]
 .............[l][cm]
 [bg storage=hoken_aki_yu.jpg time=3000]
+[chara_show name="03kana"]
 #ゆみこ
 吾郎！来てくれたのね。[l][cm]
+[chara_show name="16shibu" width="500px" height="600px"]
 #吾郎
 あぁ。ゆうきの意識がもどってよかった。[l][r]
 ちょうど一緒に上がってきたんだ。[l][cm]
@@ -221,6 +208,9 @@
 俺が吾郎の後ろから顔をだすとちょっと驚いた顔をしたがすぐに[l][r]
 あぁその子はゆうきにとても似ている子よ、ゆうきはここよ。[l][r]
 そういってゆみこはベットの方を指さした。[l][cm]
+[chara_show name="17kanja"]
+[chara_hide name="17kanja"]
+[chara_hide name="03kana"]
 #吾郎
 いったいどうなっているんだ.....[l][r]
 吾郎は俺に目線を合わせた[l][r]
@@ -252,19 +242,19 @@
 なんだろうな、こうしてみると君が本物のゆうきに見えてくるよ。[l][r]
 私は仕事ばかりで全然遊んであげられなかったから、よくそんな顔をされたよ。[l][r]
 それじゃ失礼するよ。[l][cm]
-
+[chara_hide_all]
 [bg storage=kusa1.jpg time=3000]
 *return03
 #選択肢を表示します
 [link target=*select5] 【１】 一週間後[endlink][r]
-[link target=*select6] 【２】 １０年後[endlink][r]
+[link target=*select6] 【２】 １００年後[endlink][r]
 
 [s]
 ;選択肢１
 *select6
 [cm]
-「選択肢２」の１０年後が選ばれました。[l][r]
-そんなに話かけねーわ。[l][cm]
+「選択肢２」の１００年後が選ばれました。[l][r]
+登場人物みんなしんでます(^Д^)[l][cm]
 @jump target="return03"
 *select5
 [cm]
@@ -285,6 +275,7 @@
 それともうひとつ気になったことがある、俺のニセモノが何からなにまでほとんど一緒なのだ。ほくろの位置からあざの位置まで。[l][r]
 俺はここで仲良くなった医者に相談してみた。[l][cm]
 [bg storage=jimusho_hiru.jpg time=3000]
+[chara_show name="04teacher" width="450px" height="500px"]
 #仲良くなった医者
 う～ん。もしそんなことができるとしたらあの人くらいじゃないかな。[l][r]
 ほら、君ともう一人同じタイミングで入ってきた男の子を治療した、さいとう先生。[l][r]
@@ -295,24 +286,29 @@
 俺の疑心が確信に変わった瞬間だった。[l][r]
 あの親子め、よくも俺たちの家族をはめやがったな[l][r]
 今まで感じたことのない怒りがわいてきた。[l][cm]
+[chara_hide name="04teacher"]
 @jump target="common03"
 *common03
 [bg storage=hoken_aki_hiru.jpg time=3000]
 #そして退院の日が来た
 奇しくも退院の日は同じだった。[l][r]
 そして全ての役者がそろった絶好の日だった。[l][cm]
+[chara_show name="03kana"]
 #ゆみこ
 結局ゆうきの記憶は曖昧なままだったわね....[l][cm]
+[chara_show name="16shibu" width="500px" height="600px"]
 #吾郎
 まあ、そう気を落とすことはない。[l][r]
 これから、じっくりゆうきの様子を見ていこう。[l][r]
 先生ありがとうございました。[l][cm]
+[chara_show name="15doc"]
 #さいとう　かずき
 いえいえ、最後までゆうきくんの記憶が戻らなっかたのは残念ですが...[l][r]
 些細なことで記憶がもどるかもしれませんので辛抱強くいきましょう。[l][cm]
 #たかくら　ゆうき
 （記憶がもどらなかったなんてよく言えたものだ）[l][r]
 （本当は全部知っているくせに...）[l][cm]
+[chara_hide name="15doc"]
 #ゆみこ
 あなたも、がんばってね！[l][cm]
 #吾郎
@@ -320,41 +316,47 @@
 [bg storage=sora2.jpg time=3000]
 *return04
 #たかくら　ゆうき
-（言うならここか...)[l][cm]
-ガリバーガリバーこの世で一番強いのは？。[l][cm]
+（言うならここか...)[l][r]
+2017年5月31日なんの日か覚えてるよね？[l][cm]
+#吾郎
+急にどうしたんだ？[l][r]
+ああ、その日のことならよく覚えているよ。[l][cm]
+#ゆみこ
+その日は私たちが別れた日....。[l][cm]
+#たかくら　ゆうき
+そう、父さんたちが離婚した日だ。[l][r]
+マスコミや世間は父さんが浮気して離婚になったって言われてるけど、[l][r]
+実は...[l][cm]
+[chara_hide_all]
 #選択肢を表示します
-[link target=*select7] 【１】 ごろう[endlink][r]
-[link target=*select8] 【２】 ボブ[endlink][r]
+[link target=*select7] 【１】 母さんなんだよね[endlink][r]
+[link target=*select8] 【２】 母さんがしてたんだよね[endlink][r]
 
 [s]
 *select8
 [cm]
-「選択肢２」のボブを選んだ[l][r]
-いや、ボブ一回も出できたことねぇだろ。[l][cm]
-@jump target="return04"
+「選択肢２」の母さんがしてたんだよねを選んだ[l][cm]
+[chara_show name="03kana" width="600px" height="600px"]
+[chara_hide name="03kana"]
+@jump target="common04"
 *select7
 
 [cm]
-「選択肢１」のごろうが選ばれた。[l][cm]
+「選択肢１」の母さんなんだよねを選んだ[l][cm]
+[chara_show name="03kana" width="600px" height="600px"]
+[chara_hide name="03kana"]
 @jump target="common04"
 *common04
-#吾郎
-ごろう....。[l][cm]
-#たかくら　ゆうき
-この世で一番優しいのは？[l][cm]
-#ゆみこ
-ゆみこ....。[l][cm]
-#たかくら　ゆうき
-じゃあこの世で一番かわいいのは？[l][cm]
-#吾郎　ゆみこ
-ゆうき...。[l][cm]
-#たかくら　ゆうき
-これは俺が好きだったガリバー遊園地の合言葉をもじったもので、仕事で帰りの遅かった父を迎え入れるときに使っていたものだ。[l][cm]
 [bg storage=hoken_aki_hiru.jpg time=3000]
+[chara_show name="16shibu"]
 #吾郎
-お前、本当のゆうきなのか...[l][cm]
+お前なんで、そんなことを...[l][r]
+本当のゆうきなのか...[l][cm]
+[chara_show name="03kana" width="400px" height="400px"]
 #ゆみこ
-ゆうき、ごめんなさい。[l]今まで気づいてあげられなくて。[l][cm]
+ゆうき、ごめんなさい。[l]
+今まで気づいてあげられなくて。[l][cm]
+
 #たかくら　ゆうき
 平気だよ父さん母さん。[l][r]
 自分の存在を認められて熱いものがこみ上げてきた。[l][cm]
@@ -363,9 +365,9 @@
 ゆうき違いで全然関係ないんだよ。[l][cm]
 #ゆみこ
 いえ、先生それは違います。[l][r]
-今の言葉は確かに真実です。実際に私たち家族は使ってましたから。[l][cm]
+今の言葉は確かに真実です。実際に私が浮気してました。[l][cm]
 #さいとう　かずき
-こんな偶然があるんだから、そんな偶然あって当然ですよ。[l][cm]
+しかし、そんな情報どこかに載っているものかもしれません。[l][cm]
 #吾郎
 ゆうき、俺としたあの時の約束覚えてるか？[l][cm]
 #たかくら　ゆうき
@@ -374,28 +376,13 @@
 ああそうだ！[l][r]
 先生これは俺とゆうきしか知らない約束です。[l][cm]
 #さいとう　かずき
-.....ぐっ。しかしそれも偶然というこ[l][cm]
+.....ぐっ。しかしそれもどこかで..[l][cm]
 [bg storage=hoken_aki_kumori.jpg time=3000]
-*return05
-#選択肢を表示します
-[link target=*select9] 【１】 いい加減認めたらどうなんだ！この俺のニセモノはお前の息子だってことを！！[endlink][r]
-[link target=*select10] 【２】 いい加減認めたどうなんだ！この俺はピザが好きだってことを！！[endlink][r]
-
-[s]
-*select10
-[cm]
-「選択肢２」のいい加減認めたどうなんだ！この俺はピザが好きだってことを！！が選ばれました。[l][cm]
-#たかはた　ゆうき
-いい加減認めたどうなんだ！お前はこんなしょうもない選択肢を選んでしまうレベルだってことを！！[l][cm]
-@jump target="return05"
-
-*select9
-[cm]
-「選択肢１」のいい加減認めたらどうなんだ！この俺のニセモノはお前の息子だってことを！！が選ばれました。[l][cm]
-@jump target="common05"
-*common05
+[chara_hide_all]
 #たかくら　ゆうき
+[font size="50"]
 いい加減認めたらどうなんだ！この俺のニセモノはお前の息子だってことを！！。[l][cm]
+[chara_show name="15doc" width="700px" height="700px"]
 #さいとう　かずき
 な、なにを言っているんだ。そんなことあるわけなだろ！！[l][cm]
 #たかくら　ゆうき
@@ -422,6 +409,7 @@
 #さいとう　かずき
 そんなのうそだ....[l][r]
 またでたらめなことを...[l][cm]
+[chara_show name="17kanja"]
 #さいとう　ゆうき
 ほんとうだよ、父さん。[l][r]
 ほんとうに悪かったと思ってるんだ。父さんが仕事ばっかりで全然遊んでくれなかったからつい母さんにあたってしまったんだ。[l][r]本当に悪かったと思ってるんだ、もう一度父さんの息子としてやり直せないかな？[l][cm]
@@ -430,15 +418,19 @@
 すまなかったゆうき、父さんを許してくれ。[l][cm]
 #さいとう　ゆうき
 僕の方こそごめんなさい...。[l][cm]
+[chara_hide_all]
 [bg storage=hoken_aki_hiru.jpg time=3000]
+[chara_show name="17kanja"]
 #たかくら　ゆうき
 これで一件落着だね。[l][r]
 そういえば父さん母さんに何か言いたいんじゃなかったっけ？[l][cm]
+[chara_show name="16shibu"]
 #吾郎
 ん～？そうだな。忘れっちゃった。[l][cm]
+[chara_show name="03kana"]
 #ゆみこ
 ほんとにそんな渋い顔して頼りないんだから。[l][cm]
 #ゆうき　吾郎　ゆみこ
 ハハハハハ[l]ハハハハハ[l]ハハハハハ[l][cm]
-
+[chara_hide_all]
 @jump storage="common/01.ks"
