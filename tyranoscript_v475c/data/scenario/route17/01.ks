@@ -1,4 +1,4 @@
-。*start
+*start
 
 [bg storage="tsugakuro2_hiru.jpg" time="1000"]
 
