@@ -75,6 +75,10 @@
 少し離れた所からおじさんがこちらを見ている。[p]
 するとおじさんはいきなりこちらに走ってきた！[p]
 山根：来ないでください！[p]
+
+[playbgm storage="yamane.ogg"]
+ [chara_show name="14hocho" width="400px" height="400px"]
+
 *common3
 [link target=*select6] 〇攻撃[endlink][r]
 [link target=*select7] 〇装備[endlink][r]
@@ -108,15 +112,18 @@
 山根は返り討ちにされてしまった、、、[p]
 @jump target=*common
 
+
+
 *select5
 [cm]
+[stopbgm]
 警察署行かなきゃ。[p]
 おじさん：待ってくれ！[p]
 山根は無視した。[p]
 去り際におじさんの方を見ると寂しそうな顔をしていた。[p]
 山根は黒い霧に再び入って行った。[p]
 おじさんは取り残されてしまった、、、[p]
-
+[chara_hide name="14hocho"]
 [bg storage="tsugakuro_hiru.jpg" time="1000"]
 山根：はぁ、怖かった。[p]
 山根：警察署はもうすぐだ。頑張るぞ！[p]
@@ -170,6 +177,7 @@
 
 *select3
 [cm]
+[playbgm storage="requiem.ogg"]
 山根：、、、その通りです。[p]
 警察官：認めましたね。[p]
 山根：放してください！[p]
@@ -181,6 +189,7 @@
 
 *select4
 [cm]
+[playbgm storage="requiem.ogg"]
 山根：違います！[p]
 警察官：嘘をついても無駄だ！[p]
 山根：いやだー！[l][cm]
@@ -193,3 +202,4 @@
 山根は奥へと連れていかれてしまった。[p]
 その後、彼の姿を見た者はいなかった。[p]
 終わり[p]
+[stopbgm]
