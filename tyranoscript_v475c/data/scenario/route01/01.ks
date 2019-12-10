@@ -1,6 +1,6 @@
 *start
 
-[bg storage="jitaku.jpg" time="1000"]
+[bg storage="shujinko_heya_new_hiru.jpg" time="1000"]
 
 @layopt layer=message0 visible=true
 
