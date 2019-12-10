@@ -110,10 +110,12 @@ BL本！[l][cm]
 大丈夫、私の言う通りにすればきっと助かるよ。[l][cm]
 #ひな
 そんなこと言われても…[l][cm]
-[bgimage storage="white.jpg" time="1000"]
+[bg storage="white.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #瞬間、辺り一面が光に包まれた[l][cm]
 #同時に私の意識も光と共に薄れ体の感覚は無くなってしまった。[l][cm]
 [bg storage="tsugakuro2_hiru.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #ひな
 うぅ…[l]
 あれ…私…[l]
@@ -121,8 +123,8 @@ BL本！[l][cm]
 もう9時過ぎてる！[l]
 #私はまだふらつく体に力を入れ学校へと向かった。[l][cm]
 
-[bgimage storage="kyoshitsu_window_hiru.jpg" time="1000"]
-
+[bg storage="kyoshitsu_window_hiru.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #少し遅れて学校へと着いた私は急ぎ教室へと向かった。[l]
 #教室では朝のクラスルームの真っただ中だった。[l][cm]
 #ひな
@@ -154,6 +156,7 @@ BL本！[l][cm]
 は～い[l][cm]
 #私は杏の待つ方へと急いだ。[l][cm]
 [bg storage="nakaniwa_hiru.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #杏
 今朝本当に気絶してたの？[l][cm]
 #ひな
@@ -186,6 +189,7 @@ BL本！[l][cm]
 #ここ数か月曇っていた空が今日は見事に晴れていた[l]
 #二人はたわいもない話に花を咲かせ昼食を終え、教室に戻った。[l][cm]
 [bg storage="kyoshitsu_door_yu.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #ひな
 ふぅ[l]
 今日も一日終わった～[l][cm]
@@ -209,6 +213,7 @@ BL本！[l][cm]
 #私はくしゃくしゃに丸めたその紙をごみ箱に捨て自宅へと急いだ。[l][cm]
 #翌日[l][cm]
 [bg storage="shujinkou_heya_new_shinya.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #その日はやけに雲が厚くどんよりとした空気が漂っていた。[l][cm]
 #ひな
 今日は嫌な天気だな…[l][cm]
@@ -220,6 +225,7 @@ BL本！[l][cm]
 あれは！[l][cm]
 #視界が眩しい光によってさえぎられる[l]
 [bg storage="sora4.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #気づけば私は雲の上のような謎めいた空間にいた。[l][cm]
 #謎の男
 よく来たな…[l][cm]
@@ -244,9 +250,11 @@ BL本！[l][cm]
 #謎の男
 私の研究所で住み込みで働かせるのだ[l][cm]
 [bg storage="dan_title.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #ひな
 …は？[l][cm]
 [bg storage="sora4.jpg" time="1000"]
+@layopt layer=message0 visible=true
 #謎の男
 貴様はもう元の時代には返さない[l][cm]
 #ひな
