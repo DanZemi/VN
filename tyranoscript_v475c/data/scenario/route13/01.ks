@@ -92,7 +92,6 @@
 
 #
 [p]
-*start
 
 [bg storage="tsugakuro2_hiru.jpg" time="2000"]
 #
