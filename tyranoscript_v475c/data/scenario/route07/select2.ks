@@ -1,4 +1,5 @@
 *start2
+[cm]
 
 @layopt layer=message0 visible=true
 
@@ -10,10 +11,11 @@
 学校なんてさぼっちゃいなよ。[p]
 
 [glink color="blue" storage="route07/select2.ks" size="20" x="360" width="150" y="180" text="まあさぼっても大丈夫な授業だし、さぼろうかな！！" target="*sele1" ]
-[glink color="blue" storage="route07/select2.ks" size="20" x="360" width="150" y="180" text="ごめんなさい、単位やばいので！" target="*sele2" ]
+[glink color="blue" storage="route07/select2.ks" size="20" x="360" width="150" y="120" text="ごめんなさい、単位やばいので！" target="*sele2" ]
 [s]
 
 *sele1
+[cm]
 #自分
 まあさぼっても大丈夫な授業だし、さぼろうかな！！[p]
 
@@ -27,6 +29,7 @@
 だから俺の分まで楽しんでくれよな。[p]
 
 *sele2
+[cm]
 #自分
 ごめんなさい、単位やばいので！[p]
 
