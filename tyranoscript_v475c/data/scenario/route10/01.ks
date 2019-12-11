@@ -193,9 +193,10 @@
 (本当に消えるのね…)[p]
 #
 だんだんと薄くなっていく彼女の体。[p]
+[chara_mod name="27ran" face="50"]
 #
 そしてもうすぐ消えるというところで、彼女はこう言った。[p]
-[chara_mod name="27ran" face="smile"]
+[chara_mod name="27ran" face="30"]
 #蘭
 「ありがとう、今日は楽しかったよ。」[p]
 #
