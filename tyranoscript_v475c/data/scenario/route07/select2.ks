@@ -22,11 +22,14 @@
 #ピヨのすけ
 お前、ロックしてんなあ[p]
 それじゃあ聴いてくれ、BATTLE[p]
-♪～[p]
+[playbgm storage="battle.ogg" loop=false]
 ありがとう[p]
+[stopbgm]
 君なら大学生活楽しく過ごしていけるだろうよ。[p]
 俺はひよこだったから大学いけなかったんだ。[p]
-だから俺の分まで楽しんでくれよな。
+だから俺の分まで楽しんでくれよな。[p]
+[chara_hide name="29hiyoko"]
+@jump storage="common/01.ks"
 
 
 *sele2
@@ -37,4 +40,5 @@
 #ピヨのすけ
 そうかい、行ってきな[p]
 (真面目かよ、、、エンジョイしてねえな)
+[chara_hide name="29hiyoko"]
 @jump storage="common/01.ks"
