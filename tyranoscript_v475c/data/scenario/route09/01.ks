@@ -390,6 +390,7 @@
 
 *back05
 *select8
+[bg storage="tsugakuro_hiru.jpg" time="1000"]
 確か左だったような気がするな。[l]そうだこっちのルートだ。[l][r]
 あ、次の交差点は、、、、[p]
 
@@ -478,14 +479,14 @@
 ふう、疲れた。。[p]
 
 
-[glink  color="blue"  size="20"  x="260"  width="400"  y="0"  text="正門に入る"  target="*end1"]
+[glink  color="blue"  size="30"  x="260"  width="500"  y="200"  text="正門に入る"  target="*end1"]
 [wait time=5000]
 @jump target="true"
 
 *end1
 え、門から先生の車が、、、？[p]
 
-[font size="50"]
+[font size="40"]
 うわあああああああああああああああああ！！！！！！！！[p][cm]
 [quake count=10 time=1000 hmax=200 vmax="200"]
 
