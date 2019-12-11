@@ -1,14 +1,15 @@
 *start
 
 [bg storage="tsugakuro2_hiru.jpg" time="1000"]
-
 @layopt layer=message0 visible=true
 #ひな
 いった…[l][cm]
+[chara_show name="25kaede" ]
 #？
 …[l][cm]
 #ひな
 すみませんっ！[l][cm]
+[chara_show name="bou" face="01"]
 #？
 …[l][cm]
 #ひな
@@ -127,6 +128,8 @@ BL本！[l][cm]
 大丈夫、私の言う通りにすればきっと助かるよ。[l][cm]
 #ひな
 そんなこと言われても…[l][cm]
+[chara_hide name="25kaede"]
+[chara_hide name="bou" face="01"]
 #
 [bg storage="white.jpg" time="1000"]
 @layopt layer=message0 visible=true
@@ -135,6 +138,7 @@ BL本！[l][cm]
 同時に私の意識も光と共に薄れ体の感覚は無くなってしまった。[l][cm]
 [bg storage="tsugakuro2_hiru.jpg" time="1000"]
 @layopt layer=message0 visible=true
+[chara_show name="25kaede"]
 #ひな
 うぅ…[l]
 あれ…私…[l]
@@ -142,17 +146,19 @@ BL本！[l][cm]
 もう9時過ぎてる！[l][cm]
 #
 私はまだふらつく体に力を入れ学校へと向かった。[l][cm]
-
+[chara_hide name="25kaede"]
 [bg storage="kyoshitsu_window_hiru.jpg" time="1000"]
 @layopt layer=message0 visible=true
 #
 少し遅れて学校へと着いた私は急ぎ教室へと向かった。[l]
 教室では朝のクラスルームの真っただ中だった。[l][cm]
+[chara_show name="25kaede"]
+[chara_show name="21okina"]
 #ひな
 ハァ…ハァ…[l]
 すみません、遅れました。[l][cm]
 #先生
-ひなさんが遅れてくるなんて珍しいね。何かあったのかい[l][cm]
+ひなさんが遅れてくるなんて珍しいのお。何かあったのかえ？[l][cm]
 #私
 実は少し気を失って倒れてしまっていたみたいで…[l][cm]
 #先生
@@ -163,6 +169,8 @@ BL本！[l][cm]
 具合が悪くなったら保健室に行きますね。[l][cm]
 #
 そういって私は窓際の自分の席に着く[l][cm]
+[chara_hide name="21okina"]
+[chara_show name="27ran"]
 #杏
 ひな大丈夫（笑）？[l][cm]
 #ひな
@@ -170,9 +178,12 @@ BL本！[l][cm]
 #
 今朝の出来事は現実だったのか否か、[l]
 ただ久々に走ったせいか思いもよらず疲れてしまった。[l][cm]
+[chara_hide name="25kaede"]
+[chara_hide name="27ran"]
 #
 昼休み[l][cm]
 私は昼食を取り出そうとバックを開けるとそこに一枚の紙を見つけた。[l][cm]
+[chara_show name="25kaede"]
 #ひな
 こんなの入れたっけ？[l][cm]
 #杏
@@ -181,8 +192,11 @@ BL本！[l][cm]
 は～い[l][cm]
 #
 私は杏の待つ方へと急いだ。[l][cm]
+[chara_hide name="25kaede"]
 [bg storage="nakaniwa_hiru.jpg" time="1000"]
 @layopt layer=message0 visible=true
+[chara_show name="25kaede"]
+[chara_show name="27ran"]
 #杏
 今朝本当に気絶してたの？[l][cm]
 #ひな
@@ -213,22 +227,27 @@ BL本！[l][cm]
 正直参ってたんだけど今日は気分爽快だよ！[l][cm]
 #ひな
 やっぱ青い空って大切だよね[l][cm]
+[chara_hide name="25kaede"]
+[chara_hide name="27ran"]
 #
 ここ数か月曇っていた空が今日は見事に晴れていた[l]
 二人はたわいもない話に花を咲かせ昼食を終え、教室に戻った。[l][cm]
 [bg storage="kyoshitsu_door_yu.jpg" time="1000"]
 @layopt layer=message0 visible=true
+[chara_show name="25kaede"]
 #ひな
 ふぅ[l]
 今日も一日終わった～[l][cm]
 #
 私は椅子に座ったまま背伸びをする[l][cm]
+[chara_show name="27ran"]
 #杏
 それじゃ私部活行ってくるね[l][cm]
 #ひな
 頑張ってねー[l][cm]
 #杏
 うん、また明日～[l][cm]
+[chara_hide name="27ran"]
 #ひな
 （私も帰ろっと）[l][cm]
 #
@@ -241,14 +260,16 @@ BL本！[l][cm]
 #ひな
 なにこれ…[l]
 気持ち悪い…[l][cm]
+[chara_hide name="25kaede"]
 #
 私はくしゃくしゃに丸めたその紙をごみ箱に捨て自宅へと急いだ。[l][cm]
 #
-翌日[l][cm]
+翌日
 [bg storage="shujinko_heya_new_shinya.jpg" time="1000"]
 @layopt layer=message0 visible=true
 #
 その日はやけに雲が厚くどんよりとした空気が漂っていた。[l][cm]
+[chara_show name="25kaede"]
 #ひな
 今日は嫌な天気だな…[l][cm]
 #
@@ -261,6 +282,7 @@ BL本！[l][cm]
 あれは！[l][cm]
 #
 視界が眩しい光によってさえぎられる[l][cm]
+[chara_hide name="25kaede"]
 #
 [bg storage="white.jpg" time="1000"]
 @layopt layer=message0 visible=true
@@ -268,6 +290,7 @@ BL本！[l][cm]
 @layopt layer=message0 visible=true
 #
 気づけば私は雲の上のような謎めいた空間にいた。[l][cm]
+[chara_show name="25kaede"]
 #謎の男
 よく来たな…[l][cm]
 #ひな
@@ -327,6 +350,7 @@ BL本！[l][cm]
 #
 急展開過ぎてもう何が何だかわからない[l]
 私は言われるがままに光の方へと向かった[l][cm]
+[chara_hide name="25kaede"]
 #
 そこから先のことは覚えていない。[l]
 気が付くと私は自室のベッドに横になっていた。[l][cm]
