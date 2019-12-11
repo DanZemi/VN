@@ -1,7 +1,7 @@
 ;共通ルート
 
 *start
-
+[chara_hide_all time=1000 wait=true]
 [cm]
 [clearfix]
 [start_keyconfig]
