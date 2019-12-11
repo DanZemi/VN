@@ -5,7 +5,7 @@
 @layopt layer=message0 visible=true
 
 #
-注意：本編に暴力的な表現が一部出てきますが、これらの表現の使用を推進しているわけではありません。[r]
+注意：本編に暴力的な表現が一部出てきますが、これらの表現の使用を推奨しているわけではありません。[r]
 苦手な方はプレイの方をご控えください。[p]
 
 #
@@ -94,7 +94,7 @@
 ちゃんと募集要項見ておけばよかったなぁー。」[p]
 
 #裕樹
-「お前は”アクティベーションが中心”ってだけで選んでいたもんな。」[p]
+「お前は”アクティビティが中心”ってだけで選んでいたもんな。」[p]
 
 #光明
 「確かに香菜はゲーム理論の授業苦戦していたもんね。」[p]
@@ -162,7 +162,7 @@
 [chara_hide_all time=1000 wait=true]
 #
 俺たちの目の前に現れたのは、[r]
-髪で目が隠れ、十字架のネックレスを着け、白衣を着ただった。[p]
+髪で目が隠れ、十字架のネックレスを着け、白衣を着た男だった。[p]
 
 [playbgm storage="D_PR.ogg"]
 [chara_show name="04teacher" width="500" height="700" top="60"]
@@ -405,6 +405,7 @@
 その時だった[p]
 
 [stopbgm]
+[quake wait=false count=1 time=200 hmax=20]
 #
 ガシャーーーンッ！！[p]
 
@@ -1934,7 +1935,7 @@
 「お前はすぐ行動に移すよな。」[p]
 
 #光明
-「悪いか？笑」[p]
+「悪いか？w」[p]
 
 #裕樹
 「いやいや、それがお前のいいところよ。」[p]
@@ -2017,7 +2018,7 @@
 「こちらこそありがとう。おやすみ！」[p]
 [stopbgm]
 [chara_hide_all time=1000 wait=true]
-@jump target=*Stage6clear
+@jump target=*stage6clear
 
 *select16
 [cm]
@@ -2323,6 +2324,7 @@
 #
 その時だった。[p]
 [stopbgm]
+[quake wait=false count=1 time=200 hmax=20]
 #
 パアァァーンッ！[p]
 
@@ -2571,7 +2573,7 @@
 こ、これは！[p]
 [playbgm storage="D_sudden.ogg"]
 #
-塔の壁に『Project.M』という文字が刻まれている…。[p]
+塔の壁に『Project M.』という文字が刻まれている…。[p]
 
 #
 こ…このMって…。[p]
@@ -2586,7 +2588,7 @@
 …！[p]
 
 #
-『無念を晴らすために By.Rinne』[p]
+『無念を晴らすために By Rinne.』[p]
 
 #
 りんね…。凛音…。あぁ、確定だ。[p]
@@ -2653,16 +2655,20 @@
 [cm]
 [stopbgm]
 [playbgm storage="D_danger.ogg"]
+#光明
+「俺は、こう…。」
+
 #
 あれ？急にめまいが…。[p]
 
 #
 どうしたものか…。[p]
+[chara_hide_all time=1000 wait=true]
+[bg storage="black.jpg" time="1000"]
 
 #
 バタッ！[p]
-[chara_hide_all time=1000 wait=true]
-[bg storage="black.jpg" time="1000"]
+
 #
 俺は床に倒れこんだ。[p]
 
@@ -2889,7 +2895,7 @@
 *stage11clear
 [cm]
 #光明
-「『Project.M』、『無念を晴らすために By.Rinne』という文字だ。」[p]
+「『Project M.』、『無念を晴らすために By Rinne.』という文字だ。」[p]
 
 #裕樹
 「お、おい…。それって…。」[p]
@@ -2955,7 +2961,7 @@
 [bg storage="black.jpg" time="1000"]
 *alive5
 #
-第５章　黒幕
+第５章　黒幕[p]
 
 [bg storage="living_hiru.jpg" time="1000"]
 #
@@ -3177,7 +3183,7 @@
 「お、おい…これ。」[p]
 
 #裕樹
-「『M killed them.』って書いているぞ？」[p]
+「『M. killed them.』って書いているぞ？」[p]
 
 #香菜
 「ってことは、この人たちは…。」[p]
@@ -3508,7 +3514,7 @@
 [playbgm storage="D_boss.ogg"]
 [bg storage="shichokaku2.jpg" time="1000"]
 #
-残り５問。
+残り５問。[p]
 
 #多屋先輩の名前は？
 [link target=*selectdeath]【１】香菜。[endlink][r]
@@ -3657,7 +3663,7 @@
 
 #光明くん、君の名字を教えてくれ。
 [link target=*select32]【１】石神。[endlink][r]
-[link target=*selectdeath]【２】石井。[endlink][r]
+[link target=*selectdeath]【２】石田。[endlink][r]
 [link target=*selectdeath]【３】石川。[endlink][r]
 
 [s]
@@ -3914,6 +3920,24 @@
 
 #御月先生
 「これを使ってテレポート先で人を殺せるんだと。」[p]
+
+#御月先生
+「だが、犯人であった大学生はすでに年齢がかけ離れている。」[p]
+
+#御月先生
+「もっと言えばどこにいるのかもよくわからない。」[p]
+
+#御月先生
+「そこで私は思ったんだ。」[p]
+
+#御月先生
+「大学生を思い浮かべると憎い…。」[p]
+
+#御月先生
+「だから憎い存在である"大学生"を消せばいい。」[p]
+
+#御月先生
+「そこで私は大学の教員としての立場を得たんだ。」[p]
 
 #御月先生
 「すべてがうまくいく。俺の無念を晴らすために。」[p]
@@ -4311,6 +4335,7 @@
 
 #
 Thank you for playing![p]
+[bg storage="black.jpg" time="1000"]
 [stopbgm]
 
 @jump storage="common/01.ks"
