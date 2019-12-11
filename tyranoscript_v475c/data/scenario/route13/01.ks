@@ -37,7 +37,7 @@
 
 #
 すると。[p]
-[chara＿show name="19kaityo"]
+[chara_show name="19kaityo"]
 #
 こんな感じの女の子が出てきた。[p]
 [chara_hide name="19kaityo"]
