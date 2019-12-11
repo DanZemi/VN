@@ -77,7 +77,7 @@
 山根：来ないでください！[p]
 
 [playbgm storage="yamane.ogg"]
- [chara_show name="14hocho" width="400px" height="400px"]
+ [chara_show name="14hocho" width="600px" height="600px"]
 
 *common3
 [link target=*select6] 〇攻撃[endlink][r]

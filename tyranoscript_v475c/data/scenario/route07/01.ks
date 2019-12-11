@@ -1,13 +1,15 @@
 *start
 
 @layopt layer=message0 visible=true
+[chara_show name="29hiyoko"]
 
 #ピヨのすけ
 聴いてくれ、ピヨピヨバラード！[p]
 
-♪～[p]
+[playbgm storage="piyopiyobarado.ogg" loop=false]
 
 ありがとう[p]
+[stopbgm]
 
 #ピヨのすけ
 次の曲は[p]
