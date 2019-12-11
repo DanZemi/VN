@@ -4,7 +4,7 @@
 
 @layopt layer=message0 visible=true
 
-[chara_new name="24megami"]
+[chara_show name="24megami"]
 
 
 ここ最近私たちの周りではTRPGというゲームが流行っている。[p]
