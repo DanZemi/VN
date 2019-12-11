@@ -310,7 +310,6 @@
 いつもの調子でSNSを開き、ついつい時間を使ってしまった。[p]
 #陸
 しまった！めっちゃ待たせてる！[p]
-[bg storage="rouka_yu.jpg" time="1000"]
 [bg storage="kyoshitsu_window_yu.jpg" time="1000"]
 #
 皆を待たせて長便所してしまったことに後悔しながら皆の待つ教室へと急ぐ。[p]
