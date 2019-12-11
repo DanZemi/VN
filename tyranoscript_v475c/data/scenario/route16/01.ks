@@ -13,7 +13,7 @@
 ふぅ、危なかった、[r]
 あやうく一限目遅れるところだった。[p]
 
-@jump target=*now
+
 
 [bg storage=kyoshitsu_door_hiru.jpg time=1000]
 @layopt layer=message0 visible=true
@@ -687,7 +687,7 @@
 授業中だから、遊ぶ約束は休み時間にしてね笑[p]
 #みんな
 はーい！[p]
-*now
+
 [bg storage=20190823_113212.jpg time="1000"]
 @layopt layer=message0 visible=true
 #
