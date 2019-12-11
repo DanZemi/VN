@@ -2,6 +2,7 @@
 
 *start
 [chara_hide_all time=1000 wait=true]
+[stopbgm]
 [cm]
 [clearfix]
 [start_keyconfig]

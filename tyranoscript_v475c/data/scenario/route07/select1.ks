@@ -4,7 +4,7 @@
 @layopt layer=message0 visible=true
 
 #ピヨのすけ
-次の曲はBATTLE[p]
+次の曲はBATTLE(音量注意)[p]
 [playbgm storage="battle.ogg" loop=false]
 
 
