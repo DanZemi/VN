@@ -241,6 +241,7 @@
 [chara_mod name="25kaede" face="smile"]
 #楓
 「こちらこそ、これからもよろしく。蘭。」[p]
+[chara_hide name="25kaede"]
 #
 遊んでくれてありがとう！[p]
 
