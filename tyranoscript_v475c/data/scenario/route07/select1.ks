@@ -5,7 +5,7 @@
 
 #ピヨのすけ
 次の曲はBATTLE[p]
-[playse storage="battle.ogg" loop=false]
+[playbgm storage="battle.ogg" loop=false]
 
 
 #ピヨのすけ
