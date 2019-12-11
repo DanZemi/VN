@@ -306,8 +306,8 @@
 さて、次は....[l]そっか分かれ道か。[l][r]
 あれ？どっちだっけ？？[p]
 
-[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="右"  target="*select7"]
-[glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="左"　target="*select8"]
+[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="右" target="*select7"]
+[glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="左" target="*select8"]
 [s]
 
 
@@ -338,8 +338,8 @@
 
 どうしよう？[p]
 
-[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="避ける"  target="*select9"]
-[glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="車を止めて知らせる"　target="*select10"]
+[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="避ける" target="*select9"]
+[glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="車を止めて知らせる" target="*select10"]
 [s]
 
 *select9
@@ -396,15 +396,18 @@
 なんか交差点の中央に警察官が立ってるぞ？[p]
 [chara_show name="20police"  width="450" height="600" top="40"]
 この手信号の時、警察官の身体の正面に並行する交通に対面するしている場合は....??
-[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="青色の灯火"  target="*select11"]
-[glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="赤色の灯火"　target="*select12"]
+[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="青色の灯火" target="*select11"]
+[glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="赤色の灯火" target="*select12"]
 [s]
 
 *select11
 #& f.name09
-この場合は青色の灯火と同じ意味だったな。[l][r]
+この場合は青
+[chara_hide name="20police" ]
+色の灯火と同じ意味だったな。[l][r]
 よしよし....[p]
 
+[bg storage="car3.jpg" time="2000"]
 #
 ププッーーーーー！！[p]
 
@@ -425,8 +428,10 @@
 
 *select12
 #& f.name09
+[chara_hide name="20police" ]
 この場合は赤色の灯火と同じで止まれの意味だったな。
 
+[bg storage="car3.jpg" time="2000"]
 #
 ププーーーーーー！！[p]
 
