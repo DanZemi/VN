@@ -116,7 +116,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 #鳴子
 「ああ、お前がそんな性格でよかったよ。これで心置きなくお前を止められる」[p]
 
-[chara_show name="megami2" face="megami2.png"]
+[chara_show name="24megami" face="megami2.png"]
 
 #ダイスの女神
 「まだそんなこと言ってるの、あんたじゃ私は倒せない」[p]
