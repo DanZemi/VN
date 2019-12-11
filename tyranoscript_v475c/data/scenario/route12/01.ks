@@ -467,7 +467,7 @@
 [stopbgm]
 
 [bg storage=eki_hiru.jpg time=3000]
-[playbgm storage=D_enjoy.ogg]
+[playbgm storage=D_enjoytown.ogg]
 
 #
 日曜夕方[p]
@@ -565,7 +565,7 @@
 
 [chara_show name="12m"]
 [stopbgm]
-[playbgm storage=D_enjoy.ogg]
+[playbgm storage=D_enjoytown.ogg]
 
 #未々実
 「[emb exp=f.name12]くん、今日はありがとう！すっごく楽しかった！」[p]
