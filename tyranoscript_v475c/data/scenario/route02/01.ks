@@ -51,6 +51,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 #ダイスの女神
 「それはこっちのセリフよあなたは何者なのよ！」[p]
 
+[chara_hide name="24megami"]
 [bg storage="car4.jpg" time="1000"]
 
 #鳴子
@@ -65,9 +66,6 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 「やっぱりあんたのせいじゃないのよ！！」[p]
 
 [bg storage="white.jpg" time="1000"]
-
-[chara_hide name="24megami"]
-
 [chara_show name="24megami"]
 
 #ダイスの女神
@@ -117,7 +115,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 
 
 [chara_hide name="24megami"]
-[chara_show name="24megami" face="megami2.png"]
+[chara_show name="24megami" face="2"]
 
 #ダイスの女神
 「まだそんなこと言ってるの、あんたじゃ私は倒せない」[p]
