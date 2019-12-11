@@ -50,6 +50,7 @@
 [chara_new name="26aya" storage="chara/26aya/aya.PNG" jname="アヤ"]
 [chara_new name="27ran" storage="chara/27ran/ran.PNG" jname="ラン"]
   [chara_face name="27ran" face="smile" storage="chara/27ran/ran_smile.PNG"]
+[chara_new name="28najimi" storage="chara/28najimi/najimi.PNG" jname="幼馴染"]
 [chara_new name="bou_1" storage="chara/bou/01.png" jname="棒1"]
 [chara_new name="bou_2" storage="chara/bou/02.png" jname="棒2"]
 [chara_new name="bou_3" storage="chara/bou/03.png" jname="棒3"]
