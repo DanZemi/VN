@@ -4,7 +4,7 @@
 
 @layopt layer=message0 visible=true
 
-[chara_new name="megami" storage="megami.png" jname="ダイスの女神"]
+[chara_new name="megami" bg storage="megami.png" jname="ダイスの女神"]
 
 
 ここ最近私たちの周りではTRPGというゲームが流行っている。[p]
@@ -33,7 +33,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 #鳴子
 「チィッ」[p]
 
-[chara_mod name="megami" storage="megami2.png"]
+[chara_mod name="megami" bg storage="megami2.png"]
 
 #megami
 「あぶなっ！！」[p]
@@ -116,7 +116,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 #鳴子
 「ああ、お前がそんな性格でよかったよ。これで心置きなくお前を止められる」[p]
 
-[chara_mod name="megami" storage="megami2.png"]
+[chara_mod name="megami" bg storage="megami2.png"]
 
 #megami
 「まだそんなこと言ってるの、あんたじゃ私は倒せない」[p]
