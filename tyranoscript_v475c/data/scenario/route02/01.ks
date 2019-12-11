@@ -4,9 +4,6 @@
 
 @layopt layer=message0 visible=true
 
-[chara_show name="24megami"]
-
-
 ここ最近私たちの周りではTRPGというゲームが流行っている。[p]
 TRPGは「テーブルトークロールプレイングゲーム」の略であり、ダイスとルールブックさえあれば遊べる。[r]
 基本的にコンピュータなどの機械類は使用せずにGMとPCが会話し、ストーリーを進め、行動や判定の成否をダイスで決定する。[p]
@@ -26,7 +23,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 #鳴子
 「こんにちは、そして死ね。」[p]
 
-[chara_hide neme="24megami"]
+[chara_hide name="24megami"]
 
 #
 拳銃を取り出して撃とうとしたが引き金を引いたが、弾丸が打ち出されることはなかった。[p]
@@ -69,7 +66,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 
 [bg storage="white.jpg" time="1000"]
 
-[chara_hide neme="24megami"]
+[chara_hide name="24megami"]
 
 [chara_show name="24megami"]
 
@@ -119,7 +116,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 「ああ、お前がそんな性格でよかったよ。これで心置きなくお前を止められる」[p]
 
 
-[chara_hide neme="24megami"]
+[chara_hide name="24megami"]
 [chara_show name="24megami" face="megami2.png"]
 
 #ダイスの女神
@@ -135,7 +132,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 #鳴子
 「バーン」[p]
 
-[chara_hide neme="24megami"]
+[chara_hide name="24megami"]
 
 #
 何か言おうとしたダイスの女神はその瞬間にその場から消えていた。[p]
