@@ -21,7 +21,7 @@
 
 #ピヨのすけ
 お前、ロックしてんなあ[p]
-それじゃあ聴いてくれ、BATTLE[p]
+それじゃあ聴いてくれ、BATTLE(音量注意)[p]
 [playbgm storage="battle.ogg" loop=false]
 ありがとう[p]
 [stopbgm]
