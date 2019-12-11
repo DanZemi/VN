@@ -30,7 +30,7 @@ PCがチュートリアル戦なのに死亡したり、ボス戦のようなギ
 #鳴子
 「チィッ」[p]
 
-[chara_show name="24megami" face="megami2.png"]
+[chara_show name="24megami" face="megami2" storage="megami2.png"]
 
 #ダイスの女神
 「あぶなっ！！」[p]
