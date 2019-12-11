@@ -62,6 +62,7 @@
 #
 この状況にはさっぱり場違いな声が響いた。[p]
 
+[playbgm storage=D_day.ogg]
 [chara_show name="12m"]
 
 #先生
@@ -111,6 +112,9 @@
 
 #女の子
 「じゃあ、私の質問に答えてね！嘘言っちゃだめだよ？」[p]
+
+[stopbgm]
+[playbgm storage=canon.ogg]
 
 #
 血液型を教えてね？
@@ -203,6 +207,8 @@
 
 [endif]
 
+[stopbgm]
+
 #未々実
 「ところで[emb exp=f.name12]くん。」[p]
 「もしもの話なんだけど、明日地球がなくなっちゃうって知ってるなら、何がしたい？」[p]
@@ -220,6 +226,7 @@
 
 
 [bg storage=rouka_hiru.jpg time=3000]
+[playbgm storage=D_day.ogg]
 
 #
 次の日[p]
@@ -298,6 +305,9 @@
 #未々実
 「まあたまにって感じかな。」[p]
 
+[stopbgm]
+[playbgm storage=canon.ogg]
+
 #未々実
 本は好き？
 [glink  color="blue"  storage="route12/01.ks"  size="20"  x="30"  width="210"  y="200"  text="好き"  target="*select9"]
@@ -331,6 +341,7 @@
 「私も！おでかけ楽しいよね！」[p]
 
 *c5
+[stopbgm]
 #未々実
 「今度デートしてくれる？」[p]
 
@@ -338,6 +349,7 @@
 「う～ん…って、え？！」[p]
 
 [chara_mod name="12m" face="smile"]
+[playbgm storage=D_day.ogg]
 
 #未々実
 「なんちゃって！冗談だよ～！」[p]
@@ -369,6 +381,7 @@
 未々実の笑みが怪しい。[p]
 
 [chara_mod name="12m" face="default"]
+[stopbgm]
 
 #未々実
 「ねえ[emb exp=f.name12]くん。」[p]
@@ -401,7 +414,7 @@
 翌日[p]
 
 [chara_show name="18mobuo"]
-
+[playbgm storage=D_day.ogg]
 
 #モブ男
 「きのう未々実と二人で帰ってたって、クラスですっげー話題になってるぜ。」[p]
@@ -451,9 +464,10 @@
 そういってスマートフォンの画面を見せてきた。[p]
 
 [chara_hide name="12m" ]
-
+[stopbgm]
 
 [bg storage=eki_hiru.jpg time=3000]
+[playbgm storage=D_enjoy.ogg]
 
 #
 日曜夕方[p]
@@ -492,6 +506,9 @@
 「あ、ちょっと！わかったから、はぐれるなよ！」[p]
 
 [chara_show name="12m"]
+[stopbgm]
+[playbgm storage=canon.ogg]
+
 
 #未々実
 わたあめは好き？
@@ -547,6 +564,8 @@
 [bg storage=eki_yu.jpg time=3000]
 
 [chara_show name="12m"]
+[stopbgm]
+[playbgm storage=D_enjoy.ogg]
 
 #未々実
 「[emb exp=f.name12]くん、今日はありがとう！すっごく楽しかった！」[p]
@@ -583,6 +602,8 @@
 #& f.name12
 「おい！そういう変なこと新聞にかくんじゃないぞ！」[p]
 
+[stopbgm]
+
 #
 今日はあの馬鹿げた話はしなかった。[p]
 
@@ -590,6 +611,7 @@
 
 
 [bg storage=kyoshitsu_window_hiru.jpg time=3000]
+[playbgm storage=D_day.ogg]
 
 #
 今日は夏休み前の最後の登校日だった。[p]
@@ -614,6 +636,8 @@
 
 
 [bg storage=kyoshitsu_window_yu.jpg time=3000]
+[stopbgm]
+
 
 #
 その日の放課後、少し教室で待っててほしいといわれ、俺は未々実を待っていた。[p]
@@ -659,6 +683,7 @@
 「ありがとう。」[p]
 
 [chara_mod name="12m" face="default"]
+[playbgm storage=D_sad.ogg]
 
 #未々実
 「今日はきっと最後だから、最初から話すね」[p]
@@ -711,6 +736,8 @@
 [s]
 
 *select20
+[stopbgm]
+
 #
 「いい加減にしろよ…。[l]そんなおかしな話信じないに決まってるだろ…。」[p]
 
@@ -757,6 +784,9 @@
 @jump storage="common/01.ks"
 
 *select19
+[stopbgm]
+[playbgm storage=D_day.ogg]
+
 #& f.name12
 「俺は未々実を信じるよ。」[p]
 
@@ -792,7 +822,7 @@
 「必ずまた会いに来るよ。」[p]
 
 [chara_hide name="12m" ]
-
+[stopbgm]
 [bg storage=black.jpg time=3000]
 
 #
@@ -819,6 +849,8 @@
 
 
 *true12
+[stopbgm]
+
 #未々実
 「[emb exp=f.mimimi]…。」[p]
 
