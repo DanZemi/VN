@@ -27,6 +27,8 @@
 #あなた
 「ご、ごめん！それじゃあ！」[p]
 
+[chara_hide name="01mobuko" ]
+
 [jump storage="route12/01.ks" target=*c1]
 
 *select2
@@ -276,10 +278,14 @@
 #& f.name12
 「あ、ちょっと待ってよ。」[p]
 
+@layopt layer=message0 visible=false
+
 [bg storage=bi_dessin_yu.jpg time=2000]
 [bg storage=okujo_yu.jpg time=2000]
 [bg storage=hoken_aki_yu.jpg time=2000]
 [bg storage=tosho_yu.jpg time=2000]
+
+@layopt layer=message0 visible=true
 
 [chara_show name="12m"]
 
