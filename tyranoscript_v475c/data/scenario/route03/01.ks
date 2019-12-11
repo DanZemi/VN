@@ -179,7 +179,7 @@
 #
 [bg storage="okujo_ame_ari_hiru.jpg" time="1000"]
 ―１日前―[l][cm]
-[bg storage="kyoshitsu_aki_kumori.jpg" time="1000"]
+[bg storage="kyoshitsu_door_kumori.jpg" time="1000"]
 #森根俊一
 ・・・寝れない。[l][cm]
 #
