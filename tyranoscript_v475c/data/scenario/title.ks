@@ -14,4 +14,4 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="common/01.ks"
+@jump storage="common/00.ks"
