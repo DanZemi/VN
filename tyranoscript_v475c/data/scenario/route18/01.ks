@@ -3,15 +3,9 @@
 [bg storage="shujinko_heya_kara_yu.jpg" time="1000"]
 
 @layopt layer=message0 visible=true
-
-#
-注意：本編に暴力的な表現が一部出てきますが、これらの表現の使用を推奨しているわけではありません。[r]
-苦手な方はプレイの方をご控えください。[p]
-
 #
 この物語はフィクションであり、登場する人物や名称などは実際のものとは関係ありません。[p]
 
-[chara_hide_all time=1000 wait=true]
 [bg storage="black.jpg" time="1000"]
 #
 序章　ゼミに行こう！[p]
@@ -62,7 +56,7 @@
 #???
 あっ、忘れていたけれど、俺の名前は「石神光明（いしがみみつあき）」という。[p]
 
-#光明(カギカッコなしは基本こいつの心中セリフになります。)
+#
 春から再び俺たちの大学生活が始まる。[r]
 ひとまず、外に出ようか。[p]
 
@@ -4336,6 +4330,12 @@
 #
 Thank you for playing![p]
 [bg storage="black.jpg" time="1000"]
+[iscript]
+f.r18=true
+[endscript]
+#
+ルート18をクリアしました。[p]
 [stopbgm]
+
 
 @jump storage="common/01.ks"
