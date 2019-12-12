@@ -11,33 +11,10 @@
 
 ;メニューボタンの表示
 @showmenubutton
-
-;メッセージウィンドウの設定
-[position layer="message0" left=20 top=400 width=920 height=200 page=fore visible=true]
-
-;文字が表示される領域を調整
-[position layer=message0 page=fore margint="45" marginl="50" marginr="70" marginb="60"]
-
-
-;メッセージウィンドウの表示
-@layopt layer=message0 visible=true
-
-;キャラクターの名前が表示される文字領域
-[ptext name="chara_name_area" layer="message0" color="white" size=24 x=50 y=410]
-
-;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
-[chara_config ptext="chara_name_area"]
-
-;メッセージウィンドウの設定
-;[position layer="alert" left=200 top=20 width=100 height=100 page=back visible=true]
-
-;文字が表示される領域を調整
-;[position layer=alert page=back margint="10" marginl="10" marginr="10" marginb="10"]
-;@layopt layer=alert visible=true
+@layopt layer="message0" visible=true
 
 [iscript]
 f.done=f.r13
-//f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r11&&f.r12&&f.r13&&f.r14&&f.r15&&f.r16&&f.r17&&f.r18
 [endscript]
 
 [if exp=f.done]
