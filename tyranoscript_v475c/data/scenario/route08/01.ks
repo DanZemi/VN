@@ -432,5 +432,5 @@
 f.r8=true
 [endscript]
 #
-ルート8をクリアしました。
+ルート8をクリアしました。[p]
 @jump storage="common/01.ks"
