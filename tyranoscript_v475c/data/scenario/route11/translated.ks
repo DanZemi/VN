@@ -4,16 +4,6 @@
 
 @layopt layer=message0 visible=true
 
-[if exp="f.r11"]
-#
-こんにゃくを使用しますか？
-[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="使う" storage="route11/translated.ks"]
-[glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="使わない"  target="*nokonyaku"]
-[s]
-[endif]
-
-*nokonyaku
-
 #
 いたたた...[p]
 もう...なんなのよ！遅刻するじゃない！[p]
@@ -757,13 +747,5 @@ SPや彩とも出会って。[l]しばらくしたら彩が文字化けして...
 [bg storage="black.jpg" time="5000"]
 #
 END[p]
-
-[iscript]
-f.r11=true
-[endscript]
-#
-こんにゃくをゲットした。[p]
-2周目以降のプレイで使用できます。[p]
-ルート11をクリアしました。[p]
 
 @jump storage="common/01.ks"
