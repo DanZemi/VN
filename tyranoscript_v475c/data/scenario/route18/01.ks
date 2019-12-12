@@ -1,11 +1,5 @@
 *start
-
-[bg storage="shujinko_heya_kara_yu.jpg" time="1000"]
-
 @layopt layer=message0 visible=true
-#
-この物語はフィクションであり、登場する人物や名称などは実際のものとは関係ありません。[p]
-
 [bg storage="black.jpg" time="1000"]
 #
 序章　ゼミに行こう！[p]
