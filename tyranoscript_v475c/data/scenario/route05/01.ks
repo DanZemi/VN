@@ -203,4 +203,11 @@
 山根は奥へと連れていかれてしまった。[p]
 その後、彼の姿を見た者はいなかった。[p]
 終わり[p]
+
+[iscript]
+f.r05=true
+[endscript]
+#
+ルート05をクリアしました。[p]
+
 @jump storage="common/01.ks"
