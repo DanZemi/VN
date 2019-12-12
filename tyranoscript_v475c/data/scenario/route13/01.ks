@@ -1017,6 +1017,6 @@
 f.r13=true
 [endscript]
 #
-ルート13をクリアしました。
+ルート13をクリアしました。[p]
 
 @jump storage="common/01.ks"
