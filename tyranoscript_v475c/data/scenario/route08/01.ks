@@ -429,7 +429,7 @@
 ハハハハハ[l]ハハハハハ[l]ハハハハハ[l][cm]
 [chara_hide_all]
 [iscript]
-f.r8=true
+f.r08=true
 [endscript]
 #
 ルート8をクリアしました。[p]
