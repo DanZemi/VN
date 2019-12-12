@@ -859,5 +859,10 @@
 
 
 *ending
+[iscript]
+f.r15=true
+[endscript]
+#
+ルート15をクリアしました。
 
 @jump storage="common/01.ks

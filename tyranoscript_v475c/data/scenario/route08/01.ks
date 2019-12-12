@@ -428,4 +428,9 @@
 #ゆうき　吾郎　ゆみこ
 ハハハハハ[l]ハハハハハ[l]ハハハハハ[l][cm]
 [chara_hide_all]
+[iscript]
+f.r08=true
+[endscript]
+#
+ルート8をクリアしました。[p]
 @jump storage="common/01.ks"
