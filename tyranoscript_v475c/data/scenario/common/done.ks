@@ -21,3 +21,7 @@
 *gotodone
 [cm]
 [chara_hide_all time="1000"]
+
+*ending
+
+@jump storage="common/01.ks"
