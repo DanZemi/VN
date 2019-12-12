@@ -97,6 +97,12 @@
 ;最初は右下のメニューボタンを非表示にする
 [hidemenubutton]
 
+[bg storage="black.jpg" time="1"]
+
+[bg storage="danzemi_logo.jpg" time="1000"]
+[wait time="2000"]
+[bg storage="black.jpg"]
+
 ;タイトル画面へ移動
 @jump storage="title.ks"
 

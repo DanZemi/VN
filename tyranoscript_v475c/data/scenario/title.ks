@@ -2,7 +2,7 @@
 [cm]
 
 @clearstack
-@bg storage ="dan_title2.png" time=100
+@bg storage ="dan_title2.png" time=1000
 @wait time = 200
 
 *start
