@@ -36,16 +36,10 @@
 ;@layopt layer=alert visible=true
 
 [iscript]
-f.done=false
-f.r14=true
-
-if (f.r14) {
-  f.b14="gray"
-} else {
-  f.b14="blue"
-}
+f.done=f.r13
+//f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r11&&f.r12&&f.r13&&f.r14&&f.r15&&f.r16&&f.r17&&f.r18
 [endscript]
-;f.r01&&f.r01&&f.r01
+
 [if exp=f.done]
 
 @jump storage="common/done.ks"
