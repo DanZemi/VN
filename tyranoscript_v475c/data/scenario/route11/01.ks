@@ -747,4 +747,14 @@ SPや彩とも出会って。[l]しばらくしたら彩が文字化けして...
 [bg storage="black.jpg" time="5000"]
 #
 END[p]
+
+[iscript]
+f.r11=true
+[endscript]
+#
+ルート11をクリアしました。[p]
+
+
+
+
 @jump storage="common/01.ks"
