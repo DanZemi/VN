@@ -795,4 +795,10 @@
 そう聞こえた気がしたんだ。[p]
 [stopbgm]
 
+[iscript]
+f.r14=true
+[endscript]
+#
+ルート14をクリアしました。
+
 @jump storage="common/01.ks"

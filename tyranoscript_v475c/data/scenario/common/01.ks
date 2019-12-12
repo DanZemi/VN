@@ -7,7 +7,6 @@
 [clearfix]
 [start_keyconfig]
 
-
 [bg storage="shujinko_heya_new_hiru.jpg" time="100"]
 
 ;メニューボタンの表示
@@ -28,6 +27,23 @@
 
 ;上記で定義した領域がキャラクターの名前表示であることを宣言（これがないと#の部分でエラーになります）
 [chara_config ptext="chara_name_area"]
+
+;メッセージウィンドウの設定
+;[position layer="alert" left=200 top=20 width=100 height=100 page=back visible=true]
+
+;文字が表示される領域を調整
+;[position layer=alert page=back margint="10" marginl="10" marginr="10" marginb="10"]
+;@layopt layer=alert visible=true
+
+[iscript]
+f.done=f.r14
+[endscript]
+;f.r01&&f.r01&&f.r01
+[if exp=f.done]
+
+@jump storage="common/done.ks"
+
+[endif]
 
 #
 寝坊した！[p]
