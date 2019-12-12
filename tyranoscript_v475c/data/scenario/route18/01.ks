@@ -4330,6 +4330,12 @@
 #
 Thank you for playing![p]
 [bg storage="black.jpg" time="1000"]
+[iscript]
+f.r18=true
+[endscript]
+#
+ルート18をクリアしました。[p]
 [stopbgm]
+
 
 @jump storage="common/01.ks"
