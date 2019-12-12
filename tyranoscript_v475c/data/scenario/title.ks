@@ -7,8 +7,8 @@
 
 *start
 
-[button x=100 y=320 graphic="title/button_start.png" target="gamestart"]
-[button x=100 y=450 graphic="title/button_load.png"  role="load" ]
+[button x=95 y=360 graphic="title/button_start.png" target="gamestart"]
+[button x=95 y=470 graphic="title/button_load.png"  role="load" ]
 
 [s]
 
