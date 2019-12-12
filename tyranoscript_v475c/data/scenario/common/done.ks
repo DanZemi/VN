@@ -14,10 +14,10 @@
 
 @layopt layer=message0 visible=false
 [chara_show name="30dan" time=1]
-[glink  color="blue" size="20"  x="130"  width="210"  y="430"  text="ダンッ！"  target="*gotodone"]
+[button graphic="button/dan_moji.png" target=*gotodone x=140 y=330 width=240 height=240]
 
 [s]
 
 *gotodone
-
+[cm]
 [chara_hide_all time="1000"]
