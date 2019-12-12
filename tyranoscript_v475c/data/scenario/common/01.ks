@@ -14,6 +14,7 @@
 @layopt layer="message0" visible=true
 
 [iscript]
+f.done=f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r11&&f.r12&&f.r13&&f.r14&&f.r15&&f.r16&&f.r17&&f.r18
 f.done=f.r13
 [endscript]
 
