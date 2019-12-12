@@ -567,4 +567,13 @@ e-sportsは何の略？
 うん。[p]
 コンビニでバイトしよ。[p]
 
+
+[iscript]
+f.r01=true
+[endscript]
+#
+ルート01をクリアしました。[p]
+
+
+
 @jump storage="common/01.ks"
