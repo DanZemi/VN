@@ -1014,9 +1014,9 @@
 [p]
 
 [iscript]
-f.r14=true
+f.r13=true
 [endscript]
 #
-ルート14をクリアしました。
+ルート13をクリアしました。
 
 @jump storage="common/01.ks"
