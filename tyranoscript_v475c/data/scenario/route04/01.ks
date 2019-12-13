@@ -222,7 +222,7 @@
 ーーー静かに泥を滴らせながら。[p]
 
 [iscript]
-f.r4=true
+f.r04=true
 [endscript]
 #
 ルート4をクリアしました。[p]
