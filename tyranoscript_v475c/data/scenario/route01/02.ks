@@ -68,6 +68,7 @@
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 最初からやり直しです。[p]
@@ -89,6 +90,7 @@
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
 [bg storage="black.jpg"]
 私は爆発した。[p]
 最初に戻ります。[p]
@@ -120,6 +122,8 @@
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 私は爆発した。[p]
 #制作者
@@ -173,6 +177,8 @@
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 最初に戻ります[p]
@@ -203,6 +209,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 最初に戻ります。[p]
@@ -229,6 +237,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました[p]
 どうやらロシア語で鉛筆という意味だったようだ。[p]
@@ -249,6 +259,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 どうやらギリシャ語で鉛筆という意味だったようだ。[p]
@@ -272,6 +284,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 #
@@ -304,6 +318,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 私は爆発した。[p]
 #制作者
@@ -342,6 +358,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 6に戻ります。[p]
@@ -372,6 +390,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 「pay」は「ペイ」と読みます。[p]
@@ -384,6 +404,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 「patient」は「ペイシェント」と読みます。[p]
@@ -419,6 +441,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg"]
 私は爆発した。[p]
 最初からやり直しましょう。[p]
@@ -448,6 +472,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg"]
 セカイが消滅しました。[p]
 最初からやりたいようですね。[p]
@@ -488,6 +514,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg"]
 セカイが消滅しました。[p]
 11に戻ります。[p]
@@ -518,6 +546,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg"]
 私は存在を否定された。[p]
 11に戻ります。[p]
@@ -542,6 +572,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
+[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+
 [bg storage="black.jpg"]
 私は爆発した。[p]
 #制作者
@@ -566,5 +598,14 @@ e-sportsは何の略？
 ……。[p]
 うん。[p]
 コンビニでバイトしよ。[p]
+
+
+[iscript]
+f.r01=true
+[endscript]
+#
+ルート01をクリアしました。[p]
+
+
 
 @jump storage="common/01.ks"

@@ -156,13 +156,13 @@
 
 [bg storage="shichokaku1.jpg" time="100"]
 
-[chara_show name="02yuuki" width="500px" height="500px"]
+[chara_show name="14hocho" width="500px" height="500px"]
 
 
 #山根先生
 今日はビデオをみるから終わりに感想文を書いて提出しろよ。 [l][cm]
 
-[chara_hide name="02yuuki"]
+[chara_hide name="14hocho"]
 
 [chara_show name="05dqn" width="500px" height="500px"]
 
@@ -859,5 +859,10 @@
 
 
 *ending
+[iscript]
+f.r15=true
+[endscript]
+#
+ルート15をクリアしました。
 
 @jump storage="common/01.ks

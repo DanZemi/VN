@@ -376,7 +376,7 @@
 #たかくら　ゆうき
 [font size="50"]
 いい加減認めたらどうなんだ！この俺のニセモノはお前の息子だってことを！！。[l][cm]
-[chara_show name="15doc" width="700px" height="700px"]
+[chara_show name="15doc" width="700px" height="700px" top="50px"]
 #さいとう　かずき
 な、なにを言っているんだ。そんなことあるわけないだろ！！[l][cm]
 #たかくら　ゆうき
@@ -428,4 +428,9 @@
 #ゆうき　吾郎　ゆみこ
 ハハハハハ[l]ハハハハハ[l]ハハハハハ[l][cm]
 [chara_hide_all]
+[iscript]
+f.r08=true
+[endscript]
+#
+ルート8をクリアしました。[p]
 @jump storage="common/01.ks"
