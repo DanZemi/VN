@@ -45,12 +45,13 @@
 #私
 「あ～～、OKOK、And you?」[p]
 [chara_mod name="11amiru" face="smile"]
+[playbgm storage="D_badhotel.ogg"]
 #外国人の少年
 ل هذا صحيح! ؟ حسنًا ، كنت قلقًا لأنني لم أتحدث بكلمة منذ أن اشتبكت معك.
 [p]
 #
 何語だこれ。[p]
-いきなりテキストが右から左になったぞ。[p]
+いきなりテキストがタイプライターみたいになったぞ。[p]
 戦時中の日本か？？？[p]
 [chara_mod name="11amiru" face="default"]
 #外国人の少年
@@ -155,6 +156,7 @@ Lady？　私のこと？[p]
 走り出した瞬間、少年の声が聞こえたが知らない知らない！[p]
 これは関わっちゃいけないやつだ！[p]
 [chara_hide name="11amiru"]
+[stopbgm]
 私は走る、ひたすら走る、目的地もなく...[p]
 ...[p]
 いや目的地ある！ある！！学校！！！[p]
@@ -168,6 +170,7 @@ Lady？　私のこと？[p]
 #私
 「あいたたた...何よ前向いて歩きなさいよ！」[p]
 [chara_show name="26aya"]
+[playbgm storage="D_enjoytown.ogg"]
 #???
 「あれ、どしたのそんなに急いで」[p]
 #私
@@ -302,6 +305,8 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 #
 あぁ、あのアラブ少年のこと考えてたら幻聴まで聞こえてきたのね...[p]
 [chara_show name="11amiru"]
+[stopbgm]
+[playbgm storage="D_courage.ogg"]
 #少年の声
 الأخت الكبرى!
 [p]
@@ -445,10 +450,12 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 [chara_mod name="26aya" face="smile"]
 「アミル君と会話したらわかるって！」[p]
 [chara_hide name="26aya"]
+[stopbgm]
 #
 そう言って彩が私を少年のほうへ押し出した。[p]
 いきなり押すもんだから少しバランスを崩して少年のほうへよろめいた。[p]
 [chara_mod name="11amiru" face="red3"]
+[playbgm storage="D_friendbond.ogg"]
 一気に少年との距離が近くなる。[p]
 みるみる顔がリンゴのように赤くなる少年。[p]
 ピュアすぎない？[p]
@@ -473,6 +480,7 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 [p]
 #私
 「アミル？アミル君ね、よろしく」[p]
+[stopbgm]
 #
 ...[p]
 ん？[p]
@@ -527,6 +535,7 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 「ごめんねアミル君、ごめん。」[p]
 [chara_hide name="11amiru"]
 [bg storage="tsugakuro_yu.jpg" time="3000"]
+[playbgm storage="D_night.ogg"]
 #
 私は踵を返した。[p]
 私、マナ雪のマナじゃないんだから、[l][r]
@@ -542,13 +551,14 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 [bg storage="shujinko_heya_new_yoru.jpg" time="3000"]
 おやすみ。[p]
 [bg storage="black.jpg" time="3000"]
+[stopbgm]
 #???
 「繝√きさん」[p]
 #
 ん？[l]アラビア語が聞こえる...[p]
 [chara_show name="11amiru"]
 #アミル
-繝√きさん[p]
+「繝√きさん」[p]
 #
 アミル君？[p]
 ベッドから起き上がろうとしても体が動かない。[p]
@@ -575,6 +585,7 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 
 *select1
 [cm]
+[playbgm storage="D_friendbond.ogg"]
 #私
 「...いいよ。」[p]
 [chara_mod name="11amiru" face="surprise"]
@@ -609,8 +620,10 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 私がアミル君に手を振ると、アミル君も手を振り返してくれた。[p]
 [chara_mod name="11amiru" face="smile"]
 見えなくなるまで手を振ってくれたアミル君。[l]かわいい。[p]
+[stopbgm]
 [chara_hide name="11amiru"]
 [chara_show name="26aya"]
+[playbgm storage="D_enjoytown.ogg"]
 #彩
 「で、ノリで入籍してみたらええやんみたいなことしたけど、本当に良かったの？」[p]
 #私
@@ -635,6 +648,7 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 「待っ...！」[p]
 #
 [chara_hide name="26aya"]
+[stopbgm]
 行ってしまった。[p]
 本当にどうすんだこの状況。[p]
 まず何をすればいいかわからない。[p]
@@ -660,6 +674,9 @@ SPや彩とも出会って。[l]しばらくしたら彩が文字化けして...
 今日はもう寝よう。[p]
 [bg storage="black.jpg" time="3000"]
 おやすみ。[p]
+...[p]
+..[p]
+.[p]
 #???
 سان تشيكا ... سان تشيكا ...
 [p]
@@ -667,6 +684,7 @@ SPや彩とも出会って。[l]しばらくしたら彩が文字化けして...
 ん、アミル君の声...[p]
 [bg storage="shujinko_heya_new_yoru.jpg"]
 [chara_show name="11amiru"]
+[playbgm storage="D_goodhotel.ogg"]
 #アミル
 سان تشيكا
 [p]
@@ -756,6 +774,7 @@ SPや彩とも出会って。[l]しばらくしたら彩が文字化けして...
 [bg storage="black.jpg" time="5000"]
 #
 END[p]
+[stopbgm]
 
 [iscript]
 f.r11=true
