@@ -200,6 +200,12 @@
 #
 ここは…どこだ？[p]
 
+#
+周りを見回しした後、巨大ディスプレイが目の前に現れた。[p]
+
+#
+その画面の中には先生と、さっきまでいた教室が映っている。[p]
+
 [playbgm storage="D_PR.ogg"]
 [chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
@@ -3283,6 +3289,12 @@
 #光明
 「御月先生！」[p]
 
+#
+議論の間にディスプレイが現れた。[p]
+
+#
+そこに…奴が現れた。[p]
+
 [chara_show name="04teacher" width="500" height="700" top="60"]
 #御月先生
 「君たちは素晴らしいぞ！」[p]
@@ -4038,6 +4050,9 @@
 [chara_hide_all time=1000 wait=true]
 [chara_show name="10eg" width="450" height="600" top="40"]
 [chara_show name="09bk" width="450" height="600" top="55"]
+#
+画面越しに簿記の先生と英語の先生が映った。[p]
+
 #???
 「簿記の先生！英語の先生！助けてください！」[p]
 
