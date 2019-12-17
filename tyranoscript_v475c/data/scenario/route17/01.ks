@@ -4,12 +4,11 @@
 @layopt layer=message0 visible=true
 #ひな
 いった…[l][cm]
-[chara_show name="25kaede"　face="kaede" ]
+[chara_show name="25kaede"]
 #？
 …[l][cm]
 #ひな
 すみませんっ！[l][cm]
-[chara_show name="bou" face="01"]
 #？
 …[l][cm]
 #ひな
@@ -74,6 +73,8 @@
 失礼します
 #？
 君クローゼットの下から二番目にいいもの隠してるでしょ？[l][cm]
+[chara_hide name="25kaede"]
+[chara_show name="25kaede" face="surprise"]
 #ひな
 ！？[l][cm]
 何のことですか（笑）？[l][cm]
@@ -91,6 +92,8 @@ BL本！[l][cm]
 何故それを…[l][cm]
 #？
 そりゃ私のことは私が一番知ってるでしょ？[l][cm]
+[chara_hide name="25kaede" face="surprise"]
+[chara_show name="25kaede"]
 #
 私は困惑した表情を浮かべている。[l][cm]
 #ひな
@@ -129,7 +132,6 @@ BL本！[l][cm]
 #ひな
 そんなこと言われても…[l][cm]
 [chara_hide name="25kaede"]
-[chara_hide name="bou" face="01"]
 #
 [bg storage="white.jpg" time="1000"]
 @layopt layer=message0 visible=true
@@ -152,13 +154,12 @@ BL本！[l][cm]
 #
 少し遅れて学校へと着いた私は急ぎ教室へと向かった。[l]
 教室では朝のクラスルームの真っただ中だった。[l][cm]
-[chara_show name="25kaede"]
-[chara_show name="21okina"]
+[chara_show name="25kaede" face="painful"]
 #ひな
 ハァ…ハァ…[l]
 すみません、遅れました。[l][cm]
 #先生
-ひなさんが遅れてくるなんて珍しいのお。何かあったのかえ？[l][cm]
+ひなさんが遅れてくるなんて珍しいのお。何かあったのかい？[l][cm]
 #私
 実は少し気を失って倒れてしまっていたみたいで…[l][cm]
 #先生
@@ -169,7 +170,7 @@ BL本！[l][cm]
 具合が悪くなったら保健室に行きますね。[l][cm]
 #
 そういって私は窓際の自分の席に着く[l][cm]
-[chara_hide name="21okina"]
+
 [chara_show name="27ran"]
 #杏
 ひな大丈夫（笑）？[l][cm]
@@ -178,7 +179,7 @@ BL本！[l][cm]
 #
 今朝の出来事は現実だったのか否か、[l]
 ただ久々に走ったせいか思いもよらず疲れてしまった。[l][cm]
-[chara_hide name="25kaede"]
+[chara_hide name="25kaede" face="painful"]
 [chara_hide name="27ran"]
 #
 昼休み[l][cm]
@@ -313,7 +314,7 @@ BL本！[l][cm]
 …？[l][cm]
 #謎の男
 私の研究所で住み込みで働かせるのだ[l][cm]
-[bg storage="dan_title.png" time="1000"]
+[bg storage="dan_title2.png" time="1000"]
 @layopt layer=message0 visible=true
 #ひな
 …は？[l][cm]
@@ -369,6 +370,6 @@ BL本！[l][cm]
 f.r17=true
 [endscript]
 #
-ルート14をクリアしました。
+ルート14をクリアしました。[p]
 
 @jump storage="common/01.ks"
