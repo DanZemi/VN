@@ -12,6 +12,8 @@
 [font  size="100"]
 ダンッ！[p]
 
+@jump storage="final.ks"
+
 @layopt layer=message0 visible=false
 [chara_show name="30dan" time=1]
 [button graphic="button/dan_moji.png" target=*gotodone x=140 y=330 width=240 height=240]
