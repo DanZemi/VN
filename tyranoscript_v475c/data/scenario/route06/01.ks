@@ -1,6 +1,7 @@
 *start
 
-[bg storage="jitaku.jpg" time="1000"]
+
+[bg storage="tsugakuro_hiru.jpg" time="100"]
 
 @layopt layer=message0 visible=true
 
@@ -40,4 +41,16 @@
 そして、俺は意識を失くした。[p]
 
 なんだ。夢か[p]
+
+イテッ！[p]
+首の後ろあたりがチクッとしたけど気のせいだよな[p]
+
+学校行こ[p]
+
+[iscript]
+f.r06=true
+[endscript]
+#
+ルート０６をクリアしました[p]
+
 @jump storage="common/01.ks"

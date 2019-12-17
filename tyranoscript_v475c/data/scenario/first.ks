@@ -85,6 +85,7 @@
 ;メッセージウィンドウの表示
 @layopt layer=message0 visible=true
 
+@layopt visible=true layer=1 opacity=200
 ;キャラクターの名前が表示される文字領域
 [ptext name="chara_name_area" layer="message0" color="white" size=24 x=50 y=410]
 
@@ -96,6 +97,12 @@
 
 ;最初は右下のメニューボタンを非表示にする
 [hidemenubutton]
+
+[bg storage="black.jpg" time="1"]
+
+[bg storage="danzemi_logo.jpg" time="1000"]
+[wait time="2000"]
+[bg storage="black.jpg"]
 
 ;タイトル画面へ移動
 @jump storage="title.ks"

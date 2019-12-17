@@ -221,4 +221,10 @@
 #
 ーーー静かに泥を滴らせながら。[p]
 
+[iscript]
+f.r04=true
+[endscript]
+#
+ルート4をクリアしました。[p]
+
 @jump storage="common/01.ks"

@@ -779,7 +779,7 @@
 「ジョン・ドゥとでも言っとこうか。」[p]
 
 #八岐大蛇
-「いや、どう見ても日本人の顔してるだろ。」[p]
+「いや、貴様どう見ても日本人の顔してるだろ。」[p]
 
 #
 「う、うっさいなあ！[l]OKパラグライダー、行くよ！」[p]
@@ -789,6 +789,7 @@
 「分かりました。」[wse][p]
 [chara_hide name="23orochi" time=1000]
 
+[bg storage="sora2.jpg" time="1000"]
 #
 私が飛び去って行く時、後ろからハモリが聞こえてきた気がした。[p]
 ありがとよ。[p]
@@ -799,6 +800,8 @@
 f.r14=true
 [endscript]
 #
-ルート14をクリアしました。
+[image storage="notif.png" layer=1 visible=true time=500 width=320 height=80 x=610 y=40 wait=true]
+[p]
+[freeimage layer=1 wait=true time="500"]
 
 @jump storage="common/01.ks"
