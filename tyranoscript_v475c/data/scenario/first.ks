@@ -85,6 +85,7 @@
 ;メッセージウィンドウの表示
 @layopt layer=message0 visible=true
 
+@layopt visible=true layer=1 opacity=200
 ;キャラクターの名前が表示される文字領域
 [ptext name="chara_name_area" layer="message0" color="white" size=24 x=50 y=410]
 
