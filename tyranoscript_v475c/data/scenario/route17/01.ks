@@ -4,7 +4,7 @@
 @layopt layer=message0 visible=true
 #ひな
 いった…[l][cm]
-[chara_show name="25kaede" ]
+[chara_show name="25kaede"　face="kaede" ]
 #？
 …[l][cm]
 #ひな
@@ -365,7 +365,10 @@ BL本！[l][cm]
 #
 その日私は二度寝で見事に学校に遅刻した。[l][cm]
 
-
-
+[iscript]
+f.r17=true
+[endscript]
+#
+ルート14をクリアしました。
 
 @jump storage="common/01.ks"
