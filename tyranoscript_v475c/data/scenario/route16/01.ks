@@ -1575,9 +1575,15 @@ Zz… [p]
 @layopt layer=message0 visible=true
 翌朝…[p]
 
+[iscript]
+f.r16=true
+[endscript]
+#
+[image storage="notif.png" layer=1 visible=true time=500 width=320 height=80 x=610 y=40 wait=true]
+[p]
+[freeimage layar=1 wait=true time="500"]
 
 @jump storage="common/01.ks"
-
 
 
 *commonff
