@@ -500,7 +500,7 @@
 [bg storage="black.jpg" time="1000"]
 
 [iscript]
-f.r14=true
+f.r3=true
 [endscript]
 #
 [image storage="notif.png" layer=1 visible=true time=500 width=320 height=80 x=610 y=40 wait=true]
