@@ -29,6 +29,14 @@
 俺はひよこだったから大学いけなかったんだ。[p]
 だから俺の分まで楽しんでくれよな。[p]
 [chara_hide name="29hiyoko"]
+
+[iscript]
+f.r14=true12
+[endscript]
+#
+[image storage="notif.png" layer=1 vibible=true time=500 width=320 height=80 x=610 y=40 wait=true]
+[p]
+[freeimage layer=1 wait=true time="500"]
 @jump storage="common/01.ks"
 
 
