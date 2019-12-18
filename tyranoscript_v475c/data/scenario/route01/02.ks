@@ -604,7 +604,9 @@ e-sportsは何の略？
 f.r01=true
 [endscript]
 #
-ルート01をクリアしました。[p]
+[image storage="notif.png" layer=1 visible=true time=500 width=320 height=80 x=610 y=40 wait=true]
+[p]
+[freeimage layer=1 wait=true time="500"]
 
 
 
