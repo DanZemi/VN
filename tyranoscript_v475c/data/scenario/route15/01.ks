@@ -863,13 +863,9 @@
 f.r15=true
 [endscript]
 #
-[image storage="notif.png"
-layer=1 visible=true
-time=500 width=320
-height=80 x=610 y=40
-wait=true]
-[p]
-[freeimage layer=1
-wait=true time="500"]
-
-@jump storage="common/01.ks
+f.r15=true
+[endscript]
+#
+[image storage="notif.png" layer=1 visible=true time=500 width=320 height=80 x=610 y=40 wait=true][p]
+[freeimage layer=1 wait=true time="500"]
+@jump storage="common/01.ks"
