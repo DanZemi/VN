@@ -31,7 +31,7 @@
 [chara_hide name="29hiyoko"]
 
 [iscript]
-f.r14=true12
+f.r07=true
 [endscript]
 #
 [image storage="notif.png" layer=1 vibible=true time=500 width=320 height=80 x=610 y=40 wait=true]
