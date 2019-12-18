@@ -197,6 +197,9 @@
 [elsif exp="f.mimimi=='未々実'"]
 [jump storage="route12/01.ks" target=*true12]
 
+[elsif exp="f.mimimi=='mimimi'"]
+[jump storage="route12/01.ks" target=*true12]
+
 [else]
 #女の子
 「[emb exp=f.mimimi]？」[p]
@@ -852,7 +855,7 @@
 [stopbgm]
 
 #未々実
-「[emb exp=f.mimimi]・・・。」[p]
+「未々実・・・。」[p]
 
 #未々実
 「あれ？なんで私の名前知ってるの？」[p]
@@ -879,6 +882,8 @@
 f.r12=true
 [endscript]
 #
-ルート12をクリアしました。[p]
+[image storage="notif.png" layer=1 visible=true time=500 width=320 height=80 x=610 y=40 wait=true]
+[p]
+[freeimage layer=1 wait=true time="500"]
 
 @jump storage="common/01.ks"
