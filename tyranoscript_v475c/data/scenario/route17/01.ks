@@ -370,6 +370,10 @@ BL本！[l][cm]
 f.r17=true
 [endscript]
 #
-ルート14をクリアしました。[p]
-
+[image
+strage="notif.png"layer=1 visible=true
+time=500 width=320 height=80 x=610 y=40 wait=true
+]
+[p]
+[freeimage layer=1 wait=true time="500"]
 @jump storage="common/01.ks"
