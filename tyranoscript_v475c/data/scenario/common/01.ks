@@ -7,8 +7,6 @@
 [clearfix]
 [start_keyconfig]
 
-[bg storage="shujinko_heya_new_hiru.jpg" time="1000"]
-
 ;メニューボタンの表示
 @showmenubutton
 @layopt layer="message0" visible=true
@@ -17,6 +15,7 @@
 f.done=f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r11&&f.r12&&f.r13&&f.r14&&f.r15&&f.r16&&f.r17&&f.r18
 [endscript]
 
+[bg storage="shujinko_heya_new_hiru.jpg" time=1000]
 [if exp=f.donedone]
 @jump target="*startcommon"
 [endif]
@@ -29,22 +28,25 @@ f.done=f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r
 
 *startcommon
 
-[if exp="f.first==false"]
+[if exp="f.first"]
+[iscript]
+f.first=false
+[endscript]
+@jump target="*firsttime"
+[endif]
 #
-なんだ、夢か。[p]
+夢か。[p]
 変な夢だったな。[p]
 .[p]
 ..[p]
 ...[p]
-[endif]
 
-[iscript]
-f.first=false
-[endscript]
+*firsttime
+
 #
 寝坊した！[p]
 
-[bg storage="tsugakuro_hiru.jpg" time="1000"]
+[bg storage="tsugakuro_hiru.jpg" time=1000]
 
 #
 遅刻ー！[p]
