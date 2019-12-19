@@ -134,7 +134,7 @@ f.done=f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r
   [glink  color="blue"  storage="route15/01.ks"  size="20"  x="630"  width="210"  y="260"  text="目の前で事故が起きる"  target="*start"]
 [endif]
 
-[if exp=f.r016]
+[if exp=f.r16]
   [glink  color="gray"  storage="route16/01.ks"  size="20"  x="630"  width="210"  y="340"  text="推しとぶつかる"  target="*start"]
 [else]
   [glink  color="blue"  storage="route16/01.ks"  size="20"  x="630"  width="210"  y="340"  text="推しとぶつかる"  target="*start"]
