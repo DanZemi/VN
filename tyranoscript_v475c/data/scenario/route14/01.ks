@@ -794,6 +794,12 @@
 私が飛び去って行く時、後ろからハモリが聞こえてきた気がした。[p]
 ありがとよ。[p]
 そう聞こえた気がしたんだ。[p]
+
+[bg storage="shujinko_heya_new_hiru.jpg" time="1000"]
+
+#
+と、いう夢を見た。
+
 [stopbgm]
 
 [iscript]
