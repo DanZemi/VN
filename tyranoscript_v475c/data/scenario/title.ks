@@ -14,4 +14,7 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
+[iscript]
+f.first=true
+[endscript]
 @jump storage="common/00.ks"

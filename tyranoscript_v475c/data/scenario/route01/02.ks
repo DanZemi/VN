@@ -68,7 +68,8 @@
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait=true][cm]
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
 最初からやり直しです。[p]
@@ -90,7 +91,8 @@
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait=true][cm]
 [bg storage="black.jpg"]
 私は爆発した。[p]
 最初に戻ります。[p]
@@ -122,7 +124,8 @@
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 私は爆発した。[p]
@@ -177,7 +180,8 @@
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
@@ -209,7 +213,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
@@ -237,7 +242,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました[p]
@@ -259,7 +265,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
@@ -284,7 +291,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
@@ -318,7 +326,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 私は爆発した。[p]
@@ -358,7 +367,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
@@ -390,7 +400,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
@@ -404,7 +415,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg" ]
 セカイが消滅しました。[p]
@@ -441,7 +453,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg"]
 私は爆発した。[p]
@@ -472,7 +485,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg"]
 セカイが消滅しました。[p]
@@ -514,7 +528,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="bomb2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg"]
 セカイが消滅しました。[p]
@@ -546,7 +561,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon1.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg"]
 私は存在を否定された。[p]
@@ -572,7 +588,8 @@ e-sportsは何の略？
 [cm]
 #
 …。[p]
-[quake count=10 time=1000 hmax=100 vmax="100"][cm]
+[playse storage="cannon2.ogg" wait=false]
+[quake count=18 time=1800 hmax=100 vmax="100" wait="true"][cm]
 
 [bg storage="black.jpg"]
 私は爆発した。[p]

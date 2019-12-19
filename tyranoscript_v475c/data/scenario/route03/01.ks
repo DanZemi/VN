@@ -20,6 +20,7 @@
 遅刻寸前なことに気づき、学校のほうへ走る。[l][cm]
 [bg storage="mon_hiru.jpg" time="1000"]
 #チャイムの音
+[playse storage="school_Bell.ogg"]
 キーンコーンカーンコーン♪[l][cm]
 #
 チャイムの音が聞こえてくる。[l][r]
@@ -55,6 +56,7 @@
 ―２日前―[l][cm]
 [bg storage="kyoshitsu_window_hiru.jpg" time="1000"]
 #チャイムの音
+[playse storage="school_Bell.ogg"]
 キーンコーンカーンコーン[l][cm]
 #
 授業が終わり、休み時間に入る。[l]俊一は、休み時間は寝て過ごす派だ。[l][r]
@@ -197,6 +199,7 @@
 たまにドジなところもあり、みんなに愛されている。[l][r]
 俊一が唯一まともに話せる先生であり、女性である。[l][cm]
 #チャイムの音
+[playse storage="school_Bell.ogg"]
 キーンコーンカーンコーン[l][cm]
 #
 授業が終わった。[l][r]
@@ -295,6 +298,7 @@
 余計なことを、と先生を睨む。[l][r]
 分かっててやっているのだからたちが悪い。[l][cm]
 #チャイムの音
+[playse storage="school_Bell.ogg"]
 キーンコーンカーンコーン[l][cm]
 #上村先生
 それじゃあ、授業を始めまーす。[l][cm]

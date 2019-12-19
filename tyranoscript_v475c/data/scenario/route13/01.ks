@@ -134,6 +134,7 @@
 [p]
 [bg storage="mon_hiru.jpg" time="4500"]
 #
+[playse storage="school_Bell.ogg"]
 キーンコーンカコーン[p]
 
 #陸

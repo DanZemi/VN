@@ -29,6 +29,18 @@ f.done=f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r
 
 *startcommon
 
+[if exp="f.first==false"]
+#
+なんだ、夢か。[p]
+変な夢だったな。[p]
+.[p]
+..[p]
+...[p]
+[endif]
+
+[iscript]
+f.first=false
+[endscript]
 #
 寝坊した！[p]
 
