@@ -43,7 +43,7 @@
 [bg storage="shujinko_heya_new_hiru.jpg" time="1000"]
 
 山根：、、、、、[p]
-山根：やばい！[p]
+山根：ふわあ・・・よく寝た。[p]
 
  @jump target=*common
 
