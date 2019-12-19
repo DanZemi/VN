@@ -119,7 +119,7 @@
 
 *selection1
 
-[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="翁に話しかける"  target="*okina1"]
+[glink  color="blue"  size="20"  x="260"  width="400"  y="100"  text="翁に話しかける(非推奨)"  target="*okina1"]
 [glink  color="blue"  size="20"  x="260"  width="400"  y="240"  text="嫗に話しかける"  target="*ohna1"]
 [s]
 
