@@ -453,7 +453,7 @@
 #丹下
 おい西森。　おきろ　帰るぞ[l][cm]
 
-[bg storage="kyoshitsu_window_yoru.jpg." time="100"]
+[bg storage="kyoshitsu_window_yoru.jpg" time="100"]
 
 #丹下
 あれ、もうそんな時間たってた？[l][cm]
