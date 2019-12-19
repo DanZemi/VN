@@ -7,7 +7,7 @@
 [clearfix]
 [start_keyconfig]
 
-[bg storage="shujinko_heya_new_hiru.jpg" time="100"]
+[bg storage="shujinko_heya_new_hiru.jpg" time="1000"]
 
 ;メニューボタンの表示
 @showmenubutton
@@ -18,11 +18,17 @@ f.done=f.r01&&f.r02&&f.r03&&f.r04&&f.r05&&f.r06&&f.r07&&f.r08&&f.r09&&f.r10&&f.r
 f.done=f.r13
 [endscript]
 
+[if exp=f.donedone]
+@jump target="*startcommon"
+[endif]
+
 [if exp=f.done]
 
 @jump storage="common/done.ks"
 
 [endif]
+
+*startcommon
 
 #
 寝坊した！[p]
@@ -145,6 +151,10 @@ f.done=f.r13
   [glink  color="gray"  storage="route18/01.ks"  size="20"  x="630"  width="210"  y="500"  text="ドンッ！から紡ぐ友情の物語"  target="*start"]
 [else]
   [glink  color="blue"  storage="route18/01.ks"  size="20"  x="630"  width="210"  y="500"  text="ドンッ！から紡ぐ友情の物語"  target="*start"]
+[endif]
+
+[if exp=f.donedone]
+  [glink  color="gray"  storage="final.ks"  size="20"  x="330"  width="210"  y="20"  text="ダンッ！"  target="*start"]
 [endif]
 
 [s]

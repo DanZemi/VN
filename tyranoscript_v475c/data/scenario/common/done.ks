@@ -24,5 +24,8 @@
 @jump storage="final.ks"
 
 *ending
+[iscript]
+f.donedone=true
+[endscript]
 
 @jump storage="common/01.ks"

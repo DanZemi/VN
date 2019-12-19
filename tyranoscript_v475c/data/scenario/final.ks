@@ -55,7 +55,4 @@
 [cm]
 [wait time="2000"]
 [bg storage="black.jpg"]
-@jump storage="common/01.ks"
-
-
-
+@jump storage="common/done.ks" target="*ending"
