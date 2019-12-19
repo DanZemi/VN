@@ -5,11 +5,12 @@
 
 #ピヨのすけ
 聴いてくれ、ピヨピヨバラード！[p]
-
+(ピヨピヨバラード演奏中)
 [playbgm storage="piyopiyobarado.ogg" loop=false]
+[wait time=28000]
+[cm]
 
 ありがとう[p]
-[stopbgm]
 
 #ピヨのすけ
 次の曲は[p]

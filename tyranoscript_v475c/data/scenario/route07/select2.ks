@@ -22,9 +22,11 @@
 #ピヨのすけ
 お前、ロックしてんなあ[p]
 それじゃあ聴いてくれ、BATTLE(音量注意)[p]
+(BATTLE演奏中)
 [playbgm storage="battle.ogg" loop=false]
+[wait time=20000]
+[cm]
 ありがとう[p]
-[stopbgm]
 君なら大学生活楽しく過ごしていけるだろうよ。[p]
 俺はひよこだったから大学いけなかったんだ。[p]
 だから俺の分まで楽しんでくれよな。[p]

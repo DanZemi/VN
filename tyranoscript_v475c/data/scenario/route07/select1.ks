@@ -5,12 +5,12 @@
 
 #ピヨのすけ
 次の曲はBATTLE(音量注意)[p]
+(BATTLE演奏中)
 [playbgm storage="battle.ogg" loop=false]
-
-
+[wait time=20000]
+[cm]
 #ピヨのすけ
 ありがとう、[p]
-[stopbgm]
 また逢う日まで。[p]
 
 あいつはロックしてなかったな...[p]
