@@ -36,6 +36,7 @@
 「あ～～、OKOK、And you?」[p]
 [chara_mod name="11amiru" face="smile"]
 [playbgm storage="D_courage.ogg"]
+#外国人の少年
 「よかった！ぶつかってから何も話さなかったので心配しました！」[p]
 #
 何語だこれ。[p]
@@ -278,7 +279,7 @@ SPみたいな人連れてたし、悪い人にも見えないし...[p]
 [chara_show name="11amiru"]
 [stopbgm]
 [playbgm storage="D_courage.ogg"]
-#少年の声
+#少年
 「お姉さん！」[p]
 #
 ん？[p]
